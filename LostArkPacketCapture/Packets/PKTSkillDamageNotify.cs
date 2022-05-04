@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lost_Ark_Packet_Capture
+﻿namespace Lost_Ark_Packet_Capture
 {
     public class PKTSkillDamageNotify
     {
@@ -27,8 +21,8 @@ namespace Lost_Ark_Packet_Capture
             var bitReader = new BitReader(Bytes);
             SkillIdWithState = bitReader.ReadUInt32();
             SkillId = bitReader.ReadByte();
-            PlayerId = bitReader.ReadUInt64();
             SkillId = bitReader.ReadUInt32();
+            PlayerId = bitReader.ReadUInt64();
             NumEvents = bitReader.ReadUInt16();
             Events = new List<SkillDamageNotifyEvent>();
             for (var i = 0; i < NumEvents; i++)
@@ -49,5 +43,6 @@ namespace Lost_Ark_Packet_Capture
                 Events.Add(dmgEvent);
             }
         }
+
     }
 }
