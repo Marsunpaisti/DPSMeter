@@ -3,6 +3,30 @@ const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
 const url = require('url');
+const { ConnectionBuilder } = require('electron-cgi');
+
+const packetCapPath = isDev
+  ? path.join(__dirname, './packetcapture/Lost Ark Packet Capture.exe')
+  : './packetcapture/Lost Ark Packet Capture.exe';
+const packetCapConnection = new ConnectionBuilder()
+  .connectTo(packetCapPath)
+  .build();
+
+packetCapConnection.on('data', (payload) => {
+  console.log(`Data: ${JSON.stringify(payload, undefined, 2)}`);
+});
+
+packetCapConnection.on('message', (payload) => {
+  console.log(`Message: ${JSON.stringify(payload, undefined, 2)}`);
+});
+
+packetCapConnection.on('error', (payload) => {
+  console.log(`Error: ${JSON.stringify(payload, undefined, 2)}`);
+});
+
+packetCapConnection.onDisconnect = () => {
+  console.log('Lost connection to the Packet Capture process');
+};
 
 const createWindow = () => {
   // Create the browser window.

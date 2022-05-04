@@ -5059,6 +5059,13 @@ electron-builder@^22.14.13:
     update-notifier "^5.1.0"
     yargs "^17.0.1"
 
+electron-cgi@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/electron-cgi/-/electron-cgi-1.0.6.tgz#1c0e3b16d9a8e57f7e7506d9534e9bc70fc62c2a"
+  integrity sha512-QjhRZtWgokc6Ox/a7CTgUHclz/IX5jn9qxpmyqjaYkI28AShWM8Yw6TwG5jIxGTOmAYsZsRicZlSeXAKL7u4PQ==
+  dependencies:
+    uuid "^3.3.2"
+
 electron-is-dev@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz#2e5cea0a1b3ccf1c86f577cee77363ef55deb05e"
