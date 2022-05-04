@@ -1,4 +1,5 @@
 import React from 'react';
+import { useIpcListener } from '../hooks/useIpcListener';
 
 export interface IDamageDataContext {
   addLogLine: () => undefined;
@@ -15,6 +16,7 @@ export const DamageDataContext = React.createContext<IDamageDataContext>({
 export const DamageDataContextProvider: React.FC<{
   children: React.ReactNode | React.ReactNode[];
 }> = ({ children }) => {
+  useIpcListener();
   return (
     <DamageDataContext.Provider
       value={{

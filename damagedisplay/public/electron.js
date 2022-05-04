@@ -1,9 +1,11 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain, webContents } = require('electron');
 const path = require('path');
 const isDev = require('electron-is-dev');
 const url = require('url');
 const { ConnectionBuilder } = require('electron-cgi');
+
+let currWindow;
 
 const packetCapPath = isDev
   ? path.join(__dirname, './packetcapture/Lost Ark Packet Capture.exe')
@@ -14,19 +16,27 @@ const packetCapConnection = new ConnectionBuilder()
 
 packetCapConnection.on('data', (payload) => {
   console.log(`Data: ${JSON.stringify(payload, undefined, 2)}`);
+  currWindow && currWindow.webContents.send('data', payload);
 });
 
 packetCapConnection.on('message', (payload) => {
   console.log(`Message: ${JSON.stringify(payload, undefined, 2)}`);
+  currWindow && currWindow.webContents.send('message', payload);
 });
 
 packetCapConnection.on('error', (payload) => {
   console.log(`Error: ${JSON.stringify(payload, undefined, 2)}`);
+  currWindow && currWindow.webContents.send('error', payload);
 });
 
 packetCapConnection.onDisconnect = () => {
   console.log('Lost connection to the Packet Capture process');
+  currWindow && currWindow.webContents.send('connectionLost');
 };
+
+setInterval(() => {
+  currWindow && currWindow.webContents.send('data', 'payload');
+}, 2000);
 
 const createWindow = () => {
   // Create the browser window.
@@ -64,6 +74,8 @@ const createWindow = () => {
 
   // Open the DevTools. will only work if webPreferences::devTools is true
   damageMeterWindow.webContents.openDevTools({ mode: 'undocked' });
+
+  return damageMeterWindow;
 };
 
 // This method will be called when Electron has finished
@@ -71,7 +83,7 @@ const createWindow = () => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
   setTimeout(() => {
-    createWindow();
+    currWindow = createWindow();
   }, 50);
 
   app.on('activate', () => {
@@ -79,7 +91,7 @@ app.on('ready', () => {
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) {
       setTimeout(() => {
-        createWindow();
+        currWindow = createWindow();
       }, 50);
     }
   });

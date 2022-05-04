@@ -1,6 +1,7 @@
 import { AppBar, Button, Toolbar, Typography } from '@mui/material';
 import React from 'react';
 import { Routes, Route, HashRouter, BrowserRouter } from 'react-router-dom';
+import { DamageDataContextProvider } from '../contexts/DamageDataContext';
 import { ElectronMain } from './ElectronMain';
 
 export default function Router() {
@@ -14,12 +15,14 @@ export default function Router() {
   }
   return (
     <div className="App">
-      <RouterComponent>
-        <Routes>
-          <Route path="/electron" element={<ElectronMain />} />
-          <Route path="/" element={<p>Hello browser!</p>} />
-        </Routes>
-      </RouterComponent>
+      <DamageDataContextProvider>
+        <RouterComponent>
+          <Routes>
+            <Route path="/electron" element={<ElectronMain />} />
+            <Route path="/" element={<p>Hello browser!</p>} />
+          </Routes>
+        </RouterComponent>
+      </DamageDataContextProvider>
     </div>
   );
 }
