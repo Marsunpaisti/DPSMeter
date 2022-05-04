@@ -18,18 +18,17 @@ const createWindow = () => {
     indexUrl.slashes = true;
   }
 
-  const mainWindow = new BrowserWindow({
+  const damageMeterWindow = new BrowserWindow({
     frame: false, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
     resizable: false,
     transparent: true,
     alwaysOnTop: true,
     autoHideMenuBar: true,
+    useContentSize: true,
+    minWidth: 300,
     minHeight: 300,
+    width: 300,
     height: 300,
-    maxHeight: 1000,
-    minWidth: 400,
-    width: 400,
-    maxWidth: 1000,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -37,10 +36,10 @@ const createWindow = () => {
   });
 
   // load the index.html of the app. (or localhost on port 3000 if you're in development)
-  mainWindow.loadURL(indexUrl.toString());
+  damageMeterWindow.loadURL(indexUrl.toString());
 
   // Open the DevTools. will only work if webPreferences::devTools is true
-  mainWindow.webContents.openDevTools({ mode: 'undocked' });
+  damageMeterWindow.webContents.openDevTools({ mode: 'undocked' });
 };
 
 // This method will be called when Electron has finished

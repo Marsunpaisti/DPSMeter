@@ -1,30 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import React from 'react';
 
-export interface IDamageBarEntry {
-  label: string;
-  color: string;
-  value: number;
-}
-
-const entries: IDamageBarEntry[] = [
-  {
-    label: 'Berserker',
-    color: '#ff0000',
-    value: 500000,
-  },
-  {
-    label: 'Sorceress',
-    color: '#00ff00',
-    value: 222244,
-  },
-  {
-    label: 'Shadowhunter',
-    color: '#ff00ff',
-    value: 324232,
-  },
-];
-
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
 
@@ -56,54 +32,114 @@ const adjustColorBrightness = (hexInput: string, percent: number) => {
   return outColor;
 };
 
-export const DamageBarDisplay = () => {
-  const highestDamage = Math.max(...entries.map((e) => e.value));
+export interface IDamageBarEntry {
+  label: string;
+  color: string;
+  value: number;
+}
+
+const entries: IDamageBarEntry[] = [
+  {
+    label: 'Berserker',
+    color: '#ff0000',
+    value: 500000,
+  },
+  {
+    label: 'Sorceress',
+    color: '#00ff00',
+    value: 222244,
+  },
+  {
+    label: 'Shadowhunter',
+    color: '#ff00ff',
+    value: 324232,
+  },
+];
+
+export interface DamageBarDisplayProps {
+  width?: string;
+  height?: string;
+}
+
+export interface DamageBarEntryProps {
+  width: string;
+  index: number;
+  color: string;
+  label: string;
+  value: number;
+}
+
+const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
+  width,
+  index,
+  color,
+  label,
+  value,
+}) => {
+  return (
+    <Box
+      key={label}
+      sx={{
+        position: 'relative',
+        display: 'flex',
+        width: '100%',
+        height: '20px',
+        alignItems: 'center',
+      }}
+    >
+      <Box
+        sx={{
+          position: 'absolute',
+          zIndex: 0,
+          left: 0,
+          top: 0,
+          width: width,
+          height: '100%',
+          background: `linear-gradient(${color}, ${adjustColorBrightness(
+            color,
+            -50,
+          )});`,
+        }}
+      />
+      <Typography sx={{ zIndex: 1, paddingLeft: '5px', fontSize: '12px' }}>
+        {`${index + 1}. ${label}`}
+      </Typography>
+      <Typography
+        sx={{
+          zIndex: 2,
+          fontSize: '12px',
+          position: 'absolute',
+          right: '5px',
+        }}
+      >
+        {`${value.toFixed(0)}`}
+      </Typography>
+    </Box>
+  );
+};
+
+export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
+  width,
+  height,
+}) => {
+  const maxValue = Math.max(...entries.map((e) => e.value));
 
   return (
-    <Box width="100%" sx={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
+    <Box
+      width="100%"
+      sx={{ width, height, backgroundColor: 'rgba(0,0,0,0.6)' }}
+    >
       {entries
         .sort((a, b) => b.value - a.value)
         .map((entry, index) => {
           return (
-            <Box
-              key={entry.label}
-              sx={{
-                position: 'relative',
-                display: 'flex',
-                width: '100%',
-                height: '20px',
-                alignItems: 'center',
-              }}
-            >
-              <Box
-                sx={{
-                  position: 'absolute',
-                  zIndex: 0,
-                  left: 0,
-                  top: 0,
-                  width: `${(entry.value / highestDamage) * 100}%`,
-                  height: '100%',
-                  background: `linear-gradient(${
-                    entry.color
-                  }, ${adjustColorBrightness(entry.color, -50)});`,
-                }}
-              />
-              <Typography
-                sx={{ zIndex: 1, paddingLeft: '5px', fontSize: '12px' }}
-              >
-                {`${index + 1}. ${entry.label}`}
-              </Typography>
-              <Typography
-                sx={{
-                  zIndex: 2,
-                  fontSize: '12px',
-                  position: 'absolute',
-                  right: '5px',
-                }}
-              >
-                {`${entry.value.toFixed(0)}`}
-              </Typography>
-            </Box>
+            <DamageBarEntry
+              width={`${(entry.value / maxValue) * 100}%`}
+              label={entry.label}
+              value={entry.value}
+              index={index}
+              color={entry.color}
+            />
           );
         })}
     </Box>
