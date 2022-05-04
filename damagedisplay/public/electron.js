@@ -19,14 +19,16 @@ const createWindow = () => {
   }
 
   const mainWindow = new BrowserWindow({
-    frame: true, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
+    frame: false, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
     resizable: false,
     transparent: true,
     alwaysOnTop: true,
     autoHideMenuBar: true,
     minHeight: 300,
+    height: 300,
     maxHeight: 1000,
     minWidth: 400,
+    width: 400,
     maxWidth: 1000,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
@@ -38,19 +40,25 @@ const createWindow = () => {
   mainWindow.loadURL(indexUrl.toString());
 
   // Open the DevTools. will only work if webPreferences::devTools is true
-  mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools({ mode: 'undocked' });
 };
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
-  createWindow();
+  setTimeout(() => {
+    createWindow();
+  }, 50);
 
   app.on('activate', () => {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
-    if (BrowserWindow.getAllWindows().length === 0) createWindow();
+    if (BrowserWindow.getAllWindows().length === 0) {
+      setTimeout(() => {
+        createWindow();
+      }, 50);
+    }
   });
 });
 
