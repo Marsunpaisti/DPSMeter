@@ -31,12 +31,17 @@ export const ElectronMain = () => {
             minHeight: '100% !important',
             maxHeight: '100% !important',
             padding: '0px 10px',
+            display: 'flex',
           }}
         >
-          Damage Meter
+          <Typography sx={{ float: 'left' }}>Damage Meter</Typography>
           <IconButton
             onClick={handleClose}
-            sx={{ '-webkit-app-region': 'no-drag' }}
+            sx={{
+              '-webkit-app-region': 'no-drag',
+              marginLeft: 'auto',
+              padding: 0,
+            }}
           >
             <CloseIcon />
           </IconButton>
