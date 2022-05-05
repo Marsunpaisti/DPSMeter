@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 import { IpcRenderer } from 'electron';
+import { IpcChannels } from '../shared/channels';
 
 const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
@@ -42,16 +43,19 @@ export const useIpcListener = () => {
       console.log(payload);
     };
 
-    ipcRenderer.on('data', handleData);
-    ipcRenderer.on('message', handleMessage);
-    ipcRenderer.on('error', handleError);
-    ipcRenderer.on('connectionLost', handleConnectionLost);
+    ipcRenderer.on(IpcChannels.DATA, handleData);
+    ipcRenderer.on(IpcChannels.MESSAGE, handleMessage);
+    ipcRenderer.on(IpcChannels.ERROR, handleError);
+    ipcRenderer.on(IpcChannels.CONNECTION_LOST, handleConnectionLost);
 
     return () => {
-      ipcRenderer.removeListener('data', handleData);
-      ipcRenderer.removeListener('message', handleMessage);
-      ipcRenderer.removeListener('error', handleError);
-      ipcRenderer.removeListener('connectionLost', handleConnectionLost);
+      ipcRenderer.removeListener(IpcChannels.DATA, handleData);
+      ipcRenderer.removeListener(IpcChannels.MESSAGE, handleMessage);
+      ipcRenderer.removeListener(IpcChannels.ERROR, handleError);
+      ipcRenderer.removeListener(
+        IpcChannels.CONNECTION_LOST,
+        handleConnectionLost,
+      );
     };
   }, []);
 };

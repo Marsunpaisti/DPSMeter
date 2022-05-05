@@ -3,6 +3,7 @@ import { app, BrowserWindow, ipcMain } from 'electron';
 import * as path from 'path';
 import * as isDev from 'electron-is-dev';
 import { ConnectionBuilder } from 'electron-cgi';
+import { IpcChannels } from './../src/shared/channels';
 
 let currWindow: BrowserWindow | undefined;
 
@@ -15,30 +16,30 @@ const packetCapConnection = new ConnectionBuilder()
 
 packetCapConnection.on('data', (payload) => {
   console.log(`Data: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send('data', payload);
+  currWindow && currWindow.webContents.send(IpcChannels.DATA, payload);
 });
 
 packetCapConnection.on('message', (payload) => {
   console.log(`Message: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send('message', payload);
+  currWindow && currWindow.webContents.send(IpcChannels.MESSAGE, payload);
 });
 
 packetCapConnection.on('error', (payload) => {
   console.log(`Error: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send('error', payload);
+  currWindow && currWindow.webContents.send(IpcChannels.ERROR, payload);
 });
 
 packetCapConnection.onDisconnect = () => {
   console.log('Lost connection to the Packet Capture process');
-  currWindow && currWindow.webContents.send('connectionLost');
+  currWindow && currWindow.webContents.send(IpcChannels.CONNECTION_LOST);
 };
 
-ipcMain.on('close', async (event, arg) => {
+ipcMain.on(IpcChannels.CLOSE, async (event, arg) => {
   app.quit();
 });
 
 setInterval(() => {
-  currWindow && currWindow.webContents.send('data', 'payload');
+  currWindow && currWindow.webContents.send(IpcChannels.DATA, 'payload');
 }, 2000);
 
 const createWindow = () => {

@@ -4,12 +4,13 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { DamageBarDisplay } from './DamageBarDisplay';
 import { useIpcSender } from '../hooks/useIpcSender';
+import { IpcChannels } from '../shared/channels';
 
 export const ElectronMain = () => {
   const ipcRenderer = useIpcSender();
 
   const handleClose = () => {
-    ipcRenderer?.send('close');
+    ipcRenderer?.send(IpcChannels.CLOSE);
   };
 
   return (
