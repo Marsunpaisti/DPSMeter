@@ -4,9 +4,12 @@ import * as path from 'path';
 import * as isDev from 'electron-is-dev';
 import { ConnectionBuilder } from 'electron-cgi';
 import { IpcChannels } from './../src/shared/channels';
+import { Damage } from './../src/shared/logs';
 import { parseStringToDamage } from './utils/logParser';
 
 let currWindow: BrowserWindow | undefined;
+
+let currLogs: Damage[] = [];
 
 const packetCapPath = isDev
   ? path.join(__dirname, '../packetcapture/Lost Ark Packet Capture.exe')
@@ -17,12 +20,21 @@ const packetCapConnection = new ConnectionBuilder()
 
 packetCapConnection.on('data', (payload) => {
   console.log(`Data: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send(IpcChannels.DATA, payload);
+  //currWindow && currWindow.webContents.send(IpcChannels.DATA, payload);
+  try {
+    const log = parseStringToDamage(payload);
+    currLogs.push(log);
+  } catch (e) {
+    console.log('invalid packet:', e);
+  } finally {
+    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
+  }
 });
 
 packetCapConnection.on('message', (payload) => {
   console.log(`Message: ${JSON.stringify(payload, undefined, 2)}`);
   currWindow && currWindow.webContents.send(IpcChannels.MESSAGE, payload);
+  currLogs = [];
 });
 
 packetCapConnection.on('error', (payload) => {
@@ -39,17 +51,35 @@ ipcMain.on(IpcChannels.CLOSE, async (event, arg) => {
   app.quit();
 });
 
+/*
 setInterval(() => {
-  currWindow && currWindow.webContents.send(IpcChannels.DATA, 'payload');
+  try {
+    const log = parseStringToDamage(
+      '22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0',
+    );
+    console.log(log);
+    currLogs.push(log);
+  } catch (e) {
+    console.log('invalid packet:', e);
+  } finally {
+    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
+  }
 }, 2000);
 
 setInterval(() => {
-  console.log(
-    parseStringToDamage(
-      '22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0',
-    ),
-  );
-}, 2000);
+  try {
+    const log = parseStringToDamage(
+      '22.05.05.21.45.58.7,$Dimitri (Gunslinger),506E15C4,Charge,1928,0,0,0',
+    );
+    console.log(log);
+    currLogs.push(log);
+  } catch (e) {
+    console.log('invalid packet:', e);
+  } finally {
+    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
+  }
+}, 5000);
+*/
 
 const createWindow = () => {
   // Create the browser window.

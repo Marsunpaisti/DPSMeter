@@ -1,5 +1,8 @@
 import { Box, Typography } from '@mui/material';
-import React from 'react';
+import React, { useContext } from 'react';
+import { DamageDataContext } from '../contexts/DamageDataContext';
+import _ from 'lodash';
+import { classColors, Damage } from '../shared/logs';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -122,14 +125,41 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
   width,
   height,
 }) => {
-  const maxValue = Math.max(...entries.map((e) => e.value));
+  const damageContext = useContext(DamageDataContext);
+
+  const playerLogs = damageContext.logLines.filter(
+    (log) => log.sourceClassName,
+  );
+
+  const groupedLogs = _.groupBy(playerLogs, (log) => log.sourceEntity);
+
+  const mappedLogs = _.map(
+    groupedLogs,
+    (logs: Damage[], key: string): IDamageBarEntry => {
+      const label = key;
+      const color = logs[0].sourceClassName
+        ? classColors[logs[0].sourceClassName]
+        : '#fffff';
+      const value = logs.reduce(
+        (accum: number, log: Damage) => accum + log.skillDamage,
+        0,
+      );
+      return {
+        label,
+        color,
+        value,
+      };
+    },
+  );
+
+  const maxValue = Math.max(...mappedLogs.map((e) => e.value));
 
   return (
     <Box
       width="100%"
       sx={{ width, height, backgroundColor: 'rgba(0,0,0,0.6)' }}
     >
-      {entries
+      {mappedLogs
         .sort((a, b) => b.value - a.value)
         .map((entry, index) => {
           return (

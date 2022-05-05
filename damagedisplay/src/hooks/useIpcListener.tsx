@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import { IpcRenderer } from 'electron';
 import { IpcChannels } from '../shared/channels';
+import { Damage } from '../shared/logs';
 
 const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
@@ -15,14 +16,19 @@ const getIpcRenderer = () => {
 };
 
 export const useIpcListener = () => {
+  const [logs, setLogs] = useState<Damage[]>([]);
   useEffect(() => {
     const ipcRenderer = getIpcRenderer();
     if (!ipcRenderer) {
       console.log('ipcRenderer undefined');
       return;
     }
-    const handleData = (event: Electron.IpcRendererEvent, payload: string) => {
+    const handleData = (
+      event: Electron.IpcRendererEvent,
+      payload: Damage[],
+    ) => {
       console.log(payload);
+      setLogs(payload);
     };
     const handleMessage = (
       event: Electron.IpcRendererEvent,
@@ -55,4 +61,6 @@ export const useIpcListener = () => {
       );
     };
   }, []);
+
+  return logs;
 };

@@ -1,55 +1,23 @@
-export interface Damage {
-  sourceEntity: string;
-  sourceClassName?: ClassNames;
-  targetEntity: string;
-  targetClassName?: ClassNames;
-  skillName: string;
-  skillDamage: number;
-  isCrit: boolean;
-  isBack: boolean;
-  isFront: boolean;
-  timestamp: Date;
-}
-
-export enum ClassNames {
-  DEATHBLADE = 'Deathblade',
-  SHADOWHUNTER = 'Shadowhunter',
-  ARTILLERIST = 'Artillerist',
-  DEADEYE = 'Deadeye',
-  GUNSLINGER = 'Gunslinger',
-  SHAPSHOOTER = 'Sharpshooter',
-  BARD = 'Bard',
-  SORCERESS = 'Sorceress',
-  GLAIVIER = 'Glavier',
-  SCRAPPER = 'Scrapper',
-  SOULFIST = 'Soulfist',
-  STRIKER = 'Striker',
-  WARDANCER = 'Wardancer',
-  BERSERKER = 'Berserker',
-  GUNLANCER = 'Gunlancer',
-  PALADIN = 'Paladin',
-  UNKNOWN = 'MyTempName',
-}
-
 // 22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0
 // 7
 
+import { ClassNames, Damage } from '../../src/shared/logs';
+
 export const parseStringToDamage = (damageString: string) => {
   const splittedDamageString = damageString.split(',');
-  const tempStamp = splittedDamageString[0].split('.').map((i) => Number(i));
-  tempStamp[6] *= 100;
-  tempStamp[0] += 2000;
-  tempStamp[1] -= 1;
+  const splitTs = splittedDamageString[0]
+    .replace('.', ':')
+    .split(':')
+    .map((s) => Number(s));
   const timestamp = new Date(
-    tempStamp[0],
-    tempStamp[1],
-    tempStamp[2],
-    tempStamp[3],
-    tempStamp[4],
-    tempStamp[5],
-    tempStamp[6],
+    splitTs[0] + 2000,
+    splitTs[1] - 1,
+    splitTs[2],
+    splitTs[3],
+    splitTs[4],
+    Math.floor(splitTs[5]),
+    100 * splitTs[6],
   );
-  const playerName = splittedDamageString[1].split(' ')[0];
   const sourceEntityMatch = splittedDamageString[1]
     .replace('$', '')
     .match(/(.+?)\s*\((.+)\)/);
