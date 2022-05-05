@@ -6,12 +6,9 @@ const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
   let electron;
   let ipcRenderer: IpcRenderer | undefined;
-  console.log('userAgent', userAgent);
   if (userAgent.indexOf('electron/') !== -1) {
     electron = window.require('electron');
     ipcRenderer = electron.ipcRenderer;
-    console.log('electron', electron);
-    console.log('ipcRenderer', ipcRenderer);
   }
   return ipcRenderer;
 };

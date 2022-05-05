@@ -4,6 +4,7 @@ import * as path from 'path';
 import * as isDev from 'electron-is-dev';
 import { ConnectionBuilder } from 'electron-cgi';
 import { IpcChannels } from './../src/shared/channels';
+import { parseStringToDamage } from './utils/logParser';
 
 let currWindow: BrowserWindow | undefined;
 
@@ -40,6 +41,14 @@ ipcMain.on(IpcChannels.CLOSE, async (event, arg) => {
 
 setInterval(() => {
   currWindow && currWindow.webContents.send(IpcChannels.DATA, 'payload');
+}, 2000);
+
+setInterval(() => {
+  console.log(
+    parseStringToDamage(
+      '22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0',
+    ),
+  );
 }, 2000);
 
 const createWindow = () => {
