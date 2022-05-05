@@ -1,15 +1,14 @@
 // Modules to control application life and create native browser window
-const { app, BrowserWindow, ipcMain, webContents } = require('electron');
-const path = require('path');
-const isDev = require('electron-is-dev');
-const url = require('url');
-const { ConnectionBuilder } = require('electron-cgi');
+import { app, BrowserWindow, ipcMain } from 'electron';
+import * as path from 'path';
+import * as isDev from 'electron-is-dev';
+import { ConnectionBuilder } from 'electron-cgi';
 
-let currWindow;
+let currWindow: BrowserWindow | undefined;
 
 const packetCapPath = isDev
-  ? path.join(__dirname, './packetcapture/Lost Ark Packet Capture.exe')
-  : './packetcapture/Lost Ark Packet Capture.exe';
+  ? path.join(__dirname, '../packetcapture/Lost Ark Packet Capture.exe')
+  : '../packetcapture/Lost Ark Packet Capture.exe';
 const packetCapConnection = new ConnectionBuilder()
   .connectTo(packetCapPath)
   .build();
@@ -47,13 +46,12 @@ const createWindow = () => {
   const indexUrl = new URL(
     isDev
       ? 'http://localhost:3000/electron'
-      : `${path.join(__dirname, '../build/index.html')}`,
+      : `${path.join(__dirname, '../index.html')}`,
   );
 
   if (!isDev) {
     indexUrl.hash = '/electron';
     indexUrl.protocol = 'file';
-    indexUrl.slashes = true;
   }
 
   const damageMeterWindow = new BrowserWindow({
@@ -78,6 +76,22 @@ const createWindow = () => {
 
   // Open the DevTools. will only work if webPreferences::devTools is true
   damageMeterWindow.webContents.openDevTools({ mode: 'undocked' });
+
+  if (isDev) {
+    // Hot Reloading on 'node_modules/.bin/electronPath'
+    require('electron-reload')(__dirname, {
+      electron: path.join(
+        __dirname,
+        '..',
+        '..',
+        'node_modules',
+        '.bin',
+        'electron' + (process.platform === 'win32' ? '.cmd' : ''),
+      ),
+      forceHardReset: true,
+      hardResetMethod: 'exit',
+    });
+  }
 
   return damageMeterWindow;
 };
