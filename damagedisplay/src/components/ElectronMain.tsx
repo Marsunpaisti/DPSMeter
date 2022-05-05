@@ -1,9 +1,17 @@
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { DamageBarDisplay } from './DamageBarDisplay';
+import { useIpcSender } from '../hooks/useIpcSender';
 
 export const ElectronMain = () => {
+  const ipcRenderer = useIpcSender();
+
+  const handleClose = () => {
+    ipcRenderer?.send('close');
+  };
+
   return (
     <>
       <AppBar
@@ -25,7 +33,13 @@ export const ElectronMain = () => {
             padding: '0px 10px',
           }}
         >
-          Damage meter
+          Damage Meter
+          <IconButton
+            onClick={handleClose}
+            sx={{ '-webkit-app-region': 'no-drag' }}
+          >
+            <CloseIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Routes>

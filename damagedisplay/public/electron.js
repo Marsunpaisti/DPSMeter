@@ -34,6 +34,10 @@ packetCapConnection.onDisconnect = () => {
   currWindow && currWindow.webContents.send('connectionLost');
 };
 
+ipcMain.on('close', async (event, arg) => {
+  app.quit();
+});
+
 setInterval(() => {
   currWindow && currWindow.webContents.send('data', 'payload');
 }, 2000);
