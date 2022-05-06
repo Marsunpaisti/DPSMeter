@@ -1,6 +1,6 @@
 import React from 'react';
 import { useIpcListener } from '../hooks/useIpcListener';
-import { DamageEvent, Encounter } from '../shared/logTypes';
+import { Encounter } from '../shared/logTypes';
 
 export interface IDamageDataContext {
   currentEncounter: Encounter;

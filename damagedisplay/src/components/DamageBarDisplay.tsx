@@ -56,10 +56,7 @@ export interface IDamageBarEntry {
   value: number;
 }
 
-export interface DamageBarDisplayProps {
-  width?: string;
-  minHeight?: string;
-}
+export interface DamageBarDisplayProps {}
 
 export interface DamageBarEntryProps {
   width: string;
@@ -329,15 +326,17 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
               />
             );
           })}
-        <DamageBarEntry
-          width={`100%`}
-          label={'Total'}
-          valueText={`${totalValueText}`}
-          background={'#700003'}
-          barSx={{
-            borderRadius: '0px 0px 4px 4px',
-          }}
-        />
+        {mappedToRows.length > 0 && (
+          <DamageBarEntry
+            width={`100%`}
+            label={'Total'}
+            valueText={`${totalValueText}`}
+            background={'#700003'}
+            barSx={{
+              borderRadius: '0px 0px 4px 4px',
+            }}
+          />
+        )}
       </Box>
     </>
   );

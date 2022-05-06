@@ -17,10 +17,7 @@ export const ElectronMain = () => {
       }}
     >
       <Routes>
-        <Route
-          path="/"
-          element={<DamageBarDisplay width="300px" minHeight="80px" />}
-        />
+        <Route path="/" element={<DamageBarDisplay />} />
       </Routes>
     </Box>
   );
