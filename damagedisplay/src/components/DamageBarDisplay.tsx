@@ -14,8 +14,10 @@ import {
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useIpcRenderer } from '../hooks/useIpcRenderer';
+import DragHandleIcon from '@mui/icons-material/DragHandle';
+import { getIpcRenderer } from '../hooks/getIpcRenderer';
 import { IpcChannels } from '../shared/channels';
+import { useMouseEnabler } from '../hooks/useMouseEnabler';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -128,6 +130,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
   const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
   const encounterDuration = getEncounterDurationMs(currentEncounter);
+  const { mouseEnableRef } = useMouseEnabler();
 
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(
     DamageDisplayMode.DPS,
@@ -148,7 +151,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
     [setDamageDisplayMode, damageDisplayMode],
   );
 
-  const ipcRenderer = useIpcRenderer();
+  const ipcRenderer = getIpcRenderer();
 
   const closeApp = () => {
     ipcRenderer?.send(IpcChannels.CLOSE);
@@ -200,11 +203,12 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   return (
     <>
       <AppBar
+        ref={(r) => (mouseEnableRef.current = r as HTMLElement)}
         position="static"
         elevation={0}
         sx={{
           WebkitUserSelect: 'none',
-          '-webkit-app-region': 'drag',
+          pointerEvents: 'all',
           maxHeight: '30px',
           height: '25px',
           width: '300px',
@@ -240,9 +244,20 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
               flexGrow: 1,
               flexDirection: 'row',
               justifyContent: 'flex-end',
-              alignItems: 'stretch',
+              alignItems: 'center',
             }}
           >
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                height: '20px',
+                flexGrow: 1,
+                margin: '0px 2px',
+                '-webkit-app-region': 'drag',
+              }}
+            ></Box>
             <IconButton
               onClick={clearAll}
               sx={{
@@ -280,7 +295,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
       </AppBar>
       <Box
         sx={{
-          width: '100%',
+          width: '300px',
           backgroundColor: 'rgba(0,0,0,0.6)',
         }}
       >

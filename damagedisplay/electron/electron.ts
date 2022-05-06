@@ -99,7 +99,19 @@ ipcMain.on(IpcChannels.CLEAR_ALL, async (event, arg) => {
   sendMessageToWindows(IpcChannels.DAMAGE_DATA, logContainer.currentEncounter);
 });
 
-const createWindow = () => {
+ipcMain.on(IpcChannels.ENABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
+  const win = BrowserWindow.fromId(event.sender.id);
+  win.setIgnoreMouseEvents(true, {
+    forward: true,
+  });
+});
+
+ipcMain.on(IpcChannels.DISABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
+  const win = BrowserWindow.fromId(event.sender.id);
+  win.setIgnoreMouseEvents(false);
+});
+
+const createMeterWindow = () => {
   // Create the browser window.
   const indexUrl = new URL(
     isDev
@@ -120,9 +132,10 @@ const createWindow = () => {
     autoHideMenuBar: true,
     fullscreenable: false,
     maximizable: false,
-    useContentSize: true,
-    width: 300,
-    height: 100,
+    focusable: false,
+    enableLargerThanScreen: true,
+    width: 900,
+    height: 900,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -159,7 +172,10 @@ const createWindow = () => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
   setTimeout(() => {
-    const win = createWindow();
+    const win = createMeterWindow();
+    win.setIgnoreMouseEvents(true, {
+      forward: true,
+    });
     streamTestLogLines();
   }, 50);
 
@@ -168,7 +184,10 @@ app.on('ready', () => {
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) {
       setTimeout(() => {
-        const win = createWindow();
+        const win = createMeterWindow();
+        win.setIgnoreMouseEvents(true, {
+          forward: true,
+        });
         streamTestLogLines();
       }, 50);
     }

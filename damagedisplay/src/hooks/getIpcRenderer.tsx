@@ -1,8 +1,6 @@
-import { useEffect, useState } from 'react';
-
 import { IpcRenderer } from 'electron';
 
-const getIpcRenderer = () => {
+export const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
   let electron;
   let ipcRenderer: IpcRenderer | undefined;
@@ -10,13 +8,5 @@ const getIpcRenderer = () => {
     electron = window.require('electron');
     ipcRenderer = electron.ipcRenderer;
   }
-  return ipcRenderer;
-};
-
-export const useIpcRenderer = () => {
-  const [ipcRenderer, setIpcRenderer] = useState<IpcRenderer | undefined>();
-  useEffect(() => {
-    setIpcRenderer(getIpcRenderer());
-  }, []);
   return ipcRenderer;
 };
