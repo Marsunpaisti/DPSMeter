@@ -1,23 +1,34 @@
 // 22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0
 // 7
 
-import { ClassNames, Damage } from '../../src/shared/logs';
+import { ClassNames, DamageEvent } from '../../src/shared/logTypes';
 
-export const parseStringToDamage = (damageString: string) => {
-  const splittedDamageString = damageString.split(',');
-  const splitTs = splittedDamageString[0]
-    .replace('.', ':')
-    .split(':')
-    .map((s) => Number(s));
-  const timestamp = new Date(
-    splitTs[0] + 2000,
-    splitTs[1] - 1,
-    splitTs[2],
-    splitTs[3],
-    splitTs[4],
-    Math.floor(splitTs[5]),
-    100 * splitTs[6],
-  );
+export const parseDamageEventFromLog = (logLine: string) => {
+  const splittedDamageString = logLine.split(',');
+  let timeStamp: Date;
+  if (
+    !splittedDamageString[0].includes('.') &&
+    !splittedDamageString[0].includes(':')
+  ) {
+    // Timestamp is UTC timestamp
+    timeStamp = new Date(Number(splittedDamageString[0]));
+  } else {
+    // Timestamp is yy-mm-dd-hh-mm-ss-ms format
+    const splitTs = splittedDamageString[0]
+      .replace(':', '.')
+      .split('.')
+      .map((s) => Number(s));
+    timeStamp = new Date(
+      splitTs[0] + 2000,
+      splitTs[1] - 1,
+      splitTs[2],
+      splitTs[3],
+      splitTs[4],
+      Math.floor(splitTs[5]),
+      100 * splitTs[6],
+    );
+  }
+
   const sourceEntityMatch = splittedDamageString[1]
     .replace('$', '')
     .match(/(.+?)\s*\((.+)\)/);
@@ -30,7 +41,7 @@ export const parseStringToDamage = (damageString: string) => {
   const isFront = splittedDamageString[5] === '1' ? true : false;
   const isBack = splittedDamageString[6] === '1' ? true : false;
 
-  const damage: Damage = {
+  const damage: DamageEvent = {
     sourceEntity: sourceEntityMatch
       ? sourceEntityMatch[1]
       : splittedDamageString[1],
@@ -60,7 +71,7 @@ export const parseStringToDamage = (damageString: string) => {
     isCrit,
     isFront,
     isBack,
-    timestamp,
+    timeStamp,
   };
 
   return damage;

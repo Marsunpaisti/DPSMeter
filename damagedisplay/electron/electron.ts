@@ -4,12 +4,18 @@ import * as path from 'path';
 import * as isDev from 'electron-is-dev';
 import { ConnectionBuilder } from 'electron-cgi';
 import { IpcChannels } from './../src/shared/channels';
-import { Damage } from './../src/shared/logs';
-import { parseStringToDamage } from './utils/logParser';
+import { parseDamageEventFromLog } from './utils/logParser';
+import { LogContainer } from './LogContainer';
 
 let currWindow: BrowserWindow | undefined;
 
-let currLogs: Damage[] = [];
+let logContainer = new LogContainer();
+
+const sendMessageToWindows = (channel: IpcChannels, payload?: any) => {
+  BrowserWindow.getAllWindows().forEach((w) => {
+    w.webContents.send(channel, payload);
+  });
+};
 
 const packetCapPath = isDev
   ? path.join(__dirname, '../packetcapture/LostArkLoggerElectronBackend.exe')
@@ -20,22 +26,27 @@ const packetCapConnection = new ConnectionBuilder()
 
 packetCapConnection.on('damageEvent', (payload) => {
   console.log(`Damage event: ${JSON.stringify(payload, undefined, 2)}`);
-
   try {
-    const log = parseStringToDamage(payload);
-    currLogs.push(log);
+    const damageEvent = parseDamageEventFromLog(payload);
+    if (logContainer.timeSincePreviousDamage(damageEvent) > 33000) {
+      logContainer.startNewEncounter();
+    }
+    logContainer.addDamageEvent(damageEvent);
   } catch (e) {
     console.log('Unable to parse damage event:\n', e);
   } finally {
-    currWindow &&
-      currWindow.webContents.send(IpcChannels.DAMAGE_DATA, currLogs);
+    sendMessageToWindows(
+      IpcChannels.DAMAGE_DATA,
+      logContainer.currentEncounter,
+    );
   }
 });
 
 packetCapConnection.on('newZone', () => {
   console.log(`New zone entered`);
-  currWindow && currWindow.webContents.send(IpcChannels.NEWZONE);
-  currLogs = [];
+
+  sendMessageToWindows(IpcChannels.NEWZONE);
+  logContainer.startNewEncounter();
 });
 
 packetCapConnection.on('log', (payload) => {
@@ -44,42 +55,23 @@ packetCapConnection.on('log', (payload) => {
 
 packetCapConnection.onDisconnect = () => {
   console.log('Lost connection to the LostArkLoggerElectronBackend process');
-  currWindow && currWindow.webContents.send(IpcChannels.CONNECTION_LOST);
+
+  sendMessageToWindows(IpcChannels.CONNECTION_LOST);
 };
 
 ipcMain.on(IpcChannels.CLOSE, async (event, arg) => {
   app.quit();
 });
 
-/*
-setInterval(() => {
-  try {
-    const log = parseStringToDamage(
-      '22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0',
-    );
-    console.log(log);
-    currLogs.push(log);
-  } catch (e) {
-    console.log('invalid packet:', e);
-  } finally {
-    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
-  }
-}, 2000);
+ipcMain.on(IpcChannels.NEW_ENCOUNTER, async (event, arg) => {
+  logContainer.startNewEncounter();
+  sendMessageToWindows(IpcChannels.DAMAGE_DATA, logContainer.currentEncounter);
+});
 
-setInterval(() => {
-  try {
-    const log = parseStringToDamage(
-      '22.05.05.21.45.58.7,$Dimitri (Gunslinger),506E15C4,Charge,1928,0,0,0',
-    );
-    console.log(log);
-    currLogs.push(log);
-  } catch (e) {
-    console.log('invalid packet:', e);
-  } finally {
-    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
-  }
-}, 5000);
-*/
+ipcMain.on(IpcChannels.CLEAR_ALL, async (event, arg) => {
+  logContainer.startNewEncounter();
+  sendMessageToWindows(IpcChannels.DAMAGE_DATA, logContainer.currentEncounter);
+});
 
 const createWindow = () => {
   // Create the browser window.

@@ -1,4 +1,4 @@
-export interface Damage {
+export interface DamageEvent {
   sourceEntity: string;
   sourceClassName?: ClassNames;
   targetEntity: string;
@@ -8,7 +8,11 @@ export interface Damage {
   isCrit: boolean;
   isBack: boolean;
   isFront: boolean;
-  timestamp: Date;
+  timeStamp: Date;
+}
+
+export interface Encounter {
+  damageEvents: DamageEvent[];
 }
 
 export enum ClassNames {
@@ -39,7 +43,7 @@ export const classColors = {
   Deathblade: '#c0c0c0',
   Artillerist: '#e5ffcc',
   Soulfist: '#a6e4c7',
-  Glavier: '#ff333',
+  Glavier: '#ff3333',
   Scrapper: '#55bf22',
   Striker: '#b266ff',
   Wardancer: '#00994c',

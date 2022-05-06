@@ -13,7 +13,7 @@ const getIpcRenderer = () => {
   return ipcRenderer;
 };
 
-export const useIpcSender = () => {
+export const useIpcRenderer = () => {
   const [ipcRenderer, setIpcRenderer] = useState<IpcRenderer | undefined>();
   useEffect(() => {
     setIpcRenderer(getIpcRenderer());

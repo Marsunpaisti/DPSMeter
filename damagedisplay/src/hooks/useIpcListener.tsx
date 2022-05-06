@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { IpcRenderer } from 'electron';
 import { IpcChannels } from '../shared/channels';
-import { Damage } from '../shared/logs';
+import { DamageEvent, Encounter } from '../shared/logTypes';
 
 const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
@@ -16,7 +16,10 @@ const getIpcRenderer = () => {
 };
 
 export const useIpcListener = () => {
-  const [logs, setLogs] = useState<Damage[]>([]);
+  const [currentEncounter, setCurrentEncounter] = useState<Encounter>({
+    damageEvents: [],
+  });
+
   useEffect(() => {
     const ipcRenderer = getIpcRenderer();
     if (!ipcRenderer) {
@@ -25,17 +28,12 @@ export const useIpcListener = () => {
     }
     const handleData = (
       event: Electron.IpcRendererEvent,
-      payload: Damage[],
+      payload: Encounter,
     ) => {
-      console.log(payload);
-      setLogs(payload);
+      setCurrentEncounter(payload);
     };
-    const handleNewZone = (event: Electron.IpcRendererEvent) => {
-      console.log('New zone entered');
-    };
-    const handleConnectionLost = (event: Electron.IpcRendererEvent) => {
-      console.log('Connection lost');
-    };
+    const handleNewZone = (event: Electron.IpcRendererEvent) => {};
+    const handleConnectionLost = (event: Electron.IpcRendererEvent) => {};
 
     ipcRenderer.on(IpcChannels.DAMAGE_DATA, handleData);
     ipcRenderer.on(IpcChannels.NEWZONE, handleNewZone);
@@ -51,5 +49,5 @@ export const useIpcListener = () => {
     };
   }, []);
 
-  return logs;
+  return currentEncounter;
 };

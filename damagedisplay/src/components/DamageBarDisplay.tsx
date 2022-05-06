@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material';
 import React, { useContext } from 'react';
 import { DamageDataContext } from '../contexts/DamageDataContext';
 import _ from 'lodash';
-import { classColors, Damage } from '../shared/logs';
+import { classColors, DamageEvent } from '../shared/logTypes';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -40,24 +40,6 @@ export interface IDamageBarEntry {
   color: string;
   value: number;
 }
-
-const entries: IDamageBarEntry[] = [
-  {
-    label: 'Berserker',
-    color: '#ff0000',
-    value: 500000,
-  },
-  {
-    label: 'Sorceress',
-    color: '#00ff00',
-    value: 222244,
-  },
-  {
-    label: 'Shadowhunter',
-    color: '#ff00ff',
-    value: 324232,
-  },
-];
 
 export interface DamageBarDisplayProps {
   width?: string;
@@ -125,23 +107,20 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
   width,
   height,
 }) => {
-  const damageContext = useContext(DamageDataContext);
+  const { currentEncounter } = useContext(DamageDataContext);
+  const damageEvents = currentEncounter.damageEvents;
+  const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
+  const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
 
-  const playerLogs = damageContext.logLines.filter(
-    (log) => log.sourceClassName,
-  );
-
-  const groupedLogs = _.groupBy(playerLogs, (log) => log.sourceEntity);
-
-  const mappedLogs = _.map(
-    groupedLogs,
-    (logs: Damage[], key: string): IDamageBarEntry => {
+  const mappedToRows = _.map(
+    groupedByPlayer,
+    (logs: DamageEvent[], key: string): IDamageBarEntry => {
       const label = key;
       const color = logs[0].sourceClassName
         ? classColors[logs[0].sourceClassName]
         : '#fffff';
       const value = logs.reduce(
-        (accum: number, log: Damage) => accum + log.skillDamage,
+        (accum: number, log: DamageEvent) => accum + log.skillDamage,
         0,
       );
       return {
@@ -152,19 +131,20 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
     },
   );
 
-  const maxValue = Math.max(...mappedLogs.map((e) => e.value));
+  const highestValue = Math.max(...mappedToRows.map((e) => e.value));
 
   return (
     <Box
       width="100%"
       sx={{ width, height, backgroundColor: 'rgba(0,0,0,0.6)' }}
     >
-      {mappedLogs
+      {mappedToRows
         .sort((a, b) => b.value - a.value)
         .map((entry, index) => {
           return (
             <DamageBarEntry
-              width={`${(entry.value / maxValue) * 100}%`}
+              key={entry.label}
+              width={`${(entry.value / highestValue) * 100}%`}
               label={entry.label}
               value={entry.value}
               index={index}

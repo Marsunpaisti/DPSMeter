@@ -1,29 +1,23 @@
 import React from 'react';
 import { useIpcListener } from '../hooks/useIpcListener';
-import { Damage } from '../shared/logs';
+import { DamageEvent, Encounter } from '../shared/logTypes';
 
 export interface IDamageDataContext {
-  addLogLine: () => undefined;
-  clearLogs: () => undefined;
-  logLines: Damage[];
+  currentEncounter: Encounter;
 }
 
 export const DamageDataContext = React.createContext<IDamageDataContext>({
-  addLogLine: () => undefined,
-  clearLogs: () => undefined,
-  logLines: [],
+  currentEncounter: { damageEvents: [] },
 });
 
 export const DamageDataContextProvider: React.FC<{
   children: React.ReactNode | React.ReactNode[];
 }> = ({ children }) => {
-  const logs = useIpcListener();
+  const currentEncounter = useIpcListener();
   return (
     <DamageDataContext.Provider
       value={{
-        addLogLine: () => undefined,
-        clearLogs: () => undefined,
-        logLines: logs,
+        currentEncounter,
       }}
     >
       {children}
