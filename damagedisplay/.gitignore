@@ -7,10 +7,10 @@
 
 # testing
 /coverage
-
 # production
 /build
 /dist
+/logs
 
 # development dependency
 /public/packetcapture

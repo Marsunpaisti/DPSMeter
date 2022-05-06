@@ -30,31 +30,20 @@ export const useIpcListener = () => {
       console.log(payload);
       setLogs(payload);
     };
-    const handleMessage = (
-      event: Electron.IpcRendererEvent,
-      payload: string,
-    ) => {
-      console.log(payload);
+    const handleNewZone = (event: Electron.IpcRendererEvent) => {
+      console.log('New zone entered');
     };
-    const handleError = (event: Electron.IpcRendererEvent, payload: string) => {
-      console.log(payload);
-    };
-    const handleConnectionLost = (
-      event: Electron.IpcRendererEvent,
-      payload: string,
-    ) => {
-      console.log(payload);
+    const handleConnectionLost = (event: Electron.IpcRendererEvent) => {
+      console.log('Connection lost');
     };
 
-    ipcRenderer.on(IpcChannels.DATA, handleData);
-    ipcRenderer.on(IpcChannels.MESSAGE, handleMessage);
-    ipcRenderer.on(IpcChannels.ERROR, handleError);
+    ipcRenderer.on(IpcChannels.DAMAGE_DATA, handleData);
+    ipcRenderer.on(IpcChannels.NEWZONE, handleNewZone);
     ipcRenderer.on(IpcChannels.CONNECTION_LOST, handleConnectionLost);
 
     return () => {
-      ipcRenderer.removeListener(IpcChannels.DATA, handleData);
-      ipcRenderer.removeListener(IpcChannels.MESSAGE, handleMessage);
-      ipcRenderer.removeListener(IpcChannels.ERROR, handleError);
+      ipcRenderer.removeListener(IpcChannels.DAMAGE_DATA, handleData);
+      ipcRenderer.removeListener(IpcChannels.NEWZONE, handleNewZone);
       ipcRenderer.removeListener(
         IpcChannels.CONNECTION_LOST,
         handleConnectionLost,

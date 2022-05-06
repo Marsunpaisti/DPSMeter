@@ -1,7 +1,6 @@
 export enum IpcChannels {
-  DATA = 'DATA',
-  MESSAGE = 'MESSAGE',
-  ERROR = 'ERROR',
+  DAMAGE_DATA = 'DAMAGE_DATA',
+  NEWZONE = 'NEW_ZONE',
   CONNECTION_LOST = 'CONNECTION_LOST',
   CLOSE = 'CLOSE',
 }

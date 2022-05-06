@@ -12,38 +12,38 @@ let currWindow: BrowserWindow | undefined;
 let currLogs: Damage[] = [];
 
 const packetCapPath = isDev
-  ? path.join(__dirname, '../packetcapture/Lost Ark Packet Capture.exe')
-  : '../packetcapture/Lost Ark Packet Capture.exe';
+  ? path.join(__dirname, '../packetcapture/LostArkLoggerElectronBackend.exe')
+  : '../packetcapture/LostArkLoggerElectronBackend.exe';
 const packetCapConnection = new ConnectionBuilder()
   .connectTo(packetCapPath)
   .build();
 
-packetCapConnection.on('data', (payload) => {
-  console.log(`Data: ${JSON.stringify(payload, undefined, 2)}`);
-  //currWindow && currWindow.webContents.send(IpcChannels.DATA, payload);
+packetCapConnection.on('damageEvent', (payload) => {
+  console.log(`Damage event: ${JSON.stringify(payload, undefined, 2)}`);
+
   try {
     const log = parseStringToDamage(payload);
     currLogs.push(log);
   } catch (e) {
-    console.log('invalid packet:', e);
+    console.log('Unable to parse damage event:\n', e);
   } finally {
-    currWindow && currWindow.webContents.send(IpcChannels.DATA, currLogs);
+    currWindow &&
+      currWindow.webContents.send(IpcChannels.DAMAGE_DATA, currLogs);
   }
 });
 
-packetCapConnection.on('message', (payload) => {
-  console.log(`Message: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send(IpcChannels.MESSAGE, payload);
+packetCapConnection.on('newZone', () => {
+  console.log(`New zone entered`);
+  currWindow && currWindow.webContents.send(IpcChannels.NEWZONE);
   currLogs = [];
 });
 
-packetCapConnection.on('error', (payload) => {
-  console.log(`Error: ${JSON.stringify(payload, undefined, 2)}`);
-  currWindow && currWindow.webContents.send(IpcChannels.ERROR, payload);
+packetCapConnection.on('log', (payload) => {
+  console.log(JSON.stringify(payload, undefined, 2));
 });
 
 packetCapConnection.onDisconnect = () => {
-  console.log('Lost connection to the Packet Capture process');
+  console.log('Lost connection to the LostArkLoggerElectronBackend process');
   currWindow && currWindow.webContents.send(IpcChannels.CONNECTION_LOST);
 };
 
