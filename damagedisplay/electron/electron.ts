@@ -6,8 +6,7 @@ import { ConnectionBuilder } from 'electron-cgi';
 import { IpcChannels } from './../src/shared/channels';
 import { parseDamageEventFromLog } from './utils/logParser';
 import { LogContainer } from './LogContainer';
-
-let currWindow: BrowserWindow | undefined;
+import * as fs from 'fs';
 
 let logContainer = new LogContainer();
 
@@ -24,10 +23,11 @@ const packetCapConnection = new ConnectionBuilder()
   .connectTo(packetCapPath)
   .build();
 
-packetCapConnection.on('damageEvent', (payload) => {
-  console.log(`Damage event: ${JSON.stringify(payload, undefined, 2)}`);
+const handleNewDamageEvent = (logLine: string) => {
+  //console.log(`Damage event: ${JSON.stringify(logLine, undefined, 2)}`);
+
   try {
-    const damageEvent = parseDamageEventFromLog(payload);
+    const damageEvent = parseDamageEventFromLog(logLine);
     if (logContainer.timeSincePreviousDamage(damageEvent) > 33000) {
       logContainer.startNewEncounter();
     }
@@ -40,6 +40,32 @@ packetCapConnection.on('damageEvent', (payload) => {
       logContainer.currentEncounter,
     );
   }
+};
+
+let streamInterval: NodeJS.Timeout | undefined;
+const streamTestLogLines = () => {
+  console.log(process.env.STREAM_TESTLOG);
+  if (!process.env.STREAM_TESTLOG || process.env.STREAM_TESTLOG !== 'true')
+    return;
+  console.log('Streaming test logs');
+  if (isDev && !streamInterval) {
+    const testLogPath = path.join(__dirname, '../testData/testlog.log');
+    console.log(testLogPath);
+    const testLogLines = fs.readFileSync(testLogPath).toString().split('\n');
+    streamInterval = setInterval(() => {
+      const line = testLogLines.shift();
+      if (line === undefined) {
+        clearInterval(streamInterval!);
+        return;
+      }
+      if (line === '') return;
+      handleNewDamageEvent(line!);
+    }, 300);
+  }
+};
+
+packetCapConnection.on('damageEvent', (payload) => {
+  handleNewDamageEvent(payload);
 });
 
 packetCapConnection.on('newZone', () => {
@@ -92,11 +118,11 @@ const createWindow = () => {
     transparent: true,
     alwaysOnTop: true,
     autoHideMenuBar: true,
+    fullscreenable: false,
+    maximizable: false,
     useContentSize: true,
-    minWidth: 300,
-    minHeight: 300,
     width: 300,
-    height: 300,
+    height: 100,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -133,7 +159,8 @@ const createWindow = () => {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
   setTimeout(() => {
-    currWindow = createWindow();
+    const win = createWindow();
+    streamTestLogLines();
   }, 50);
 
   app.on('activate', () => {
@@ -141,7 +168,8 @@ app.on('ready', () => {
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) {
       setTimeout(() => {
-        currWindow = createWindow();
+        const win = createWindow();
+        streamTestLogLines();
       }, 50);
     }
   });

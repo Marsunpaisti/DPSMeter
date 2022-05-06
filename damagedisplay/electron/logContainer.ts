@@ -30,12 +30,4 @@ export class LogContainer {
       ]?.timeStamp.getTime() ?? 0)
     );
   };
-
-  /*
-  toJSON = () => {
-    return {
-      encounters: this.encounters,
-      currentEncounter: this.currentEncounter,
-    };
-  };*/
 }

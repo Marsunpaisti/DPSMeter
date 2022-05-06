@@ -44,6 +44,7 @@
   },
   "scripts": {
     "start": "concurrently \"cross-env BROWSER=none NODE_ENV=development yarn react-start\" \"wait-on http://localhost:3000 && tsc -p electron -w\" \"wait-on http://localhost:3000 && tsc -p electron && electron .\"",
+    "start-testlogging": "concurrently \"cross-env BROWSER=none NODE_ENV=development yarn react-start\" \"wait-on http://localhost:3000 && tsc -p electron -w\" \"wait-on http://localhost:3000 && tsc -p electron && cross-env STREAM_TESTLOG=\"true\" electron . \"",
     "build": "npm run react-build && npm run electron-build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
