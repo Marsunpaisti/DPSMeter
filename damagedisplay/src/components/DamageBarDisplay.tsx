@@ -51,7 +51,7 @@ export interface DamageBarEntryProps {
   index: number;
   color: string;
   label: string;
-  value: number;
+  valueText: string;
 }
 
 const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
@@ -59,7 +59,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
   index,
   color,
   label,
-  value,
+  valueText,
 }) => {
   return (
     <Box
@@ -97,7 +97,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
           right: '5px',
         }}
       >
-        {`${value.toFixed(0)}`}
+        {valueText}
       </Typography>
     </Box>
   );
@@ -120,7 +120,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
         ? classColors[logs[0].sourceClassName]
         : '#fffff';
       const value = logs.reduce(
-        (accum: number, log: DamageEvent) => accum + log.skillDamage,
+        (acc: number, log: DamageEvent) => acc + log.skillDamage,
         0,
       );
       return {
@@ -132,7 +132,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
   );
 
   const highestValue = Math.max(...mappedToRows.map((e) => e.value));
-
+  const totalValue = [...mappedToRows].reduce((acc, row) => acc + row.value, 0);
   return (
     <Box
       width="100%"
@@ -141,12 +141,25 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({
       {mappedToRows
         .sort((a, b) => b.value - a.value)
         .map((entry, index) => {
+          let damageText: string;
+          if (entry.value > 1000000) {
+            damageText = `${(entry.value / 1000000).toFixed(2)}M`;
+          } else if (entry.value > 1000) {
+            damageText = `${Math.round(entry.value / 1000)}k`;
+          } else {
+            damageText = entry.value.toFixed(0);
+          }
+
+          const percentageText = `(${((entry.value / totalValue) * 100).toFixed(
+            1,
+          )}%)`;
+
           return (
             <DamageBarEntry
               key={entry.label}
               width={`${(entry.value / highestValue) * 100}%`}
               label={entry.label}
-              value={entry.value}
+              valueText={`${damageText} ${percentageText}`}
               index={index}
               color={entry.color}
             />
