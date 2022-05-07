@@ -9,6 +9,7 @@ import { LogContainer } from './LogContainer';
 import * as fs from 'fs';
 
 let logContainer = new LogContainer();
+let mainWindow: BrowserWindow;
 
 const sendMessageToWindows = (channel: IpcChannels, payload?: any) => {
   BrowserWindow.getAllWindows().forEach((w) => {
@@ -211,6 +212,7 @@ const createStatsWindow = (entityName: string) => {
     enableLargerThanScreen: true,
     width: 800,
     height: 900,
+    parent: mainWindow,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -242,6 +244,7 @@ const createStatsWindow = (entityName: string) => {
 app.on('ready', () => {
   setTimeout(() => {
     const win = createMeterWindow();
+    mainWindow = win;
     win.setIgnoreMouseEvents(true, {
       forward: true,
     });
@@ -254,6 +257,7 @@ app.on('ready', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       setTimeout(() => {
         const win = createMeterWindow();
+        mainWindow = win;
         win.setIgnoreMouseEvents(true, {
           forward: true,
         });
