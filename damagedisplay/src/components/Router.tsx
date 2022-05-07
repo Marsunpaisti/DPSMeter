@@ -16,10 +16,7 @@ export default function Router() {
   return (
     <DamageDataContextProvider>
       <RouterComponent>
-        <Routes>
-          <Route path="/electron" element={<ElectronMain />} />
-          <Route path="/" element={<p>Hello browser!</p>} />
-        </Routes>
+        <ElectronMain />
       </RouterComponent>
     </DamageDataContextProvider>
   );

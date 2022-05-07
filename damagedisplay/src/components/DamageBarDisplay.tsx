@@ -3,21 +3,12 @@ import { DamageDataContext } from '../contexts/DamageDataContext';
 import _ from 'lodash';
 import { classColors, CombatEvent } from '../shared/logTypes';
 import { getEncounterDurationMs } from '../shared/encounterUtils';
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  IconButton,
-  Box,
-  SxProps,
-  Theme,
-} from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
-import DeleteIcon from '@mui/icons-material/Delete';
-import DragHandleIcon from '@mui/icons-material/DragHandle';
+import { Typography, Box, SxProps, Theme, IconButton } from '@mui/material';
 import { getIpcRenderer } from '../hooks/getIpcRenderer';
 import { IpcChannels } from '../shared/channels';
-import { useMouseEnabler } from '../hooks/useMouseEnabler';
+import { ElectronNavbar } from './ElectonNavbar';
+import CloseIcon from '@mui/icons-material/Close';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -65,6 +56,7 @@ export interface DamageBarEntryProps {
   label: string;
   valueText: string;
   barSx?: SxProps<Theme>;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
 
 const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
@@ -74,9 +66,11 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
   label,
   valueText,
   barSx,
+  onClick,
 }) => {
   return (
     <Box
+      onClick={onClick}
       key={label}
       sx={{
         position: 'relative',
@@ -84,6 +78,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
         width: '100%',
         height: '20px',
         alignItems: 'center',
+        cursor: onClick ? 'pointer' : undefined,
       }}
     >
       <Box
@@ -127,7 +122,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
   const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
   const encounterDuration = getEncounterDurationMs(currentEncounter);
-  const { mouseEnableRef } = useMouseEnabler();
 
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(
     DamageDisplayMode.DPS,
@@ -164,8 +158,8 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   } else {
     mappedToRows = _.map(
       groupedByPlayer,
-      (logs: CombatEvent[], key: string): IDamageBarEntry => {
-        const label = key;
+      (logs: CombatEvent[], entityName: string): IDamageBarEntry => {
+        const label = entityName;
         const color = logs[0].sourceClassName
           ? classColors[logs[0].sourceClassName]
           : '#fffff';
@@ -199,62 +193,12 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
 
   return (
     <>
-      <AppBar
-        ref={(r) => (mouseEnableRef.current = r as HTMLElement)}
-        position="static"
-        elevation={0}
-        sx={{
-          WebkitUserSelect: 'none',
-          pointerEvents: 'all',
-          maxHeight: '30px',
-          height: '25px',
-          width: '300px',
-          background: '#700003',
-          borderRadius: '4px 4px 0px 0px',
-        }}
-      >
-        <Toolbar
-          disableGutters
-          sx={{
-            minHeight: '100% !important',
-            maxHeight: '100% !important',
-            padding: '0px',
-            paddingLeft: '10px',
-          }}
-        >
-          <Typography
-            onClick={() => cycleMode(1)}
-            sx={{
-              cursor: 'pointer',
-              '-webkit-app-region': 'no-drag',
-              fontWeight: 'bold',
-            }}
-          >
-            {damageDisplayMode}
-          </Typography>
-
-          <Box
-            id="toolbar-buttons"
-            sx={{
-              minHeight: '100%',
-              display: 'flex',
-              flexGrow: 1,
-              flexDirection: 'row',
-              justifyContent: 'flex-end',
-              alignItems: 'center',
-            }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '20px',
-                flexGrow: 1,
-                margin: '0px 2px',
-                '-webkit-app-region': 'drag',
-              }}
-            ></Box>
+      <ElectronNavbar
+        title={damageDisplayMode}
+        onTitleClick={() => cycleMode(1)}
+        width="300px"
+        buttons={
+          <>
             <IconButton
               onClick={clearAll}
               sx={{
@@ -287,13 +231,14 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
                 }}
               />
             </IconButton>
-          </Box>
-        </Toolbar>
-      </AppBar>
+          </>
+        }
+      />
       <Box
         sx={{
           width: '300px',
           backgroundColor: 'rgba(0,0,0,0.6)',
+          pointerEvents: 'all',
         }}
       >
         {mappedToRows
@@ -323,6 +268,12 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
                 background={`linear-gradient(${
                   entry.color
                 }, ${adjustColorBrightness(entry.color, -50)});`}
+                onClick={() => {
+                  getIpcRenderer()?.send(
+                    IpcChannels.OPEN_STATS_WINDOW,
+                    entry.label,
+                  );
+                }}
               />
             );
           })}

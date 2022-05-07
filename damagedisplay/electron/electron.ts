@@ -12,7 +12,7 @@ let logContainer = new LogContainer();
 
 const sendMessageToWindows = (channel: IpcChannels, payload?: any) => {
   BrowserWindow.getAllWindows().forEach((w) => {
-    w.webContents.send(channel, payload);
+    w?.webContents?.send(channel, payload);
   });
 };
 
@@ -111,6 +111,20 @@ ipcMain.on(IpcChannels.DISABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
   win.setIgnoreMouseEvents(false);
 });
 
+ipcMain.on(IpcChannels.OPEN_STATS_WINDOW, (event, entityName: string) => {
+  createStatsWindow(entityName);
+});
+
+ipcMain.on(IpcChannels.DAMAGE_DATA, (event, arg: any) => {
+  if (arg === 'REQUEST_DATA') {
+    console.log(`Responding to REQUEST_DATA from window ${event.sender.id}`);
+    BrowserWindow.fromId(event.sender.id)?.webContents.send(
+      IpcChannels.DAMAGE_DATA,
+      logContainer.currentEncounter,
+    );
+  }
+});
+
 const createMeterWindow = () => {
   // Create the browser window.
   const indexUrl = new URL(
@@ -167,6 +181,51 @@ const createMeterWindow = () => {
   return damageMeterWindow;
 };
 
+const createStatsWindow = (entityName: string) => {
+  const indexUrl = new URL(
+    isDev
+      ? `http://localhost:3000/electron/stats`
+      : `${path.join(__dirname, '../index.html')}`,
+  );
+
+  const query = `?entityName=${entityName}`;
+  if (!isDev) {
+    indexUrl.hash = `/electron/stats`;
+    indexUrl.protocol = 'file';
+  }
+  indexUrl.search = query;
+
+  const statsWindow = new BrowserWindow({
+    frame: false, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
+    resizable: false,
+    transparent: true,
+    alwaysOnTop: true,
+    autoHideMenuBar: true,
+    fullscreenable: false,
+    maximizable: false,
+    focusable: false,
+    enableLargerThanScreen: true,
+    width: 900,
+    height: 900,
+    webPreferences: {
+      devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
+      nodeIntegration: true, // turn this off if you don't mean to use node
+    },
+  });
+
+  // load the index.html of the app. (or localhost on port 3000 if you're in development)
+  statsWindow.loadURL(indexUrl.toString());
+
+  // Open the DevTools. will only work if webPreferences::devTools is true
+  statsWindow.once('ready-to-show', () => {
+    statsWindow.webContents.openDevTools({ mode: 'undocked' });
+  });
+
+  statsWindow.setIgnoreMouseEvents(true, {
+    forward: true,
+  });
+  return statsWindow;
+};
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.

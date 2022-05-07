@@ -39,6 +39,8 @@ export const useIpcListener = () => {
     ipcRenderer.on(IpcChannels.NEWZONE, handleNewZone);
     ipcRenderer.on(IpcChannels.CONNECTION_LOST, handleConnectionLost);
 
+    ipcRenderer.send(IpcChannels.DAMAGE_DATA, 'REQUEST_DATA');
+
     return () => {
       ipcRenderer.removeListener(IpcChannels.DAMAGE_DATA, handleData);
       ipcRenderer.removeListener(IpcChannels.NEWZONE, handleNewZone);
