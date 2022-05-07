@@ -59,7 +59,7 @@ const streamTestLogLines = () => {
       }
       if (line === '') return;
       handleNewCombatEvent(line!);
-    }, 300);
+    }, 10);
   }
 };
 
@@ -209,8 +209,8 @@ const createStatsWindow = (entityName: string) => {
     maximizable: false,
     focusable: true,
     enableLargerThanScreen: true,
-    width: 400,
-    height: 300,
+    width: 800,
+    height: 900,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -224,6 +224,11 @@ const createStatsWindow = (entityName: string) => {
   statsWindow.once('ready-to-show', () => {
     statsWindow.webContents.openDevTools({ mode: 'undocked' });
   });
+
+  setTimeout(
+    () => statsWindow.webContents.openDevTools({ mode: 'undocked' }),
+    3000,
+  );
 
   statsWindow?.setIgnoreMouseEvents(true, {
     forward: true,

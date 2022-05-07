@@ -4,7 +4,7 @@
 import { ClassNames, CombatEvent } from '../../src/shared/logTypes';
 
 export const parseCombatEventFromLog = (logLine: string) => {
-  const splittedDamageString = logLine.split(',');
+  const splittedDamageString = logLine.split(',').map((s) => s.trim());
   let timeStamp: Date;
   if (
     !splittedDamageString[0].includes('.') &&
@@ -15,8 +15,7 @@ export const parseCombatEventFromLog = (logLine: string) => {
   } else {
     // Timestamp is yy-mm-dd-hh-mm-ss-ms format
     const splitTs = splittedDamageString[0]
-      .replace(':', '.')
-      .split('.')
+      .split(/[\.\:]/g)
       .map((s) => Number(s));
     timeStamp = new Date(
       splitTs[0] + 2000,
@@ -37,9 +36,9 @@ export const parseCombatEventFromLog = (logLine: string) => {
     .match(/(.+?)\s*\((.+)\)/);
   const skillName = splittedDamageString[3];
   const skillDamage = Number(splittedDamageString[4]);
-  const isCrit = splittedDamageString[4] === '1' ? true : false;
-  const isFront = splittedDamageString[5] === '1' ? true : false;
+  const isCrit = splittedDamageString[5] === '1' ? true : false;
   const isBack = splittedDamageString[6] === '1' ? true : false;
+  const isFront = splittedDamageString[7] === '1' ? true : false;
 
   const damage: CombatEvent = {
     sourceEntity: sourceEntityMatch
