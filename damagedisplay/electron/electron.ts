@@ -60,7 +60,7 @@ const streamTestLogLines = () => {
       }
       if (line === '') return;
       handleNewCombatEvent(line!);
-    }, 10);
+    }, 100);
   }
 };
 

@@ -9,7 +9,8 @@ import { IpcChannels } from '../shared/channels';
 import { useMouseEnabler } from '../hooks/useMouseEnabler';
 import _ from 'lodash';
 import { CombatEvent } from '../shared/logTypes';
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid, GridColDef } from '@mui/x-data-grid';
+import { classIcons } from '../resources/class_icons';
 
 interface SkillStatistics {
   id: string;
@@ -35,6 +36,11 @@ export const DamageStatsDisplay = () => {
     selectedEntityLogs,
     (source) => source.skillDamage,
   );
+
+  const className =
+    selectedEntityLogs.length > 0
+      ? selectedEntityLogs[0].sourceClassName
+      : undefined;
 
   const columns: GridColDef[] = [
     { field: 'skillName', headerName: 'Skill', width: 200 },
@@ -165,6 +171,17 @@ export const DamageStatsDisplay = () => {
           </>
         }
       />
+      <Typography
+        variant="h4"
+        sx={{ display: 'flex', alignItems: 'center', marginTop: '5px' }}
+      >
+        {className && (
+          <span>
+            <img src={classIcons[className]} style={{ height: '50px' }} />
+          </span>
+        )}
+        {entityName}
+      </Typography>
       <Box
         sx={{
           display: 'flex',
@@ -173,7 +190,6 @@ export const DamageStatsDisplay = () => {
           width: '100%',
           alignItems: 'center',
           overflowY: 'auto',
-          margin: '30px',
         }}
       >
         <DataGrid

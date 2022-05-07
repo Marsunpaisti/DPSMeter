@@ -10,6 +10,7 @@ import { ElectronNavbar } from './ElectonNavbar';
 import CloseIcon from '@mui/icons-material/Close';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { useMouseEnabler } from '../hooks/useMouseEnabler';
+import { classIcons } from '../resources/class_icons';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -46,6 +47,7 @@ export interface IDamageBarEntry {
   label: string;
   color: string;
   value: number;
+  icon: string;
 }
 
 export interface DamageBarDisplayProps {}
@@ -58,6 +60,7 @@ export interface DamageBarEntryProps {
   valueText: string;
   barSx?: SxProps<Theme>;
   onClick?: React.MouseEventHandler<HTMLDivElement>;
+  icon?: string;
 }
 
 const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
@@ -68,6 +71,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
   valueText,
   barSx,
   onClick,
+  icon,
 }) => {
   return (
     <Box
@@ -77,7 +81,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
         position: 'relative',
         display: 'flex',
         width: '100%',
-        height: '20px',
+        height: '25px',
         alignItems: 'center',
         cursor: onClick ? 'pointer' : undefined,
       }}
@@ -94,9 +98,16 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
           background,
         }}
       />
-
+      <img
+        src={icon}
+        style={{
+          height: '100%',
+          zIndex: 1000,
+          filter: 'saturate(200%) brightness(500%)',
+        }}
+      />
       <Typography sx={{ zIndex: 1, paddingLeft: '5px', fontSize: '12px' }}>
-        {index !== undefined ? `${index + 1}. ${label}` : `${label}`}
+        {label}
       </Typography>
       <Typography
         sx={{
@@ -162,9 +173,9 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
       groupedByPlayer,
       (logs: CombatEvent[], entityName: string): IDamageBarEntry => {
         const label = entityName;
-        const color = logs[0].sourceClassName
-          ? classColors[logs[0].sourceClassName]
-          : '#fffff';
+        const className = logs[0].sourceClassName;
+        const color = className ? classColors[className!] : '#fffff';
+        const icon = classIcons[className!];
         let value = logs.reduce(
           (acc: number, log: CombatEvent) => acc + log.skillDamage,
           0,
@@ -176,6 +187,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
           label,
           color,
           value,
+          icon,
         };
       },
     );
@@ -264,6 +276,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
 
             return (
               <DamageBarEntry
+                icon={entry.icon}
                 key={entry.label}
                 width={`${(entry.value / highestValue) * 100}%`}
                 label={entry.label}
