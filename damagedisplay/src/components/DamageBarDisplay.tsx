@@ -9,6 +9,7 @@ import { IpcChannels } from '../shared/channels';
 import { ElectronNavbar } from './ElectonNavbar';
 import CloseIcon from '@mui/icons-material/Close';
 import DeleteIcon from '@mui/icons-material/Delete';
+import { useMouseEnabler } from '../hooks/useMouseEnabler';
 
 const adjustColorBrightness = (hexInput: string, percent: number) => {
   let hex = hexInput;
@@ -122,6 +123,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
   const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
   const encounterDuration = getEncounterDurationMs(currentEncounter);
+  const { mouseEnableRef } = useMouseEnabler();
 
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(
     DamageDisplayMode.DPS,
@@ -192,7 +194,10 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   }
 
   return (
-    <>
+    <Box
+      ref={(r) => (mouseEnableRef.current = r as HTMLElement)}
+      sx={{ pointerEvents: 'all' }}
+    >
       <ElectronNavbar
         title={damageDisplayMode}
         onTitleClick={() => cycleMode(1)}
@@ -238,7 +243,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
         sx={{
           width: '300px',
           backgroundColor: 'rgba(0,0,0,0.6)',
-          pointerEvents: 'all',
         }}
       >
         {mappedToRows
@@ -289,6 +293,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
           />
         )}
       </Box>
-    </>
+    </Box>
   );
 };

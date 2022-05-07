@@ -1,7 +1,5 @@
 import { AppBar, Box, Toolbar, Typography } from '@mui/material';
-import { width } from '@mui/system';
 import React, { ReactNode } from 'react';
-import { useMouseEnabler } from '../hooks/useMouseEnabler';
 
 export interface ElectronNavbarProps {
   title: string;
@@ -22,7 +20,6 @@ export const ElectronNavbar: React.FC<ElectronNavbarProps> = ({
       elevation={0}
       sx={{
         WebkitUserSelect: 'none',
-        pointerEvents: 'all',
         maxHeight: '30px',
         height: '25px',
         background: '#700003',

@@ -89,6 +89,11 @@ ipcMain.on(IpcChannels.CLOSE, async (event, arg) => {
   app.quit();
 });
 
+ipcMain.on(IpcChannels.CLOSE_WINDOW, async (event, arg) => {
+  const win = BrowserWindow.fromWebContents(event.sender);
+  win?.close();
+});
+
 ipcMain.on(IpcChannels.NEW_ENCOUNTER, async (event, arg) => {
   logContainer.startNewEncounter();
   sendMessageToWindows(IpcChannels.DAMAGE_DATA, logContainer.currentEncounter);
@@ -100,15 +105,15 @@ ipcMain.on(IpcChannels.CLEAR_ALL, async (event, arg) => {
 });
 
 ipcMain.on(IpcChannels.ENABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
-  const win = BrowserWindow.fromId(event.sender.id);
-  win.setIgnoreMouseEvents(true, {
+  const win = BrowserWindow.fromWebContents(event.sender);
+  win?.setIgnoreMouseEvents(true, {
     forward: true,
   });
 });
 
 ipcMain.on(IpcChannels.DISABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
-  const win = BrowserWindow.fromId(event.sender.id);
-  win.setIgnoreMouseEvents(false);
+  const win = BrowserWindow.fromWebContents(event.sender);
+  win?.setIgnoreMouseEvents(false);
 });
 
 ipcMain.on(IpcChannels.OPEN_STATS_WINDOW, (event, entityName: string) => {
@@ -205,8 +210,8 @@ const createStatsWindow = (entityName: string) => {
     maximizable: false,
     focusable: false,
     enableLargerThanScreen: true,
-    width: 900,
-    height: 900,
+    width: 400,
+    height: 300,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -221,7 +226,7 @@ const createStatsWindow = (entityName: string) => {
     statsWindow.webContents.openDevTools({ mode: 'undocked' });
   });
 
-  statsWindow.setIgnoreMouseEvents(true, {
+  statsWindow?.setIgnoreMouseEvents(true, {
     forward: true,
   });
   return statsWindow;
@@ -257,7 +262,7 @@ app.on('ready', () => {
 // for applications and their menu bar to stay active until the user quits
 // explicitly with Cmd + Q.
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit();
+  app.quit();
 });
 
 // In this file you can include the rest of your app's specific main process

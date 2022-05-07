@@ -6,18 +6,21 @@ import { ElectronNavbar } from './ElectonNavbar';
 import CloseIcon from '@mui/icons-material/Close';
 import { getIpcRenderer } from '../hooks/getIpcRenderer';
 import { IpcChannels } from '../shared/channels';
+import { useMouseEnabler } from '../hooks/useMouseEnabler';
 
 export const DamageStatsDisplay = () => {
+  const { mouseEnableRef } = useMouseEnabler();
   const location = useLocation();
   const { currentEncounter } = useContext(DamageDataContext);
   const entityName = new URLSearchParams(location.search).get('entityName');
 
   const closeApp = () => {
-    getIpcRenderer()?.send(IpcChannels.CLOSE);
+    getIpcRenderer()?.send(IpcChannels.CLOSE_WINDOW);
   };
 
   return (
     <Box
+      ref={(r) => (mouseEnableRef.current = r as HTMLElement)}
       sx={{
         display: 'flex',
         width: '100%',
@@ -27,6 +30,7 @@ export const DamageStatsDisplay = () => {
         alignItems: 'center',
         justifyContent: 'flex-start',
         backgroundColor: 'rgba(0,0,0,0.6)',
+        pointerEvents: 'all',
       }}
     >
       <ElectronNavbar
