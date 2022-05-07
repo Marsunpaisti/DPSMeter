@@ -1,9 +1,9 @@
 // 22.05.05.21.45.58.7,$You (Paladin),506E15C4,Charge,1928,0,0,0
 // 7
 
-import { ClassNames, DamageEvent } from '../../src/shared/logTypes';
+import { ClassNames, CombatEvent } from '../../src/shared/logTypes';
 
-export const parseDamageEventFromLog = (logLine: string) => {
+export const parseCombatEventFromLog = (logLine: string) => {
   const splittedDamageString = logLine.split(',');
   let timeStamp: Date;
   if (
@@ -40,8 +40,9 @@ export const parseDamageEventFromLog = (logLine: string) => {
   const isCrit = splittedDamageString[4] === '1' ? true : false;
   const isFront = splittedDamageString[5] === '1' ? true : false;
   const isBack = splittedDamageString[6] === '1' ? true : false;
+  const isCounter = splittedDamageString[7] === '1' ? true : false;
 
-  const damage: DamageEvent = {
+  const damage: CombatEvent = {
     sourceEntity: sourceEntityMatch
       ? sourceEntityMatch[1]
       : splittedDamageString[1],
@@ -72,6 +73,7 @@ export const parseDamageEventFromLog = (logLine: string) => {
     isFront,
     isBack,
     timeStamp,
+    isCounter,
   };
 
   return damage;

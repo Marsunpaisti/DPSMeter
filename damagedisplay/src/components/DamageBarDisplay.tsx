@@ -1,7 +1,7 @@
 import React, { useCallback, useContext, useState } from 'react';
 import { DamageDataContext } from '../contexts/DamageDataContext';
 import _ from 'lodash';
-import { classColors, DamageEvent } from '../shared/logTypes';
+import { classColors, CombatEvent } from '../shared/logTypes';
 import { getEncounterDurationMs } from '../shared/encounterUtils';
 import {
   AppBar,
@@ -164,13 +164,13 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   } else {
     mappedToRows = _.map(
       groupedByPlayer,
-      (logs: DamageEvent[], key: string): IDamageBarEntry => {
+      (logs: CombatEvent[], key: string): IDamageBarEntry => {
         const label = key;
         const color = logs[0].sourceClassName
           ? classColors[logs[0].sourceClassName]
           : '#fffff';
         let value = logs.reduce(
-          (acc: number, log: DamageEvent) => acc + log.skillDamage,
+          (acc: number, log: CombatEvent) => acc + log.skillDamage,
           0,
         );
         if (damageDisplayMode === DamageDisplayMode.DPS) {

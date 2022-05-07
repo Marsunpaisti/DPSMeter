@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as isDev from 'electron-is-dev';
 import { ConnectionBuilder } from 'electron-cgi';
 import { IpcChannels } from './../src/shared/channels';
-import { parseDamageEventFromLog } from './utils/logParser';
+import { parseCombatEventFromLog } from './utils/logParser';
 import { LogContainer } from './LogContainer';
 import * as fs from 'fs';
 
@@ -23,15 +23,15 @@ const packetCapConnection = new ConnectionBuilder()
   .connectTo(packetCapPath)
   .build();
 
-const handleNewDamageEvent = (logLine: string) => {
+const handleNewCombatEvent = (logLine: string) => {
   //console.log(`Damage event: ${JSON.stringify(logLine, undefined, 2)}`);
 
   try {
-    const damageEvent = parseDamageEventFromLog(logLine);
+    const damageEvent = parseCombatEventFromLog(logLine);
     if (logContainer.timeSincePreviousDamage(damageEvent) > 33000) {
       logContainer.startNewEncounter();
     }
-    logContainer.addDamageEvent(damageEvent);
+    logContainer.addCombatEvent(damageEvent);
   } catch (e) {
     console.log('Unable to parse damage event:\n', e);
   } finally {
@@ -59,13 +59,13 @@ const streamTestLogLines = () => {
         return;
       }
       if (line === '') return;
-      handleNewDamageEvent(line!);
+      handleNewCombatEvent(line!);
     }, 300);
   }
 };
 
-packetCapConnection.on('damageEvent', (payload) => {
-  handleNewDamageEvent(payload);
+packetCapConnection.on('combatEvent', (payload) => {
+  handleNewCombatEvent(payload);
 });
 
 packetCapConnection.on('newZone', () => {

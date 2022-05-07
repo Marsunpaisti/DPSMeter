@@ -1,4 +1,5 @@
-export interface DamageEvent {
+export interface CombatEvent {
+  timeStamp: Date;
   sourceEntity: string;
   sourceClassName?: ClassNames;
   targetEntity: string;
@@ -8,11 +9,11 @@ export interface DamageEvent {
   isCrit: boolean;
   isBack: boolean;
   isFront: boolean;
-  timeStamp: Date;
+  isCounter: boolean;
 }
 
 export interface Encounter {
-  damageEvents: DamageEvent[];
+  damageEvents: CombatEvent[];
 }
 
 export enum ClassNames {

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { IpcRenderer } from 'electron';
 import { IpcChannels } from '../shared/channels';
-import { DamageEvent, Encounter } from '../shared/logTypes';
+import { CombatEvent, Encounter } from '../shared/logTypes';
 
 const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();

@@ -1,4 +1,4 @@
-import { DamageEvent, Encounter } from '../src/shared/logTypes';
+import { CombatEvent, Encounter } from '../src/shared/logTypes';
 
 export class LogContainer {
   encounters: Encounter[];
@@ -9,7 +9,7 @@ export class LogContainer {
     this.encounters = [];
   }
 
-  public addDamageEvent = (damageEvent: DamageEvent) => {
+  public addCombatEvent = (damageEvent: CombatEvent) => {
     this.currentEncounter.damageEvents.push(damageEvent);
   };
 
@@ -22,7 +22,7 @@ export class LogContainer {
     this.currentEncounter = { damageEvents: [] };
   };
 
-  public timeSincePreviousDamage = (damageEvent: DamageEvent) => {
+  public timeSincePreviousDamage = (damageEvent: CombatEvent) => {
     return (
       damageEvent.timeStamp.getTime() -
       (this.currentEncounter.damageEvents[
