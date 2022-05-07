@@ -1,440 +1,1738 @@
-22.05.06.20.37.28.1,You (Deadeye),Goblin Shielder,AT02 Grenade,93006,1,0,0
-22.05.06.20.37.28.9,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,813,0,0,0
-22.05.06.20.37.29.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,464,0,0,0
-22.05.06.20.37.29.3,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,679,0,0,0
-22.05.06.20.37.29.3,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1380,0,0,0
-22.05.06.20.37.29.5,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,295,0,0,0
-22.05.06.20.37.29.5,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,264,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,277832,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,278392,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,856817,1,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,282678,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,274920,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,278732,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,279537,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,279363,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,281083,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,283152,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,282780,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,859316,1,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,280246,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,273062,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,274483,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,276788,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,281544,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Goblin Shielder,Meteor Stream,281732,0,0,0
-22.05.06.20.37.29.7,You (Deadeye),Alley Goblin,Meteor Stream,275942,0,0,0
-
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Red Dust,277832,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Red Dust,278392,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Red Dust,856817,1,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Red Dust,282678,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Ground Stomp,274920,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Ground Stomp,278732,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Ground Stomp,279537,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Finishing Strike,279363,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Finishing Strike,281083,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Finishing Strike,283152,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Finishing Strike,282780,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Tempest Strike,859316,1,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Tempest Strike,280246,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Tempest Strike,273062,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Tempest Strike,274483,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Tempest Strike,276788,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Tempest Strike,281544,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Goblin Shielder,Tempest Strike,281732,0,0,0
-22.05.06.20.37.29.7,Grimseri (Berserker),Alley Goblin,Tempest Strike,275942,0,0,0
-
-22.05.06.20.37.30.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,404,0,0,0
-22.05.06.20.37.30.5,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,728,0,0,0
-22.05.06.20.37.30.7,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,421,0,0,0
-22.05.06.20.37.31.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,441,0,0,0
-22.05.06.20.37.31.1,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,635,0,0,0
-22.05.06.20.37.31.1,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,447,0,0,0
-22.05.06.20.37.31.2,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,825,0,0,0
-22.05.06.20.37.31.4,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,445,0,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,216099,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,217926,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,218752,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,212224,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,214758,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,216550,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,215340,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,219321,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,220131,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Alley Goblin,Equilibrium,214966,1,0,0
-22.05.06.20.37.32.3,You (Deadeye),Goblin Shielder,Equilibrium,218105,1,0,0
-22.05.06.20.37.32.5,You (Deadeye),Alley Goblin,Equilibrium,214166,1,0,0
-22.05.06.20.37.32.5,You (Deadeye),Goblin Shielder,Equilibrium,214048,1,0,0
-22.05.06.20.37.32.5,You (Deadeye),Goblin Shielder,Equilibrium,220928,1,0,0
-22.05.06.20.37.32.5,You (Deadeye),Alley Goblin,Equilibrium,219616,1,0,0
-22.05.06.20.37.32.5,You (Deadeye),Alley Goblin,Equilibrium,212608,1,0,0
-22.05.06.20.37.33.8,You (Deadeye),Goblin Shielder,AT02 Grenade,97411,1,0,0
-22.05.06.20.37.33.8,You (Deadeye),Goblin Shielder,AT02 Grenade,31289,0,0,0
-22.05.06.20.37.35.0,You (Deadeye),Alley Goblin,Death Fire,52923,1,0,0
-22.05.06.20.37.35.4,You (Deadeye),Goblin Shielder,Death Fire,15275,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Goblin Shielder,Bleed,20908,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Alley Goblin,Bleed,20910,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Goblin Shielder,Bleed,20413,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Alley Goblin,Bleed,20712,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Alley Goblin,Bleed,20139,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Goblin Shielder,Bleed,41212,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Goblin Shielder,Bleed,41273,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Alley Goblin,Bleed,40689,0,0,0
-22.05.06.20.37.35.7,You (Deadeye),Goblin Shielder,Bleed,40581,0,0,0
-22.05.06.20.37.35.8,You (Deadeye),Alley Goblin,Death Fire,52836,1,0,0
-22.05.06.20.37.35.9,You (Deadeye),Alley Goblin,Bleed,20933,0,0,0
-22.05.06.20.37.35.9,You (Deadeye),Alley Goblin,Bleed,40661,0,0,0
-22.05.06.20.37.35.9,You (Deadeye),Alley Goblin,Bleed,20338,0,0,0
-22.05.06.20.37.36.0,You (Deadeye),Goblin Shielder,Bleed,20298,0,0,0
-22.05.06.20.37.36.0,You (Deadeye),Alley Goblin,Bleed,41900,0,0,0
-22.05.06.20.37.36.0,You (Deadeye),Goblin Shielder,Bleed,20536,0,0,0
-22.05.06.20.37.36.0,You (Deadeye),Goblin Shielder,Bleed,20148,0,0,0
-22.05.06.20.37.36.0,You (Deadeye),Alley Goblin,Death Fire,52590,1,0,0
-22.05.06.20.37.36.0,You (Deadeye),Goblin Shielder,Death Fire,53067,1,0,0
-22.05.06.20.37.36.0,You (Deadeye),Alley Goblin,Death Fire,52564,1,0,0
-22.05.06.20.37.36.0,You (Deadeye),Goblin Shielder,Death Fire,54659,1,0,0
-22.05.06.20.37.36.2,You (Deadeye),Goblin Shielder,Bleed,20261,0,0,0
-22.05.06.20.37.36.2,You (Deadeye),Alley Goblin,Death Fire,15188,0,0,0
-22.05.06.20.37.36.2,You (Deadeye),Alley Goblin,Death Fire,52596,1,0,0
-22.05.06.20.37.36.2,You (Deadeye),Alley Goblin,Death Fire,52848,1,0,0
-22.05.06.20.37.36.2,You (Deadeye),Alley Goblin,Death Fire,52977,1,0,0
-22.05.06.20.37.36.3,You (Deadeye),Goblin Shielder,Bleed,40381,0,0,0
-22.05.06.20.37.36.4,You (Deadeye),Goblin Shielder,Death Fire,54779,1,0,0
-22.05.06.20.37.36.4,You (Deadeye),Goblin Shielder,Death Fire,54808,1,0,0
-22.05.06.20.37.36.4,You (Deadeye),Goblin Shielder,Death Fire,14833,0,0,0
-22.05.06.20.37.36.6,You (Deadeye),Alley Goblin,Death Fire,52656,1,0,0
-22.05.06.20.37.36.7,You (Deadeye),Goblin Shielder,Bleed,40940,0,0,0
-22.05.06.20.37.36.8,You (Deadeye),Alley Goblin,Bleed,20899,0,0,0
-22.05.06.20.37.36.8,You (Deadeye),Alley Goblin,Bleed,20582,0,0,0
-22.05.06.20.37.36.8,You (Deadeye),Goblin Shielder,Death Fire,54560,1,0,0
-22.05.06.20.37.36.8,You (Deadeye),Goblin Shielder,Death Fire,15139,0,0,0
-22.05.06.20.37.36.8,You (Deadeye),Alley Goblin,Death Fire,15160,0,0,0
-22.05.06.20.37.36.8,You (Deadeye),Goblin Shielder,Death Fire,15124,0,0,0
-22.05.06.20.37.37.1,You (Deadeye),Goblin Shielder,Bleed,41344,0,0,0
-22.05.06.20.37.37.1,You (Deadeye),Goblin Shielder,Bleed,20542,0,0,0
-22.05.06.20.37.37.2,You (Deadeye),Goblin Shielder,Death Fire,14924,0,0,0
-22.05.06.20.37.37.3,You (Deadeye),Goblin Shielder,Bleed,40376,0,0,0
-22.05.06.20.37.37.7,You (Deadeye),Alley Goblin,Bleed,20692,0,0,0
-22.05.06.20.37.37.7,You (Deadeye),Goblin Shielder,Bleed,20152,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Goblin Shielder,Bleed,20503,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Goblin Shielder,Bleed,20894,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Alley Goblin,Bleed,41047,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Alley Goblin,Bleed,41852,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Goblin Shielder,Bleed,20528,0,0,0
-22.05.06.20.37.37.8,You (Deadeye),Alley Goblin,Bleed,41559,0,0,0
-22.05.06.20.37.38.3,You (Deadeye),Goblin Shielder,Bleed,20376,0,0,0
-22.05.06.20.37.38.3,You (Deadeye),Goblin Shielder,Bleed,40733,0,0,0
-22.05.06.20.37.38.3,You (Deadeye),Goblin Shielder,Death Fire,238208,1,0,0
-22.05.06.20.37.38.3,You (Deadeye),Goblin Shielder,Bleed,40164,0,0,0
-22.05.06.20.37.38.7,You (Deadeye),Alley Goblin,Dexterous Shot,12094,0,0,0
-22.05.06.20.37.38.7,You (Deadeye),Goblin Shielder,Dexterous Shot,12179,0,0,0
-22.05.06.20.37.38.7,You (Deadeye),Goblin Shielder,Dexterous Shot,11867,0,0,0
-22.05.06.20.37.38.7,You (Deadeye),Alley Goblin,Bleed,20199,0,0,0
-22.05.06.20.37.38.7,You (Deadeye),Goblin Shielder,Bleed,40523,0,0,0
-22.05.06.20.37.38.8,You (Deadeye),Alley Goblin,Bleed,40512,0,0,0
-22.05.06.20.37.38.8,You (Deadeye),Goblin Shielder,Bleed,20318,0,0,0
-22.05.06.20.37.38.8,You (Deadeye),Alley Goblin,Bleed,20777,0,0,0
-22.05.06.20.37.38.8,You (Deadeye),Goblin Shielder,Bleed,20832,0,0,0
-22.05.06.20.37.39.0,You (Deadeye),Alley Goblin,Dexterous Shot,12248,0,0,0
-22.05.06.20.37.39.0,You (Deadeye),Goblin Shielder,Dexterous Shot,12286,0,0,0
-22.05.06.20.37.39.0,You (Deadeye),Goblin Shielder,Dexterous Shot,12355,0,0,0
-22.05.06.20.37.39.1,You (Deadeye),Goblin Shielder,Bleed,20717,0,0,0
-22.05.06.20.37.39.1,You (Deadeye),Goblin Shielder,Death Fire,230630,1,0,0
-22.05.06.20.37.39.1,You (Deadeye),Alley Goblin,Death Fire,233697,1,0,0
-22.05.06.20.37.39.1,You (Deadeye),Alley Goblin,Death Fire,230507,1,0,0
-22.05.06.20.37.39.1,You (Deadeye),Goblin Shielder,Bleed,20805,0,0,0
-22.05.06.20.37.39.1,You (Deadeye),Goblin Shielder,Bleed,20874,0,0,0
-22.05.06.20.37.39.3,You (Deadeye),Goblin Shielder,Dexterous Shot,12064,0,0,0
-22.05.06.20.37.39.3,You (Deadeye),Alley Goblin,Dexterous Shot,12236,0,0,0
-22.05.06.20.37.39.3,You (Deadeye),Alley Goblin,Dexterous Shot,37598,1,0,0
-22.05.06.20.37.39.3,You (Deadeye),Goblin Shielder,Dexterous Shot,37379,1,0,0
-22.05.06.20.37.39.6,You (Deadeye),Goblin Shielder,Dexterous Shot,36480,1,0,0
-22.05.06.20.37.39.6,You (Deadeye),Goblin Shielder,Dexterous Shot,12243,0,0,0
-22.05.06.20.37.39.6,You (Deadeye),Alley Goblin,Dexterous Shot,12248,0,0,0
-22.05.06.20.37.39.7,You (Deadeye),Alley Goblin,Bleed,21008,0,0,0
-22.05.06.20.37.39.7,You (Deadeye),Goblin Shielder,Bleed,20769,0,0,0
-22.05.06.20.37.39.7,You (Deadeye),Goblin Shielder,Bleed,41674,0,0,0
-22.05.06.20.37.39.8,You (Deadeye),Alley Goblin,Bleed,42011,0,0,0
-22.05.06.20.37.40.0,You (Deadeye),Alley Goblin,Dexterous Shot,12281,0,0,0
-22.05.06.20.37.40.0,You (Deadeye),Goblin Shielder,Dexterous Shot,36289,1,0,0
-22.05.06.20.37.40.0,You (Deadeye),Alley Goblin,Dexterous Shot,11776,0,0,0
-22.05.06.20.37.40.1,You (Deadeye),Goblin Shielder,Bleed,41164,0,0,0
-22.05.06.20.37.40.3,You (Deadeye),Goblin Shielder,Dexterous Shot,36084,1,0,0
-22.05.06.20.37.40.7,You (Deadeye),Goblin Shielder,Bleed,21365,0,0,0
-22.05.06.20.37.40.7,You (Deadeye),Alley Goblin,Bleed,41156,0,0,0
-22.05.06.20.37.41.7,You (Deadeye),Goblin Shielder,Spiral Tracker,14995,0,0,0
-22.05.06.20.37.41.7,You (Deadeye),Goblin Shielder,Bleed,41508,0,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,95950,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,95737,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Alley Goblin,AT02 Grenade,95896,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,94822,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Alley Goblin,AT02 Grenade,30953,0,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,96020,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Alley Goblin,AT02 Grenade,98123,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,32032,0,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,31532,0,0,0
-22.05.06.20.37.42.8,You (Deadeye),Alley Goblin,AT02 Grenade,97708,1,0,0
-22.05.06.20.37.42.8,You (Deadeye),Goblin Shielder,AT02 Grenade,94488,1,0,0
-22.05.06.20.37.42.9,You (Deadeye),Goblin Shielder,Spiral Tracker,45827,1,0,0
-22.05.06.20.37.43.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,464,0,0,0
-22.05.06.20.37.43.4,You (Deadeye),Alley Goblin,Dexterous Shot,35536,1,0,0
-22.05.06.20.37.43.7,You (Deadeye),Goblin Shielder,Dexterous Shot,11571,0,0,0
-22.05.06.20.37.44.1,You (Deadeye),Goblin Shielder,Dexterous Shot,11811,0,0,0
-22.05.06.20.37.44.1,You (Deadeye),Goblin Shielder,Dexterous Shot,36329,1,0,0
-22.05.06.20.37.44.4,You (Deadeye),Goblin Shielder,Dexterous Shot,36590,1,0,0
-22.05.06.20.37.44.8,You (Deadeye),Alley Goblin,Dexterous Shot,35524,1,0,0
-22.05.06.20.37.46.7,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1322,0,0,0
-22.05.06.20.37.46.9,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,322,0,0,0
-22.05.06.20.37.47.1,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,678,0,0,0
-22.05.06.20.37.47.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,307,0,0,0
-22.05.06.20.37.47.1,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1712,0,0,0
-22.05.06.20.37.47.1,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,658,0,0,0
-22.05.06.20.37.47.1,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,727,0,0,0
-22.05.06.20.37.47.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,473,0,0,0
-22.05.06.20.37.47.5,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,323,0,0,0
-22.05.06.20.37.47.5,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,792,0,0,0
-22.05.06.20.37.47.6,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,627,0,0,0
-22.05.06.20.37.47.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,750,0,0,0
-22.05.06.20.37.47.8,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,512,0,0,0
-22.05.06.20.37.47.9,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,296,0,0,0
-22.05.06.20.37.47.9,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,296,0,0,0
-22.05.06.20.37.48.0,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1705,0,0,0
-22.05.06.20.37.48.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,273,0,0,0
-22.05.06.20.37.48.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,343,0,0,0
-22.05.06.20.37.48.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,339,0,0,0
-22.05.06.20.37.48.3,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,296,0,0,0
-22.05.06.20.37.48.3,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,284,0,0,0
-22.05.06.20.37.48.3,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1333,0,0,0
-22.05.06.20.37.48.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,267,0,0,0
-22.05.06.20.37.48.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,311,0,0,0
-22.05.06.20.37.48.5,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,316,0,0,0
-22.05.06.20.37.48.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,288,0,0,0
-22.05.06.20.37.49.7,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,799,0,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,218448,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,223251,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,215177,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,218214,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,222816,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,219411,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,223052,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,218851,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,218003,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,222320,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,221523,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,222448,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,219360,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,214550,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,220576,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,220694,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,222854,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,217164,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,216531,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,219513,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,221273,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,223449,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,220723,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,215427,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,214828,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,218067,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,214332,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,223529,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,222236,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,223472,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,220937,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,221244,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,216092,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Goblin Shielder,Equilibrium,218457,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,222156,1,0,0
-22.05.06.20.37.49.8,You (Deadeye),Alley Goblin,Equilibrium,222569,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,222054,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,220144,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,214566,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,71193,0,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,217577,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,220646,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Alley Goblin,Equilibrium,217030,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,217462,1,0,0
-22.05.06.20.37.50.0,You (Deadeye),Goblin Shielder,Equilibrium,220006,1,0,0
-22.05.06.20.37.50.4,You (Deadeye),Goblin Shielder,Equilibrium,222195,1,0,0
-22.05.06.20.37.51.9,You (Deadeye),Goblin Shielder,Meteor Stream,889344,1,0,0
-22.05.06.20.37.52.2,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,777,0,0,0
-22.05.06.20.37.58.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,477,0,0,0
-22.05.06.20.37.58.4,You (Deadeye),Goblin Shielder,Spiral Tracker,64104,1,0,0
-22.05.06.20.37.59.4,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1333,0,0,0
-22.05.06.20.37.59.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,313,0,0,0
-22.05.06.20.37.59.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1611,0,0,0
-22.05.06.20.37.59.6,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,416,0,0,0
-22.05.06.20.37.59.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,685,0,0,0
-22.05.06.20.37.59.8,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,430,0,0,0
-22.05.06.20.37.59.8,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1386,0,0,0
-22.05.06.20.37.59.8,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,1672,0,0,0
-22.05.06.20.37.59.8,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1578,0,0,0
-22.05.06.20.37.59.8,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,330,0,0,0
-22.05.06.20.37.59.8,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,406,0,0,0
-22.05.06.20.38.00.0,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,768,0,0,0
-22.05.06.20.38.00.1,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,315,0,0,0
-22.05.06.20.38.00.1,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,771,0,0,0
-22.05.06.20.38.00.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,334,0,0,0
-22.05.06.20.38.00.3,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1539,0,0,0
-22.05.06.20.38.00.3,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,292,0,0,0
-22.05.06.20.38.00.4,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,660,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,312,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1494,0,0,0
-22.05.06.20.38.00.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,447,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,332,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,732,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1424,0,0,0
-22.05.06.20.38.00.6,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,584,0,0,0
-22.05.06.20.38.00.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,400,0,0,0
-22.05.06.20.38.00.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,468,0,0,0
-22.05.06.20.38.00.7,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,280,0,0,0
-22.05.06.20.38.00.8,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,1382,0,0,0
-22.05.06.20.38.00.8,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,461,0,0,0
-22.05.06.20.38.00.9,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,629,0,0,0
-22.05.06.20.38.00.9,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1358,0,0,0
-22.05.06.20.38.00.9,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,268,0,0,0
-22.05.06.20.38.00.9,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,321,0,0,0
-22.05.06.20.38.00.9,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,774,0,0,0
-22.05.06.20.38.01.0,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,1664,0,0,0
-22.05.06.20.38.01.0,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,301,0,0,0
-22.05.06.20.38.01.2,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,320,0,0,0
-22.05.06.20.38.01.2,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,276,0,0,0
-22.05.06.20.38.01.4,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,341,0,0,0
-22.05.06.20.38.01.4,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬2_방패 돌진,328,0,0,0
-22.05.06.20.38.01.4,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,308,0,0,0
-22.05.06.20.38.01.4,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,537,0,0,0
-22.05.06.20.38.02.7,You (Deadeye),Goblin Shielder,Death Fire,53969,1,0,0
-22.05.06.20.38.02.7,You (Deadeye),Goblin Shielder,Death Fire,54102,1,0,0
-22.05.06.20.38.02.7,You (Deadeye),Goblin Shielder,Death Fire,54006,1,0,0
-22.05.06.20.38.02.9,You (Deadeye),Alley Goblin,Death Fire,53724,1,0,0
-22.05.06.20.38.02.9,You (Deadeye),Alley Goblin,Death Fire,52801,1,0,0
-22.05.06.20.38.03.1,You (Deadeye),Goblin Shielder,Death Fire,14891,0,0,0
-22.05.06.20.38.03.1,You (Deadeye),Goblin Shielder,Death Fire,15078,0,0,0
-22.05.06.20.38.03.3,You (Deadeye),Alley Goblin,Death Fire,53515,1,0,0
-22.05.06.20.38.03.3,You (Deadeye),Goblin Shielder,Death Fire,54688,1,0,0
-22.05.06.20.38.03.3,You (Deadeye),Alley Goblin,Death Fire,53992,1,0,0
-22.05.06.20.38.03.4,You (Deadeye),Alley Goblin,Bleed,20405,0,0,0
-22.05.06.20.38.03.4,You (Deadeye),Alley Goblin,Bleed,40520,0,0,0
-22.05.06.20.38.03.5,You (Deadeye),Alley Goblin,Death Fire,15313,0,0,0
-22.05.06.20.38.03.5,You (Deadeye),Goblin Shielder,Death Fire,53688,1,0,0
-22.05.06.20.38.03.5,You (Deadeye),Goblin Shielder,Death Fire,15332,0,0,0
-22.05.06.20.38.03.5,You (Deadeye),Alley Goblin,Death Fire,14952,0,0,0
-22.05.06.20.38.03.5,You (Deadeye),Goblin Shielder,Death Fire,52784,1,0,0
-22.05.06.20.38.03.5,You (Deadeye),Alley Goblin,Death Fire,15073,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Alley Goblin,Bleed,40214,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20845,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20337,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20405,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20149,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Alley Goblin,Bleed,20995,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20706,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20471,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20143,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Alley Goblin,Bleed,20184,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Goblin Shielder,Bleed,20780,0,0,0
-22.05.06.20.38.03.6,You (Deadeye),Alley Goblin,Bleed,41151,0,0,0
-22.05.06.20.38.03.7,You (Deadeye),Alley Goblin,Death Fire,51118,1,0,0
-22.05.06.20.38.03.7,You (Deadeye),Goblin Shielder,Death Fire,14177,0,0,0
-22.05.06.20.38.03.7,You (Deadeye),Alley Goblin,Death Fire,51256,1,0,0
-22.05.06.20.38.03.7,You (Deadeye),Alley Goblin,Death Fire,51139,1,0,0
-22.05.06.20.38.03.7,You (Deadeye),Alley Goblin,Death Fire,14324,0,0,0
-22.05.06.20.38.03.7,You (Deadeye),Goblin Shielder,Death Fire,14299,0,0,0
-22.05.06.20.38.03.8,You (Deadeye),Alley Goblin,Bleed,19338,0,0,0
-22.05.06.20.38.03.8,You (Deadeye),Goblin Shielder,Bleed,19618,0,0,0
-22.05.06.20.38.03.8,You (Deadeye),Goblin Shielder,Bleed,19507,0,0,0
-22.05.06.20.38.03.8,You (Deadeye),Goblin Shielder,Bleed,19367,0,0,0
-22.05.06.20.38.03.8,You (Deadeye),Alley Goblin,Bleed,19354,0,0,0
-22.05.06.20.38.03.9,You (Deadeye),Alley Goblin,Death Fire,50131,1,0,0
-22.05.06.20.38.03.9,You (Deadeye),Goblin Shielder,Death Fire,51625,1,0,0
-22.05.06.20.38.03.9,You (Deadeye),Goblin Shielder,Death Fire,14067,0,0,0
-22.05.06.20.38.04.1,You (Deadeye),Alley Goblin,Death Fire,14206,0,0,0
-22.05.06.20.38.04.1,You (Deadeye),Goblin Shielder,Death Fire,14025,0,0,0
-22.05.06.20.38.04.1,You (Deadeye),Alley Goblin,Death Fire,14457,0,0,0
-22.05.06.20.38.04.1,You (Deadeye),Goblin Shielder,Death Fire,51092,1,0,0
-22.05.06.20.38.04.1,You (Deadeye),Alley Goblin,Death Fire,50940,1,0,0
-22.05.06.20.38.04.3,You (Deadeye),Goblin Shielder,Death Fire,13963,0,0,0
-22.05.06.20.38.04.3,You (Deadeye),Alley Goblin,Death Fire,14068,0,0,0
-22.05.06.20.38.04.3,You (Deadeye),Goblin Shielder,Death Fire,50883,1,0,0
-22.05.06.20.38.04.3,You (Deadeye),Goblin Shielder,Death Fire,14004,0,0,0
-22.05.06.20.38.04.4,You (Deadeye),Alley Goblin,Bleed,19455,0,0,0
-22.05.06.20.38.04.5,You (Deadeye),Goblin Shielder,Death Fire,50464,1,0,0
-22.05.06.20.38.04.5,You (Deadeye),Goblin Shielder,Death Fire,14220,0,0,0
-22.05.06.20.38.04.5,You (Deadeye),Goblin Shielder,Death Fire,14286,0,0,0
-22.05.06.20.38.04.5,You (Deadeye),Goblin Shielder,Death Fire,49758,1,0,0
-22.05.06.20.38.04.7,You (Deadeye),Goblin Shielder,Bleed,19059,0,0,0
-22.05.06.20.38.04.7,You (Deadeye),Goblin Shielder,Bleed,19714,0,0,0
-22.05.06.20.38.04.8,You (Deadeye),Alley Goblin,Bleed,19270,0,0,0
-22.05.06.20.38.04.8,You (Deadeye),Goblin Shielder,Bleed,19596,0,0,0
-22.05.06.20.38.04.8,You (Deadeye),Goblin Shielder,Bleed,39009,0,0,0
-22.05.06.20.38.04.9,You (Deadeye),Goblin Shielder,Death Fire,14478,0,0,0
-22.05.06.20.38.05.8,You (Deadeye),Alley Goblin,Bleed,19433,0,0,0
-22.05.06.20.38.05.8,You (Deadeye),Goblin Shielder,Bleed,19821,0,0,0
-22.05.06.20.38.06.0,You (Deadeye),Alley Goblin,Death Fire,70928,0,0,0
-22.05.06.20.38.06.0,You (Deadeye),Goblin Shielder,Death Fire,71820,0,0,0
-22.05.06.20.38.06.0,You (Deadeye),Alley Goblin,Death Fire,72339,0,0,0
-22.05.06.20.38.06.1,You (Deadeye),Goblin Shielder,Bleed,19625,0,0,0
-22.05.06.20.38.06.3,You (Deadeye),Goblin Shielder,Bleed,39321,0,0,0
-22.05.06.20.38.06.7,You (Deadeye),Goblin Shielder,Death Fire,223190,1,0,0
-22.05.06.20.38.07.1,You (Deadeye),Goblin Shielder,Bleed,39865,0,0,0
-22.05.06.20.38.07.1,You (Deadeye),Goblin Shielder,Bleed,19637,0,0,0
-22.05.06.20.38.07.4,You (Deadeye),Goblin Shielder,Bleed,19908,0,0,0
-22.05.06.20.38.07.6,You (Deadeye),Goblin Shielder,Bleed,20362,0,0,0
-22.05.06.20.38.08.0,You (Deadeye),Goblin Shielder,Bleed,20478,0,0,0
-22.05.06.20.38.08.0,You (Deadeye),Goblin Shielder,Bleed,19904,0,0,0
-22.05.06.20.38.08.5,You (Deadeye),Goblin Shielder,Bleed,19654,0,0,0
-22.05.06.20.38.08.6,You (Deadeye),Goblin Shielder,Bleed,20121,0,0,0
-22.05.06.20.38.09.1,You (Deadeye),Goblin Shielder,Bleed,19875,0,0,0
-22.05.06.20.38.09.4,You (Deadeye),Goblin Shielder,Bleed,20027,0,0,0
-22.05.06.20.38.09.6,You (Deadeye),Goblin Shielder,Bleed,20201,0,0,0
-22.05.06.20.38.10.6,You (Deadeye),Goblin Shielder,Bleed,19918,0,0,0
-22.05.06.20.38.11.6,You (Deadeye),Goblin Shielder,Bleed,20078,0,0,0
-22.05.06.20.38.14.6,Alley Goblin,You (Deadeye),도둑 고블린_스킬2_단검 찌르기 돌진,428,0,0,0
-22.05.06.20.38.14.8,Goblin Shielder,You (Deadeye),고블린 방패병 평민_스킬1_휘두르고 방패치기,403,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,867451,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,274816,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,279547,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,284424,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,285131,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,285144,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,279176,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,852342,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,281403,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,275964,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,275297,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,857699,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,856332,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,284305,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,275748,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,844526,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,279670,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,283520,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,285961,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,275771,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,284576,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,275185,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,276070,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,283216,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,281790,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,858368,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,274756,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,280097,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,838350,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,862195,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,281136,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,870376,1,0,0
-22.05.06.20.38.15.4,You (Deadeye),Goblin Shielder,Meteor Stream,280750,0,0,0
-22.05.06.20.38.15.4,You (Deadeye),Alley Goblin,Meteor Stream,280024,0,0,0
-22.05.06.20.38.17.2,You (Deadeye),Goblin Shielder,Spiral Tracker,14465,0,0,0
-22.05.06.20.38.17.4,You (Deadeye),Alley Goblin,Spiral Tracker,63948,1,0,0
-22.05.06.20.38.17.8,You (Deadeye),Goblin Shielder,Dexterous Shot,36372,1,0,0
-22.05.06.20.38.17.8,You (Deadeye),Alley Goblin,Dexterous Shot,36734,1,0,0
-22.05.06.20.38.18.5,You (Deadeye),Alley Goblin,Dexterous Shot,35707,1,0,0
-22.05.06.20.38.18.7,You (Deadeye),Goblin Shielder,Dexterous Shot,36593,1,0,0
-22.05.06.20.38.22.2,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,328,0,0,0
-22.05.06.20.38.23.8,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,611,0,0,0
-22.05.06.20.38.24.0,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1366,0,0,0
-22.05.06.20.38.24.2,Goblin Shielder,You (Deadeye),고블린 방패병_휘두르고 방패치기,582,0,0,0
-22.05.06.20.38.24.2,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,304,0,0,0
-22.05.06.20.38.24.4,Alley Goblin,You (Deadeye),도둑 고블린_스킬1_단검 연속 휘두르기,300,0,0,0
-22.05.06.20.38.24.4,Goblin Shielder,You (Deadeye),고블린 방패병_방패 돌진,1620,0,0,0
+22.05.07.15.23.08.0,Anonymous1 (Sorceress),Cactus of the Plains,Rime Arrow,52856,0,0,0
+22.05.07.15.23.08.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,106819,1,0,0
+22.05.07.15.23.08.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,52418,0,0,0
+22.05.07.15.23.08.4,Anonymous1 (Sorceress),Cactus of the Plains,Rime Arrow,51959,0,0,0
+22.05.07.15.23.08.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,105090,1,0,0
+22.05.07.15.23.08.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,52015,0,0,0
+22.05.07.15.23.08.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,107346,1,0,0
+22.05.07.15.23.08.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,51626,0,0,0
+22.05.07.15.23.08.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,51501,0,0,0
+22.05.07.15.23.09.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,51904,0,0,0
+22.05.07.15.23.09.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,53228,0,0,0
+22.05.07.15.23.09.1,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,85499,0,0,0
+22.05.07.15.23.09.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,125704,1,0,0
+22.05.07.15.23.09.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12478,0,0,0
+22.05.07.15.23.09.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,61955,0,0,0
+22.05.07.15.23.10.4,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,8534,0,0,0
+22.05.07.15.23.10.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,56236,0,0,0
+22.05.07.15.23.10.7,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,30162,0,0,0
+22.05.07.15.23.10.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28250,1,0,0
+22.05.07.15.23.10.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,134788,0,0,0
+22.05.07.15.23.11.1,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,131101,0,0,0
+22.05.07.15.23.11.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31391,0,0,0
+22.05.07.15.23.11.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30346,0,0,0
+22.05.07.15.23.11.6,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,133378,0,0,0
+22.05.07.15.23.12.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63432,0,0,0
+22.05.07.15.23.12.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28912,0,0,0
+22.05.07.15.23.12.8,Anonymous1 (Sorceress),Saltbug of the Plains,Blaze,24289,1,0,0
+22.05.07.15.23.13.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,32127,0,0,0
+22.05.07.15.23.13.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29572,0,0,0
+22.05.07.15.23.13.9,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,370246,0,1,0
+22.05.07.15.23.13.9,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,813453,0,0,0
+22.05.07.15.23.14.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14752,0,0,0
+22.05.07.15.23.14.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,142777,1,0,0
+22.05.07.15.23.14.3,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,684951,1,1,0
+22.05.07.15.23.14.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30022,0,0,0
+22.05.07.15.23.14.7,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,682368,0,1,0
+22.05.07.15.23.14.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,29289,1,0,0
+22.05.07.15.23.15.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31135,0,0,0
+22.05.07.15.23.15.2,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,135987,0,0,0
+22.05.07.15.23.15.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28988,0,0,0
+22.05.07.15.23.15.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,12590,0,1,0
+22.05.07.15.23.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63928,0,0,0
+22.05.07.15.23.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14502,0,0,0
+22.05.07.15.23.16.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,34729,1,1,0
+22.05.07.15.23.16.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28886,0,0,0
+22.05.07.15.23.16.6,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,198869,0,0,0
+22.05.07.15.23.16.7,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,13226,0,1,0
+22.05.07.15.23.16.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,18454,0,1,0
+22.05.07.15.23.16.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,12702,0,1,0
+22.05.07.15.23.16.9,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,176586,1,1,0
+22.05.07.15.23.16.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14542,0,0,0
+22.05.07.15.23.17.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,83090,0,1,0
+22.05.07.15.23.17.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,57782,0,0,0
+22.05.07.15.23.17.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,67018,0,0,0
+22.05.07.15.23.17.1,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,204648,1,0,0
+22.05.07.15.23.17.5,Anonymous3 (Berserker),Night Fox Yoho,Chain of Vengeance,212829,1,0,0
+22.05.07.15.23.17.8,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,21717,0,1,0
+22.05.07.15.23.18.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24236,0,0,0
+22.05.07.15.23.18.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,10996,0,0,0
+22.05.07.15.23.18.1,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,46583,1,1,0
+22.05.07.15.23.18.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,21997,0,1,0
+22.05.07.15.23.18.4,Anonymous1 (Sorceress),밤의 환영,Explosion,2128135,1,0,0
+22.05.07.15.23.18.4,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,2300524,1,0,0
+22.05.07.15.23.18.4,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,22215,0,1,0
+22.05.07.15.23.18.5,Anonymous3 (Berserker),Night Fox Yoho,Chain of Vengeance,936237,0,0,0
+22.05.07.15.23.18.6,Anonymous2 (Paladin),Night Fox Yoho,Alithanes's Judgment,1133968,0,0,0
+22.05.07.15.23.18.7,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,37900,0,1,0
+22.05.07.15.23.18.9,Anonymous3 (Berserker),밤의 환영,Chain of Vengeance,2546321,0,0,0
+22.05.07.15.23.18.9,Anonymous3 (Berserker),Night Fox Yoho,Chain of Vengeance,3189554,0,0,0
+22.05.07.15.23.19.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,48210,0,0,0
+22.05.07.15.23.19.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 좌측 휘두르기,0,0,0,0
+22.05.07.15.23.20.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,23271,0,0,0
+22.05.07.15.23.20.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,45046,0,0,0
+22.05.07.15.23.20.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,45012,0,0,0
+22.05.07.15.23.20.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,114494,1,0,0
+22.05.07.15.23.20.6,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,36960,0,0,0
+22.05.07.15.23.20.8,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,24825,0,0,0
+22.05.07.15.23.21.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26404,0,0,0
+22.05.07.15.23.21.1,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,335025,1,0,0
+22.05.07.15.23.21.1,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,59822,0,0,0
+22.05.07.15.23.21.3,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,149824,1,0,0
+22.05.07.15.23.21.4,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,3354984,1,0,0
+22.05.07.15.23.21.5,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,143453,1,0,0
+22.05.07.15.23.21.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23925,0,0,0
+22.05.07.15.23.21.8,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,2120919,1,0,0
+22.05.07.15.23.22.0,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,229702,0,0,0
+22.05.07.15.23.22.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26658,0,0,0
+22.05.07.15.23.22.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24762,0,0,0
+22.05.07.15.23.22.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,24058,0,0,0
+22.05.07.15.23.22.9,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,414758,1,0,0
+22.05.07.15.23.23.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,51816,0,0,0
+22.05.07.15.23.23.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,23598,1,0,0
+22.05.07.15.23.23.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,60498,0,0,0
+22.05.07.15.23.23.3,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19980,0,0,0
+22.05.07.15.23.23.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,49052,0,0,0
+22.05.07.15.23.23.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,49218,0,0,0
+22.05.07.15.23.23.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,35787,0,0,0
+22.05.07.15.23.24.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,52168,0,0,0
+22.05.07.15.23.24.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,48789,0,0,0
+22.05.07.15.23.24.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,49706,0,0,0
+22.05.07.15.23.24.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,72036,1,0,0
+22.05.07.15.23.25.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26007,0,0,0
+22.05.07.15.23.25.2,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,161049,0,0,0
+22.05.07.15.23.25.3,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,52999,1,0,0
+22.05.07.15.23.25.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23821,0,0,0
+22.05.07.15.23.25.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,48521,0,0,0
+22.05.07.15.23.25.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,73824,1,0,0
+22.05.07.15.23.26.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,51703,0,0,0
+22.05.07.15.23.26.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,159404,1,0,0
+22.05.07.15.23.26.2,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,94332,0,0,0
+22.05.07.15.23.26.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,85419,1,0,0
+22.05.07.15.23.26.3,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,104937,1,0,0
+22.05.07.15.23.26.3,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,494743,0,0,0
+22.05.07.15.23.26.3,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,176470,1,0,0
+22.05.07.15.23.26.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24041,0,0,0
+22.05.07.15.23.26.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,24911,0,0,0
+22.05.07.15.23.26.5,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,214491,1,0,0
+22.05.07.15.23.26.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_환영 휘두르기,0,0,0,0
+22.05.07.15.23.26.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_환영 휘두르기,0,0,0,0
+22.05.07.15.23.26.7,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 휘두르기,0,0,0,0
+22.05.07.15.23.27.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,48390,0,0,0
+22.05.07.15.23.27.4,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,19489,0,0,0
+22.05.07.15.23.27.6,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,16070,1,0,0
+22.05.07.15.23.27.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,24068,1,0,0
+22.05.07.15.23.27.9,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,41259,1,0,0
+22.05.07.15.23.28.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,58003,0,0,0
+22.05.07.15.23.28.2,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,51149,1,0,0
+22.05.07.15.23.28.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7920,0,0,0
+22.05.07.15.23.28.4,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,30743,0,0,0
+22.05.07.15.23.28.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,23998,1,0,0
+22.05.07.15.23.28.5,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,68015,1,0,0
+22.05.07.15.23.29.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,32022,0,0,0
+22.05.07.15.23.29.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29631,0,0,0
+22.05.07.15.23.30.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,58444,0,0,0
+22.05.07.15.23.30.0,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,140914,0,0,0
+22.05.07.15.23.30.3,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,104991,1,0,0
+22.05.07.15.23.30.3,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,1618575,1,0,0
+22.05.07.15.23.30.4,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,84587,1,0,0
+22.05.07.15.23.30.4,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1358566,1,0,0
+22.05.07.15.23.30.6,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,108391,1,0,0
+22.05.07.15.23.30.8,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,139650,1,0,0
+22.05.07.15.23.30.8,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1389653,1,0,0
+22.05.07.15.23.31.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29450,0,0,0
+22.05.07.15.23.31.0,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,12238,0,1,0
+22.05.07.15.23.31.2,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_스핀,14085,0,0,0
+22.05.07.15.23.31.2,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_스핀,10999,0,0,0
+22.05.07.15.23.31.2,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_스핀,12835,0,0,0
+22.05.07.15.23.31.2,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_스핀,11609,0,0,0
+22.05.07.15.23.31.3,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,560676,0,0,0
+22.05.07.15.23.31.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,74393,0,0,0
+22.05.07.15.23.31.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,150948,1,0,0
+22.05.07.15.23.31.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,141321,1,0,0
+22.05.07.15.23.31.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,140808,1,0,0
+22.05.07.15.23.31.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,69251,0,0,0
+22.05.07.15.23.31.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,141139,1,0,0
+22.05.07.15.23.32.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27264,0,0,0
+22.05.07.15.23.32.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,70070,0,0,0
+22.05.07.15.23.32.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,68359,0,0,0
+22.05.07.15.23.32.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,68380,0,0,0
+22.05.07.15.23.32.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,69847,0,0,0
+22.05.07.15.23.32.5,Anonymous4 (Glavier),Night Fox Yoho,Vault,178412,1,0,1
+22.05.07.15.23.32.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13763,0,0,0
+22.05.07.15.23.32.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,67215,0,0,0
+22.05.07.15.23.33.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29277,0,0,0
+22.05.07.15.23.33.2,Anonymous4 (Glavier),Night Fox Yoho,Wheel of Blades,39890,0,0,1
+22.05.07.15.23.33.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,11444,0,0,0
+22.05.07.15.23.33.4,Anonymous4 (Glavier),Night Fox Yoho,Wheel of Blades,39966,0,0,1
+22.05.07.15.23.33.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31863,0,0,0
+22.05.07.15.23.33.5,Anonymous4 (Glavier),Night Fox Yoho,Wheel of Blades,83358,1,0,1
+22.05.07.15.23.33.7,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,269704,1,0,0
+22.05.07.15.23.33.7,Anonymous4 (Glavier),Night Fox Yoho,Wheel of Blades,109544,1,0,1
+22.05.07.15.23.33.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14748,0,0,0
+22.05.07.15.23.33.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,32697,1,0,0
+22.05.07.15.23.33.8,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,267715,1,0,0
+22.05.07.15.23.34.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29697,0,0,0
+22.05.07.15.23.34.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31845,0,0,0
+22.05.07.15.23.35.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,23780,0,0,0
+22.05.07.15.23.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26928,0,0,0
+22.05.07.15.23.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,53488,0,0,0
+22.05.07.15.23.37.5,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,60003,0,0,0
+22.05.07.15.23.37.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,60556,0,0,0
+22.05.07.15.23.37.9,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,119386,1,0,0
+22.05.07.15.23.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26608,0,0,0
+22.05.07.15.23.38.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,14893,1,0,0
+22.05.07.15.23.38.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11356,0,0,0
+22.05.07.15.23.39.8,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17989,0,0,0
+22.05.07.15.23.39.9,Anonymous3 (Berserker),Night Fox Yoho,Shoulder Charge,26596,1,1,0
+22.05.07.15.23.40.0,Anonymous3 (Berserker),Night Fox Yoho,Shoulder Charge,17162,0,1,0
+22.05.07.15.23.40.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12290,0,0,0
+22.05.07.15.23.40.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,122029,1,0,0
+22.05.07.15.23.40.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17862,0,0,0
+22.05.07.15.23.40.5,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,1151435,1,1,0
+22.05.07.15.23.40.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18177,0,0,0
+22.05.07.15.23.40.7,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,10866,0,1,0
+22.05.07.15.23.40.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7719,0,0,0
+22.05.07.15.23.40.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17971,0,0,0
+22.05.07.15.23.40.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12468,0,0,0
+22.05.07.15.23.40.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11426,0,0,0
+22.05.07.15.23.41.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,53685,0,0,0
+22.05.07.15.23.41.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,23383,1,1,0
+22.05.07.15.23.41.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18007,0,0,0
+22.05.07.15.23.41.3,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_꼬리 좌측 휘두르기,8064,0,0,0
+22.05.07.15.23.41.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7610,0,0,0
+22.05.07.15.23.41.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,22658,1,0,0
+22.05.07.15.23.41.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12358,0,0,0
+22.05.07.15.23.42.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,10376,0,0,0
+22.05.07.15.23.42.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26633,0,0,0
+22.05.07.15.23.42.6,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,92133,0,0,0
+22.05.07.15.23.42.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,13532,0,0,0
+22.05.07.15.23.42.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,15106,0,0,0
+22.05.07.15.23.43.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,18435,0,0,0
+22.05.07.15.23.43.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,64116,0,0,0
+22.05.07.15.23.43.6,Anonymous3 (Berserker),Night Fox Yoho,Burst,275818,1,0,0
+22.05.07.15.23.43.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,30245,1,0,0
+22.05.07.15.23.44.1,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,208760,0,1,0
+22.05.07.15.23.44.2,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,1598017,0,0,0
+22.05.07.15.23.44.4,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,30919,0,0,0
+22.05.07.15.23.44.4,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,421379,1,1,0
+22.05.07.15.23.44.5,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,130037,0,1,0
+22.05.07.15.23.44.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31981,0,0,0
+22.05.07.15.23.44.5,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,416059,0,0,0
+22.05.07.15.23.44.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,412714,1,1,0
+22.05.07.15.23.44.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,466870,1,1,0
+22.05.07.15.23.44.8,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,992967,1,0,0
+22.05.07.15.23.45.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30167,0,0,0
+22.05.07.15.23.45.1,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,1226013,1,0,0
+22.05.07.15.23.45.3,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,47795,0,1,0
+22.05.07.15.23.45.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,35635,0,0,0
+22.05.07.15.23.45.5,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,47165,0,1,0
+22.05.07.15.23.45.7,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,46380,0,1,0
+22.05.07.15.23.45.7,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,3217247,1,1,0
+22.05.07.15.23.45.9,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,646861,0,1,0
+22.05.07.15.23.45.9,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,47709,0,1,0
+22.05.07.15.23.46.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29054,0,0,0
+22.05.07.15.23.46.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,82816,0,1,0
+22.05.07.15.23.46.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,36140,0,0,0
+22.05.07.15.23.46.8,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,1451848,0,0,0
+22.05.07.15.23.46.8,Anonymous4 (Glavier),Night Fox Yoho,Spiraling Spear,72288,0,1,0
+22.05.07.15.23.47.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29729,0,0,0
+22.05.07.15.23.47.5,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,138,0,0,1
+22.05.07.15.23.47.6,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,1419,0,1,0
+22.05.07.15.23.47.9,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,672,0,0,1
+22.05.07.15.23.47.9,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,219559,0,0,0
+22.05.07.15.23.47.9,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,4914,1,0,0
+22.05.07.15.23.48.1,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,681,0,0,1
+22.05.07.15.23.48.3,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,681,0,0,1
+22.05.07.15.23.48.3,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,4370,1,0,0
+22.05.07.15.23.48.5,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,771,1,1,0
+22.05.07.15.23.48.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,1236,0,0,0
+22.05.07.15.23.48.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,409,0,0,0
+22.05.07.15.23.48.7,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,446,1,1,0
+22.05.07.15.23.48.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,501,1,1,0
+22.05.07.15.23.48.8,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,7775,0,0,0
+22.05.07.15.23.49.0,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,550,1,1,0
+22.05.07.15.23.49.0,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,76995,1,0,0
+22.05.07.15.23.49.1,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,611,1,1,0
+22.05.07.15.23.49.2,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,642,1,1,0
+22.05.07.15.23.49.3,밤의 환영,Anonymous4 (Glavier),요호_백덤블링 여우불,0,0,0,0
+22.05.07.15.23.49.3,밤의 환영,Anonymous3 (Berserker),요호_백덤블링 여우불,0,0,0,0
+22.05.07.15.23.49.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,666,1,1,0
+22.05.07.15.23.49.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,998,0,0,0
+22.05.07.15.23.49.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,412,0,0,0
+22.05.07.15.23.49.5,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,1359,0,0,0
+22.05.07.15.23.49.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,21430,1,1,0
+22.05.07.15.23.49.8,밤의 환영,Anonymous2 (Paladin),요호_여우불 발사,0,0,0,0
+22.05.07.15.23.50.0,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,3750,1,0,0
+22.05.07.15.23.50.0,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,74568,1,0,0
+22.05.07.15.23.50.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,280,1,0,0
+22.05.07.15.23.50.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,1379,1,0,0
+22.05.07.15.23.50.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,24400,1,1,0
+22.05.07.15.23.50.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,1065,0,0,0
+22.05.07.15.23.50.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,440,0,0,0
+22.05.07.15.23.50.6,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,7056,1,1,0
+22.05.07.15.23.50.6,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,6852,1,1,0
+22.05.07.15.23.50.7,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,6880,1,1,0
+22.05.07.15.23.51.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,518,0,0,0
+22.05.07.15.23.51.1,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,544,1,0,0
+22.05.07.15.23.51.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,268,1,0,0
+22.05.07.15.23.51.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,2030,1,1,0
+22.05.07.15.23.51.4,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,2019,1,1,0
+22.05.07.15.23.51.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,959,0,0,0
+22.05.07.15.23.51.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,820,0,0,0
+22.05.07.15.23.51.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,2040,1,1,0
+22.05.07.15.23.51.6,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,2008,1,1,0
+22.05.07.15.23.51.6,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,2293,1,1,0
+22.05.07.15.23.51.9,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,2292,1,1,0
+22.05.07.15.23.52.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,585,0,0,0
+22.05.07.15.23.52.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,268,0,0,0
+22.05.07.15.23.52.1,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,2250,1,1,0
+22.05.07.15.23.52.2,Anonymous1 (Sorceress),밤의 환영,Blaze,20172,1,0,0
+22.05.07.15.23.52.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,269,1,0,0
+22.05.07.15.23.52.4,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,1159,1,1,0
+22.05.07.15.23.52.5,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,651,0,0,0
+22.05.07.15.23.52.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,106663,0,0,0
+22.05.07.15.23.52.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,83130,0,0,0
+22.05.07.15.23.52.6,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,966277,1,0,0
+22.05.07.15.23.52.6,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,157126,1,0,0
+22.05.07.15.23.52.7,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,231466,1,0,0
+22.05.07.15.23.52.9,Anonymous1 (Sorceress),밤의 환영,Bleed,48236,0,0,0
+22.05.07.15.23.53.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,57715,0,0,0
+22.05.07.15.23.53.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,26926,0,0,0
+22.05.07.15.23.53.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,26601,1,0,0
+22.05.07.15.23.53.3,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1853577,1,0,0
+22.05.07.15.23.53.5,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,36125,1,0,0
+22.05.07.15.23.53.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,104508,0,0,0
+22.05.07.15.23.53.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,27383,0,0,0
+22.05.07.15.23.53.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,36857,1,0,0
+22.05.07.15.23.53.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,17557,0,0,0
+22.05.07.15.23.53.7,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,27859,0,0,0
+22.05.07.15.23.53.8,밤의 환영,Anonymous1 (Sorceress),요호_백덤블링 여우불,0,0,0,0
+22.05.07.15.23.53.9,Anonymous1 (Sorceress),밤의 환영,Bleed,59290,0,0,0
+22.05.07.15.23.54.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,64209,0,0,0
+22.05.07.15.23.54.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24802,0,0,0
+22.05.07.15.23.54.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,61559,1,0,0
+22.05.07.15.23.54.3,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19682,0,0,0
+22.05.07.15.23.54.4,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,21129,0,0,0
+22.05.07.15.23.54.5,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,10549819,1,0,0
+22.05.07.15.23.54.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,30086,0,0,0
+22.05.07.15.23.54.7,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19531,0,0,0
+22.05.07.15.23.54.9,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,17507,0,0,0
+22.05.07.15.23.54.9,Anonymous1 (Sorceress),밤의 환영,Bleed,59564,0,0,0
+22.05.07.15.23.55.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,64663,0,0,0
+22.05.07.15.23.55.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23800,0,0,0
+22.05.07.15.23.55.0,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19850,0,0,0
+22.05.07.15.23.55.3,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_환영 휘두르기(4방향),0,0,0,0
+22.05.07.15.23.55.3,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_환영 휘두르기(4방향),0,0,0,0
+22.05.07.15.23.55.3,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 휘두르기(4방향),9366,0,0,0
+22.05.07.15.23.55.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19747,0,0,0
+22.05.07.15.23.55.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,127387,0,0,0
+22.05.07.15.23.55.6,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,1473593,1,0,0
+22.05.07.15.23.55.7,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19575,0,0,0
+22.05.07.15.23.55.9,Anonymous1 (Sorceress),밤의 환영,Bleed,24086,0,0,0
+22.05.07.15.23.56.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,66192,0,0,0
+22.05.07.15.23.56.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23984,0,0,0
+22.05.07.15.23.56.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,318608,1,0,0
+22.05.07.15.23.56.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,125253,0,0,0
+22.05.07.15.23.56.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,50724,0,0,0
+22.05.07.15.23.56.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,124120,0,0,0
+22.05.07.15.23.56.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,316473,1,0,0
+22.05.07.15.23.56.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,321095,1,0,0
+22.05.07.15.23.56.9,Anonymous1 (Sorceress),밤의 환영,Bleed,58910,0,0,0
+22.05.07.15.23.57.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25799,0,0,0
+22.05.07.15.23.57.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24101,0,0,0
+22.05.07.15.23.57.0,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,62915,1,1,0
+22.05.07.15.23.57.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,315498,1,0,0
+22.05.07.15.23.57.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,568459,1,0,0
+22.05.07.15.23.57.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,314487,1,0,0
+22.05.07.15.23.57.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,227792,0,0,0
+22.05.07.15.23.57.3,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,89278,1,0,0
+22.05.07.15.23.57.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,310140,1,0,0
+22.05.07.15.23.57.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,80913,1,1,0
+22.05.07.15.23.57.4,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,40812,0,0,0
+22.05.07.15.23.57.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,323757,1,0,0
+22.05.07.15.23.57.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,45481,0,0,0
+22.05.07.15.23.57.6,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,78294,1,0,0
+22.05.07.15.23.57.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,287215,1,0,0
+22.05.07.15.23.57.7,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,86298,1,1,0
+22.05.07.15.23.57.8,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,102597,1,0,0
+22.05.07.15.23.57.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,507328,1,0,0
+22.05.07.15.23.57.9,Anonymous1 (Sorceress),밤의 환영,Bleed,23715,0,0,0
+22.05.07.15.23.58.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,59552,0,0,0
+22.05.07.15.23.58.0,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,24912,0,0,0
+22.05.07.15.23.58.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,64206,1,1,0
+22.05.07.15.23.58.4,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,833233,1,0,0
+22.05.07.15.23.58.4,Anonymous1 (Sorceress),밤의 환영,Enviska's Might,754420,1,0,0
+22.05.07.15.23.58.4,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,69778,1,1,0
+22.05.07.15.23.58.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,124742,0,0,0
+22.05.07.15.23.58.6,Anonymous4 (Glavier),Night Fox Yoho,Vault,131742,1,0,0
+22.05.07.15.23.58.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,185567,1,1,0
+22.05.07.15.23.58.8,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,187847,1,1,0
+22.05.07.15.23.58.9,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,340727,0,0,0
+22.05.07.15.23.58.9,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,57483,0,0,0
+22.05.07.15.23.59.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,64033,0,0,0
+22.05.07.15.23.59.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24395,0,0,0
+22.05.07.15.23.59.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,1845996,1,0,0
+22.05.07.15.23.59.1,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,858029,1,0,0
+22.05.07.15.23.59.3,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,853011,1,0,0
+22.05.07.15.23.59.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,125350,0,0,0
+22.05.07.15.23.59.5,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,838206,1,0,0
+22.05.07.15.23.59.7,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,558606,1,0,0
+22.05.07.15.23.59.9,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,572269,1,0,0
+22.05.07.15.24.00.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24286,0,0,0
+22.05.07.15.24.00.1,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,221575,0,0,0
+22.05.07.15.24.00.2,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,92898,0,0,0
+22.05.07.15.24.01.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24115,0,0,0
+22.05.07.15.24.01.2,Anonymous1 (Sorceress),Night Fox Yoho,Enviska's Might,3033650,1,0,0
+22.05.07.15.24.02.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29716,0,0,0
+22.05.07.15.24.02.0,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_후방 점프찍기,8702,0,0,0
+22.05.07.15.24.03.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28010,0,0,0
+22.05.07.15.24.03.5,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,9039169,1,0,0
+22.05.07.15.24.03.5,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,131225,0,0,0
+22.05.07.15.24.03.6,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,408720,0,0,0
+22.05.07.15.24.04.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28089,0,0,0
+22.05.07.15.24.04.0,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1261893,1,0,0
+22.05.07.15.24.04.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,57349,1,1,0
+22.05.07.15.24.04.3,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,2021495,1,1,0
+22.05.07.15.24.04.4,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,30894,0,1,0
+22.05.07.15.24.04.4,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1550564,1,0,0
+22.05.07.15.24.04.6,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,27795,0,0,0
+22.05.07.15.24.04.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,112117,1,1,0
+22.05.07.15.24.05.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,83074,1,1,0
+22.05.07.15.24.05.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,82783,1,1,0
+22.05.07.15.24.05.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27640,0,0,0
+22.05.07.15.24.06.0,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,1295445,1,1,0
+22.05.07.15.24.06.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,171655,1,1,0
+22.05.07.15.24.06.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27328,0,0,0
+22.05.07.15.24.06.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28728,0,0,0
+22.05.07.15.24.06.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,139239,0,0,0
+22.05.07.15.24.07.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30210,0,0,0
+22.05.07.15.24.07.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,77628,0,0,0
+22.05.07.15.24.07.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,29707,0,0,0
+22.05.07.15.24.07.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,72248,1,0,0
+22.05.07.15.24.08.3,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,0,1,0,0
+22.05.07.15.24.08.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.24.08.7,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.08.8,Anonymous3 (Berserker),밤의 환영,Wind Blade,42690,0,0,0
+22.05.07.15.24.08.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.24.08.8,Anonymous4 (Glavier),밤의 환영,Thrust of Destruction,13970,0,0,0
+22.05.07.15.24.08.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.08.9,Anonymous2 (Paladin),밤의 환영,Wrath of God,105160,0,0,0
+22.05.07.15.24.08.9,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,0,1,0,0
+22.05.07.15.24.08.9,Anonymous4 (Glavier),밤의 환영,Thrust of Destruction,91648,0,0,0
+22.05.07.15.24.08.9,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.08.9,Anonymous3 (Berserker),밤의 환영,Wind Blade,43047,0,0,0
+22.05.07.15.24.08.9,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.24.09.0,Anonymous4 (Glavier),밤의 환영,Thrust of Destruction,89585,0,0,0
+22.05.07.15.24.09.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.09.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.24.09.1,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.09.1,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,0,1,0,0
+22.05.07.15.24.09.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.24.09.4,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,254126,0,0,0
+22.05.07.15.24.09.4,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,0,1,0,0
+22.05.07.15.24.09.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.24.09.8,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,0,1,0,0
+22.05.07.15.24.10.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.10.0,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,0,1,0,0
+22.05.07.15.24.10.2,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.10.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,0,1,0,0
+22.05.07.15.24.10.3,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,38624,0,0,0
+22.05.07.15.24.10.4,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,0,1,0,0
+22.05.07.15.24.10.5,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,0,1,0,0
+22.05.07.15.24.10.6,Anonymous1 (Sorceress),밤의 환영,Blaze,12597,0,0,0
+22.05.07.15.24.10.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.24.10.7,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,0,1,0,0
+22.05.07.15.24.10.9,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,0,1,0,0
+22.05.07.15.24.11.3,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,40963,0,0,0
+22.05.07.15.24.11.9,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,0,1,0,0
+22.05.07.15.24.14.1,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,0,1,0,0
+22.05.07.15.24.14.2,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,0,1,0,0
+22.05.07.15.24.14.3,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,0,1,0,0
+22.05.07.15.24.14.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.14.9,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.15.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.15.5,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.15.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.15.7,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.16.0,Anonymous4 (Glavier),Night Fox Yoho,긴 창_평타,0,1,0,0
+22.05.07.15.24.16.3,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,0,1,0,0
+22.05.07.15.24.16.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,0,1,0,0
+22.05.07.15.24.16.5,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,0,1,0,0
+22.05.07.15.24.16.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,0,1,0,0
+22.05.07.15.24.17.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.17.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.17.2,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.24.17.4,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.17.6,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.17.9,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.18.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.18.1,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.18.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.24.18.9,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,0,1,0,0
+22.05.07.15.24.19.1,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,0,1,0,0
+22.05.07.15.24.19.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,10080,0,0,0
+22.05.07.15.24.19.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,50948,0,0,0
+22.05.07.15.24.19.6,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,33826,1,0,0
+22.05.07.15.24.19.8,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,101438,0,0,0
+22.05.07.15.24.20.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26079,0,0,0
+22.05.07.15.24.20.0,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,112746,0,0,0
+22.05.07.15.24.20.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,97594,0,0,0
+22.05.07.15.24.21.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26420,0,0,0
+22.05.07.15.24.21.4,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,485562,1,0,0
+22.05.07.15.24.21.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,94068,0,0,0
+22.05.07.15.24.21.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,220221,1,0,0
+22.05.07.15.24.21.9,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,308727,0,0,0
+22.05.07.15.24.22.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26223,0,0,0
+22.05.07.15.24.22.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,111713,0,0,0
+22.05.07.15.24.22.2,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,310386,0,0,0
+22.05.07.15.24.22.4,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,932401,1,0,0
+22.05.07.15.24.22.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,98367,0,0,0
+22.05.07.15.24.22.5,Anonymous4 (Glavier),Night Fox Yoho,Vault,159819,1,0,1
+22.05.07.15.24.22.6,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,109070,0,0,0
+22.05.07.15.24.23.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26204,0,0,0
+22.05.07.15.24.23.1,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,38520,0,0,1
+22.05.07.15.24.23.1,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,2278428,1,0,0
+22.05.07.15.24.23.2,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,1354206,1,0,0
+22.05.07.15.24.23.4,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.23.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.23.5,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,59485,0,0,1
+22.05.07.15.24.23.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,78268,0,0,0
+22.05.07.15.24.23.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,360362,0,0,0
+22.05.07.15.24.24.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,53096,0,0,0
+22.05.07.15.24.24.1,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,96250,0,0,1
+22.05.07.15.24.24.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_후방 여우불 투하,5011,0,0,0
+22.05.07.15.24.24.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.24.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,96984,0,0,0
+22.05.07.15.24.25.0,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,150868,1,0,0
+22.05.07.15.24.25.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26636,0,0,0
+22.05.07.15.24.25.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11908,0,0,0
+22.05.07.15.24.25.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,59920,0,0,0
+22.05.07.15.24.25.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,149772,1,0,0
+22.05.07.15.24.25.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,149598,1,0,0
+22.05.07.15.24.25.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,39934,0,0,0
+22.05.07.15.24.25.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.25.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,98139,0,0,0
+22.05.07.15.24.25.5,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,27837,0,0,0
+22.05.07.15.24.25.8,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,51284,0,0,0
+22.05.07.15.24.25.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13129,0,0,0
+22.05.07.15.24.25.9,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,1874774,0,0,0
+22.05.07.15.24.25.9,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,197435,1,0,0
+22.05.07.15.24.26.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,52204,0,0,0
+22.05.07.15.24.26.1,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,58769,0,0,0
+22.05.07.15.24.26.3,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_육탄 돌진(강),7408,0,0,0
+22.05.07.15.24.26.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.26.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24548,0,0,0
+22.05.07.15.24.27.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25581,0,0,0
+22.05.07.15.24.27.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,24070,0,0,0
+22.05.07.15.24.27.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.27.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_후방 여우불 투하,5469,0,0,0
+22.05.07.15.24.27.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.27.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_후방 여우불 투하,0,0,0,0
+22.05.07.15.24.27.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24930,0,0,0
+22.05.07.15.24.28.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26571,0,0,0
+22.05.07.15.24.28.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,48522,0,0,0
+22.05.07.15.24.28.1,Anonymous3 (Berserker),Night Fox Yoho,Shoulder Charge,15554,1,0,0
+22.05.07.15.24.28.2,Anonymous3 (Berserker),Night Fox Yoho,Shoulder Charge,29123,1,0,0
+22.05.07.15.24.28.2,Anonymous3 (Berserker),Night Fox Yoho,Shoulder Charge,48554,1,0,0
+22.05.07.15.24.28.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_후방 여우불 투하,5346,0,0,0
+22.05.07.15.24.28.4,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,610077,1,0,0
+22.05.07.15.24.28.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24602,0,0,0
+22.05.07.15.24.28.5,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_육탄 돌진(강),12769,0,0,0
+22.05.07.15.24.29.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26320,0,0,0
+22.05.07.15.24.29.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,24238,0,0,0
+22.05.07.15.24.29.2,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,95812,0,0,0
+22.05.07.15.24.29.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24961,0,0,0
+22.05.07.15.24.30.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26456,0,0,0
+22.05.07.15.24.30.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,24136,0,0,0
+22.05.07.15.24.30.2,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,363343,0,1,0
+22.05.07.15.24.30.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29992,0,0,0
+22.05.07.15.24.30.8,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,598257,1,0,0
+22.05.07.15.24.30.9,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,2051969,1,1,0
+22.05.07.15.24.31.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31825,0,0,0
+22.05.07.15.24.31.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,59900,0,0,0
+22.05.07.15.24.31.2,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,1528082,0,0,0
+22.05.07.15.24.31.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29694,0,0,0
+22.05.07.15.24.31.6,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,32556,0,0,0
+22.05.07.15.24.31.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,70238,1,1,0
+22.05.07.15.24.32.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28997,1,0,0
+22.05.07.15.24.32.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,71335,0,0,0
+22.05.07.15.24.32.1,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,40513,1,1,0
+22.05.07.15.24.32.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,45495,1,1,0
+22.05.07.15.24.32.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,16932,0,1,0
+22.05.07.15.24.32.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29825,0,0,0
+22.05.07.15.24.32.6,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,55609,1,1,0
+22.05.07.15.24.32.7,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,59030,1,1,0
+22.05.07.15.24.32.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,59787,1,1,0
+22.05.07.15.24.32.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14588,0,0,0
+22.05.07.15.24.33.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63614,0,0,0
+22.05.07.15.24.33.1,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,139221,0,0,0
+22.05.07.15.24.33.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,1528024,1,1,0
+22.05.07.15.24.33.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30047,0,0,0
+22.05.07.15.24.33.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,2123468,1,1,0
+22.05.07.15.24.33.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14661,0,0,0
+22.05.07.15.24.34.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29335,0,0,0
+22.05.07.15.24.34.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31641,0,0,0
+22.05.07.15.24.34.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,11959,0,0,0
+22.05.07.15.24.34.7,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,1232206,0,0,0
+22.05.07.15.24.34.7,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,12071,0,0,0
+22.05.07.15.24.34.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,74438,0,0,0
+22.05.07.15.24.34.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,75278,0,0,0
+22.05.07.15.24.34.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14726,0,0,0
+22.05.07.15.24.34.9,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,75377,0,0,0
+22.05.07.15.24.35.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,174930,1,0,0
+22.05.07.15.24.35.1,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,23068,0,0,0
+22.05.07.15.24.35.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,23328,0,0,0
+22.05.07.15.24.35.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28966,0,0,0
+22.05.07.15.24.35.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31219,0,0,0
+22.05.07.15.24.35.5,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 우측 휘두르기,0,0,0,0
+22.05.07.15.24.35.7,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,215971,0,0,0
+22.05.07.15.24.35.7,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,214075,0,0,0
+22.05.07.15.24.35.7,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,502922,1,0,0
+22.05.07.15.24.35.8,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,24037,0,0,0
+22.05.07.15.24.35.8,Anonymous2 (Paladin),밤의 환영,Godsent Law,20515,0,0,0
+22.05.07.15.24.35.8,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,619162,0,1,0
+22.05.07.15.24.35.8,Anonymous3 (Berserker),밤의 환영,Sword Storm,1258845,1,0,0
+22.05.07.15.24.35.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14666,0,0,0
+22.05.07.15.24.36.1,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,23710,0,0,0
+22.05.07.15.24.36.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,17292,1,0,0
+22.05.07.15.24.36.3,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,74383,1,0,0
+22.05.07.15.24.36.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,13462,0,0,0
+22.05.07.15.24.36.4,Anonymous1 (Sorceress),밤의 환영,Inferno,330656,1,0,0
+22.05.07.15.24.36.4,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,196754,0,0,0
+22.05.07.15.24.36.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,23788,0,0,0
+22.05.07.15.24.36.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29994,0,0,0
+22.05.07.15.24.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31869,0,0,0
+22.05.07.15.24.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,87797,1,0,0
+22.05.07.15.24.36.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,8735,0,0,0
+22.05.07.15.24.37.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,13187,0,0,0
+22.05.07.15.24.37.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30122,0,0,0
+22.05.07.15.24.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,30864,0,0,0
+22.05.07.15.24.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,44226,0,0,0
+22.05.07.15.24.37.6,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,401229,1,0,0
+22.05.07.15.24.38.0,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1510080,1,0,0
+22.05.07.15.24.38.3,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_잔상 돌진(강),0,0,0,0
+22.05.07.15.24.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,46852,0,0,0
+22.05.07.15.24.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,66375,1,0,0
+22.05.07.15.24.39.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24166,0,0,0
+22.05.07.15.24.39.6,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,50945,1,0,0
+22.05.07.15.24.40.2,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_잔상 돌진(강),8886,0,0,0
+22.05.07.15.24.40.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11998,0,0,0
+22.05.07.15.24.40.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,60299,0,0,0
+22.05.07.15.24.40.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,47487,0,0,0
+22.05.07.15.24.40.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,14275,1,0,0
+22.05.07.15.24.41.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,22070,1,0,0
+22.05.07.15.24.41.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26270,0,0,0
+22.05.07.15.24.41.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,23485,1,0,0
+22.05.07.15.24.41.3,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,77311,0,0,0
+22.05.07.15.24.41.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23918,0,0,0
+22.05.07.15.24.41.5,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,158225,1,0,0
+22.05.07.15.24.41.7,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,197446,1,0,0
+22.05.07.15.24.41.8,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,198657,1,0,0
+22.05.07.15.24.42.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,32022,0,0,0
+22.05.07.15.24.42.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,129343,1,0,0
+22.05.07.15.24.42.2,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_주기적인 여우불 광역 데미지(느림),5664,0,0,0
+22.05.07.15.24.42.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28959,1,0,0
+22.05.07.15.24.42.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,50124,0,0,0
+22.05.07.15.24.42.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,104828,0,0,0
+22.05.07.15.24.42.4,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,253757,1,0,0
+22.05.07.15.24.42.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29777,0,0,0
+22.05.07.15.24.42.9,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,184687,1,0,0
+22.05.07.15.24.43.0,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,834125,0,0,0
+22.05.07.15.24.43.0,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,178534,1,0,0
+22.05.07.15.24.43.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,61934,0,0,0
+22.05.07.15.24.43.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,179527,1,0,0
+22.05.07.15.24.43.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28392,1,0,0
+22.05.07.15.24.43.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,181289,1,0,0
+22.05.07.15.24.43.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29321,0,0,0
+22.05.07.15.24.44.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31684,0,0,0
+22.05.07.15.24.44.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,73025,0,0,0
+22.05.07.15.24.44.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,145724,1,0,0
+22.05.07.15.24.44.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,28606,1,0,0
+22.05.07.15.24.44.2,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,140563,0,0,0
+22.05.07.15.24.44.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,150652,1,0,0
+22.05.07.15.24.44.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,147470,1,0,0
+22.05.07.15.24.44.4,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,104698,1,0,0
+22.05.07.15.24.44.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,73610,0,0,0
+22.05.07.15.24.44.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,28762,0,0,0
+22.05.07.15.24.44.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,147725,1,0,0
+22.05.07.15.24.44.5,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,105860,1,0,0
+22.05.07.15.24.44.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,72438,0,0,0
+22.05.07.15.24.44.7,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,85738,1,0,0
+22.05.07.15.24.44.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,225847,1,1,0
+22.05.07.15.24.44.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,146405,1,0,0
+22.05.07.15.24.44.9,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,135485,1,0,0
+22.05.07.15.24.44.9,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,223174,1,1,0
+22.05.07.15.24.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63142,0,0,0
+22.05.07.15.24.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,258999,1,0,0
+22.05.07.15.24.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,73267,0,0,0
+22.05.07.15.24.45.1,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,224654,1,1,0
+22.05.07.15.24.45.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,146713,1,0,0
+22.05.07.15.24.45.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,264090,1,0,0
+22.05.07.15.24.45.5,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,1136786,1,1,0
+22.05.07.15.24.45.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,29505,0,0,0
+22.05.07.15.24.45.6,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,261280,1,0,0
+22.05.07.15.24.45.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,17715,1,0,0
+22.05.07.15.24.45.8,Anonymous4 (Glavier),Night Fox Yoho,Vault,60942,0,0,0
+22.05.07.15.24.45.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,26991,1,0,0
+22.05.07.15.24.46.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28504,0,0,0
+22.05.07.15.24.46.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,16118,1,0,0
+22.05.07.15.24.46.6,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,12210,0,0,0
+22.05.07.15.24.46.7,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,18793,0,0,0
+22.05.07.15.24.46.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,781342,1,0,0
+22.05.07.15.24.47.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28008,0,0,0
+22.05.07.15.24.47.1,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,15595,0,0,0
+22.05.07.15.24.47.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,16285,1,0,0
+22.05.07.15.24.47.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,12235,0,0,0
+22.05.07.15.24.47.5,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,50411,1,0,0
+22.05.07.15.24.47.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 광역,25003,0,0,0
+22.05.07.15.24.47.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,17439,0,0,0
+22.05.07.15.24.47.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,15663,1,0,0
+22.05.07.15.24.48.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,58272,0,0,0
+22.05.07.15.24.48.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11870,0,0,0
+22.05.07.15.24.48.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,8149,0,0,0
+22.05.07.15.24.48.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11876,0,0,0
+22.05.07.15.24.48.9,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 광역,12062,0,0,0
+22.05.07.15.24.48.9,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,0,0,0,0
+22.05.07.15.24.49.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,27998,0,0,0
+22.05.07.15.24.49.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7946,0,0,0
+22.05.07.15.24.49.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,21918,0,0,0
+22.05.07.15.24.49.6,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,12291,0,0,0
+22.05.07.15.24.49.6,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 광역,6045,0,0,0
+22.05.07.15.24.49.8,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,21954,0,0,0
+22.05.07.15.24.50.1,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,26888,1,1,0
+22.05.07.15.24.50.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 광역,7634,0,0,0
+22.05.07.15.24.50.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,2324,0,0,0
+22.05.07.15.24.50.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18012,0,0,0
+22.05.07.15.24.50.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,10731,0,0,0
+22.05.07.15.24.50.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,54046,0,0,0
+22.05.07.15.24.50.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17335,0,0,0
+22.05.07.15.24.50.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17893,0,0,0
+22.05.07.15.24.50.9,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,6291,0,0,0
+22.05.07.15.24.51.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24209,0,0,0
+22.05.07.15.24.51.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,10651,0,0,0
+22.05.07.15.24.51.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6599,0,0,0
+22.05.07.15.24.51.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,9848,0,0,0
+22.05.07.15.24.52.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,48072,0,0,0
+22.05.07.15.24.52.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,21780,1,0,0
+22.05.07.15.24.53.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,47067,0,0,0
+22.05.07.15.24.53.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11017,0,0,0
+22.05.07.15.24.53.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,13497,1,0,0
+22.05.07.15.24.53.4,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,297950,1,0,0
+22.05.07.15.24.53.5,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 후방 휘두르기,8493,0,0,0
+22.05.07.15.24.53.5,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,25097,0,0,0
+22.05.07.15.24.53.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,10018,0,0,0
+22.05.07.15.24.54.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25526,0,0,0
+22.05.07.15.24.54.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11966,0,0,0
+22.05.07.15.24.54.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,14646,1,0,0
+22.05.07.15.24.54.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11047,0,0,0
+22.05.07.15.24.54.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24234,0,0,0
+22.05.07.15.24.55.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,52311,0,0,0
+22.05.07.15.24.55.2,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,111659,0,0,0
+22.05.07.15.24.55.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23982,0,0,0
+22.05.07.15.24.55.7,Saltbug of the Plains,Anonymous4 (Glavier),소금벌레_평타,24,0,0,0
+22.05.07.15.24.56.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26645,0,0,0
+22.05.07.15.24.56.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24248,0,0,0
+22.05.07.15.24.57.0,Anonymous4 (Glavier),Saltbug of the Plains,Raging Dragon Slash,179876,0,0,0
+22.05.07.15.24.57.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26607,0,0,0
+22.05.07.15.24.57.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_주기적인 여우불 광역 데미지(느림),3033,0,0,0
+22.05.07.15.24.57.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24126,0,0,0
+22.05.07.15.24.58.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26115,0,0,0
+22.05.07.15.24.58.3,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_공중 내려찍기,17690,0,0,0
+22.05.07.15.24.58.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24557,0,0,0
+22.05.07.15.24.59.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26023,0,0,0
+22.05.07.15.24.59.0,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_주기적인 여우불 광역 데미지(느림),4739,0,0,0
+22.05.07.15.24.59.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,147332,1,0,0
+22.05.07.15.24.59.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23692,0,0,0
+22.05.07.15.24.59.6,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,148639,1,0,0
+22.05.07.15.24.59.7,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,50565,0,0,0
+22.05.07.15.24.59.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,49443,0,0,0
+22.05.07.15.24.59.9,Anonymous1 (Sorceress),Night Fox Yoho,[배틀 아이템] 암흑 폭탄_발사체 대미지,271153,0,0,0
+22.05.07.15.25.00.4,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11825,0,0,0
+22.05.07.15.25.00.4,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,119260,1,0,0
+22.05.07.15.25.00.4,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,27382,0,0,0
+22.05.07.15.25.01.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28493,0,0,0
+22.05.07.15.25.01.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27212,0,0,0
+22.05.07.15.25.01.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,26342,1,0,0
+22.05.07.15.25.01.5,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,797495,1,1,0
+22.05.07.15.25.02.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,56918,0,0,0
+22.05.07.15.25.02.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27150,0,0,0
+22.05.07.15.25.02.2,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1541809,1,1,0
+22.05.07.15.25.02.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13504,0,0,0
+22.05.07.15.25.02.6,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,1969519,1,1,0
+22.05.07.15.25.02.8,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,14687,0,0,1
+22.05.07.15.25.02.9,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,555479,1,1,0
+22.05.07.15.25.03.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,29069,0,0,0
+22.05.07.15.25.03.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,26582,0,0,0
+22.05.07.15.25.03.1,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,64565,0,0,1
+22.05.07.15.25.03.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13010,0,0,0
+22.05.07.15.25.03.4,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,65222,0,0,1
+22.05.07.15.25.03.4,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,1068204,1,1,0
+22.05.07.15.25.03.6,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,65448,0,0,1
+22.05.07.15.25.03.7,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,352542,0,1,0
+22.05.07.15.25.04.0,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,343259,0,1,0
+22.05.07.15.25.04.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,71446,0,0,0
+22.05.07.15.25.04.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27099,0,0,0
+22.05.07.15.25.04.2,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,1264643,1,1,0
+22.05.07.15.25.04.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,67337,1,0,0
+22.05.07.15.25.04.4,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,11633472,1,0,0
+22.05.07.15.25.04.6,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,874787,0,1,0
+22.05.07.15.25.04.7,Anonymous2 (Paladin),밤의 환영,Wrath of God,84195,0,0,0
+22.05.07.15.25.04.7,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,108453,0,0,0
+22.05.07.15.25.04.7,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,536672,0,1,0
+22.05.07.15.25.05.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,34463,0,0,0
+22.05.07.15.25.05.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,31895,0,0,0
+22.05.07.15.25.05.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_환영 휘두르기(4방향),0,0,0,0
+22.05.07.15.25.05.4,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_환영 휘두르기(4방향),4179,0,0,0
+22.05.07.15.25.05.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 휘두르기(4방향),0,0,0,0
+22.05.07.15.25.05.4,Anonymous1 (Sorceress),밤의 환영,Explosion,8202052,1,0,0
+22.05.07.15.25.05.4,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,4157637,0,0,0
+22.05.07.15.25.05.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,67721,0,0,0
+22.05.07.15.25.06.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,87791,0,0,0
+22.05.07.15.25.06.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,33258,0,0,0
+22.05.07.15.25.06.1,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 휘두르기(4방향),9240,0,0,0
+22.05.07.15.25.06.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,61111,0,0,0
+22.05.07.15.25.06.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,7986117,1,0,0
+22.05.07.15.25.06.9,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,56217,1,1,0
+22.05.07.15.25.07.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,78886,0,0,0
+22.05.07.15.25.07.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,18211,0,1,0
+22.05.07.15.25.07.1,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,362031,1,1,0
+22.05.07.15.25.07.2,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,118926,0,1,0
+22.05.07.15.25.07.3,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,94875,0,1,0
+22.05.07.15.25.07.3,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,225672,1,1,0
+22.05.07.15.25.07.3,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,526052,1,1,0
+22.05.07.15.25.07.4,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,223162,1,1,0
+22.05.07.15.25.07.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,156733,0,0,0
+22.05.07.15.25.07.6,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,228770,1,1,0
+22.05.07.15.25.07.6,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,1532622,1,0,0
+22.05.07.15.25.08.0,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,1132838,1,1,0
+22.05.07.15.25.08.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,32191,0,0,0
+22.05.07.15.25.08.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,42549,0,1,0
+22.05.07.15.25.08.4,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,41181,0,1,0
+22.05.07.15.25.08.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,145878,0,0,0
+22.05.07.15.25.08.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,371452,1,0,0
+22.05.07.15.25.08.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,52423,0,0,0
+22.05.07.15.25.08.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,61716,0,0,0
+22.05.07.15.25.08.6,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,42772,0,1,0
+22.05.07.15.25.08.7,Anonymous1 (Sorceress),밤의 환영,Rime Arrow,331681,1,0,0
+22.05.07.15.25.08.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,143340,0,0,0
+22.05.07.15.25.08.8,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,41252,0,1,0
+22.05.07.15.25.08.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,144606,0,0,0
+22.05.07.15.25.08.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,372598,1,0,0
+22.05.07.15.25.08.8,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,697178,1,0,0
+22.05.07.15.25.09.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,80066,0,0,0
+22.05.07.15.25.09.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,280812,0,0,0
+22.05.07.15.25.09.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,363688,1,0,0
+22.05.07.15.25.09.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_꼬리 후방 휘두르기,4971,0,0,0
+22.05.07.15.25.09.1,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_꼬리 후방 휘두르기,9280,0,0,0
+22.05.07.15.25.09.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 후방 휘두르기,6543,0,0,0
+22.05.07.15.25.09.1,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,33392,0,0,0
+22.05.07.15.25.09.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,401930,1,0,0
+22.05.07.15.25.09.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,161199,0,0,0
+22.05.07.15.25.09.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,409796,1,0,0
+22.05.07.15.25.09.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,59393,0,0,0
+22.05.07.15.25.09.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,68288,0,0,0
+22.05.07.15.25.09.6,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,746807,1,0,0
+22.05.07.15.25.09.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,403502,1,0,0
+22.05.07.15.25.10.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,33080,0,0,0
+22.05.07.15.25.10.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,147387,1,0,0
+22.05.07.15.25.10.5,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1857566,1,0,0
+22.05.07.15.25.10.8,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1859981,1,0,0
+22.05.07.15.25.10.9,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,2503007,1,0,0
+22.05.07.15.25.11.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,32982,0,0,0
+22.05.07.15.25.11.1,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,26240,0,0,0
+22.05.07.15.25.11.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_주기적인 여우불 광역 데미지(느림),0,0,0,0
+22.05.07.15.25.11.1,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_주기적인 여우불 광역 데미지(느림),0,0,0,0
+22.05.07.15.25.11.3,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,2281915,1,0,0
+22.05.07.15.25.11.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,81574,1,0,0
+22.05.07.15.25.11.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,409640,1,0,0
+22.05.07.15.25.11.3,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,1489081,1,0,0
+22.05.07.15.25.11.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,25778,0,0,0
+22.05.07.15.25.11.5,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,438193,1,0,0
+22.05.07.15.25.11.7,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,25900,0,0,0
+22.05.07.15.25.12.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,89057,0,0,0
+22.05.07.15.25.12.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,32816,0,0,0
+22.05.07.15.25.12.1,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,26532,0,0,0
+22.05.07.15.25.12.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,81204,1,0,0
+22.05.07.15.25.12.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,85517,1,1,0
+22.05.07.15.25.12.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,26328,0,0,0
+22.05.07.15.25.12.4,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,108530,1,1,0
+22.05.07.15.25.13.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,87599,0,0,0
+22.05.07.15.25.13.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,26660,0,0,0
+22.05.07.15.25.13.1,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사,4741,0,0,0
+22.05.07.15.25.13.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_주기적인 여우불 광역 데미지(느림),0,0,0,0
+22.05.07.15.25.13.2,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,79236,1,1,0
+22.05.07.15.25.13.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,37537,1,1,0
+22.05.07.15.25.13.5,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,41217,1,1,0
+22.05.07.15.25.13.7,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,47098,1,1,0
+22.05.07.15.25.13.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,51863,1,1,0
+22.05.07.15.25.13.9,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,945962,1,0,0
+22.05.07.15.25.14.0,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,54326,1,1,0
+22.05.07.15.25.14.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,71282,0,0,0
+22.05.07.15.25.14.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27595,0,0,0
+22.05.07.15.25.14.1,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,54648,1,1,0
+22.05.07.15.25.14.3,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,548873,1,1,0
+22.05.07.15.25.14.4,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,547108,1,1,0
+22.05.07.15.25.15.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,71280,0,0,0
+22.05.07.15.25.15.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,53825,0,0,0
+22.05.07.15.25.15.0,Anonymous4 (Glavier),Night Fox Yoho,Bleed,34367,0,0,0
+22.05.07.15.25.15.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,20545,1,0,0
+22.05.07.15.25.15.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,40309,1,1,0
+22.05.07.15.25.15.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,30640,1,0,0
+22.05.07.15.25.15.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,19189,0,1,0
+22.05.07.15.25.15.5,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,36159,1,1,0
+22.05.07.15.25.15.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,28371,0,1,0
+22.05.07.15.25.15.9,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사,12662,0,0,0
+22.05.07.15.25.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,66959,0,0,0
+22.05.07.15.25.16.0,Anonymous4 (Glavier),Night Fox Yoho,Bleed,66190,0,0,0
+22.05.07.15.25.16.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,129520,1,0,0
+22.05.07.15.25.16.2,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사,12890,0,0,0
+22.05.07.15.25.16.4,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,162694,1,0,0
+22.05.07.15.25.16.5,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,0,1,0,0
+22.05.07.15.25.16.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.25.16.6,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.25.16.7,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.25.16.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,0,1,0,0
+22.05.07.15.25.17.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.25.17.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.25.17.1,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.25.17.3,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,0,1,0,0
+22.05.07.15.25.17.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.17.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.18.0,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.18.2,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,0,1,0,0
+22.05.07.15.25.18.3,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,0,1,0,0
+22.05.07.15.25.18.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.18.5,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,0,1,0,0
+22.05.07.15.25.18.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.18.7,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,0,1,0,0
+22.05.07.15.25.19.5,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.19.7,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,0,1,0,0
+22.05.07.15.25.23.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.25.23.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.25.24.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.25.25.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.25.26.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,0,1,0,0
+22.05.07.15.25.27.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,7555,0,0,0
+22.05.07.15.25.27.5,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,6273,0,0,0
+22.05.07.15.25.27.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,13307,1,0,0
+22.05.07.15.25.27.6,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,23663,1,0,0
+22.05.07.15.25.27.6,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,170196,1,1,0
+22.05.07.15.25.27.6,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,5897,0,0,0
+22.05.07.15.25.27.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,26664,1,0,0
+22.05.07.15.25.28.1,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,14007,0,0,0
+22.05.07.15.25.28.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13769,0,0,0
+22.05.07.15.25.28.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,49088,0,0,0
+22.05.07.15.25.28.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16490,0,0,0
+22.05.07.15.25.29.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13616,0,0,0
+22.05.07.15.25.29.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,60447,0,0,0
+22.05.07.15.25.29.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16250,0,0,0
+22.05.07.15.25.30.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13445,0,0,0
+22.05.07.15.25.30.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,61443,0,0,0
+22.05.07.15.25.30.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16410,0,0,0
+22.05.07.15.25.31.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13301,0,0,0
+22.05.07.15.25.31.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,17479,0,0,0
+22.05.07.15.25.31.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16724,0,0,0
+22.05.07.15.25.31.7,Anonymous4 (Glavier),Night Fox Yoho,Vault,26612,0,0,0
+22.05.07.15.25.31.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,15522,1,0,0
+22.05.07.15.25.31.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,37596,0,0,0
+22.05.07.15.25.32.0,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,584647,1,1,0
+22.05.07.15.25.32.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13599,0,0,0
+22.05.07.15.25.32.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,61635,0,0,0
+22.05.07.15.25.32.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16897,0,0,0
+22.05.07.15.25.32.7,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1085459,1,1,0
+22.05.07.15.25.32.8,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,7387,0,0,1
+22.05.07.15.25.32.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,7651,0,0,0
+22.05.07.15.25.33.1,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,32098,0,0,1
+22.05.07.15.25.33.3,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,31993,0,0,1
+22.05.07.15.25.33.4,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,114778,1,1,0
+22.05.07.15.25.33.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13552,0,0,0
+22.05.07.15.25.33.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,41338,0,0,0
+22.05.07.15.25.33.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,33709,0,0,0
+22.05.07.15.25.33.5,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,100070,1,1,0
+22.05.07.15.25.33.5,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,20378,0,0,0
+22.05.07.15.25.33.5,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,32275,0,0,1
+22.05.07.15.25.33.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,39327,0,1,0
+22.05.07.15.25.33.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_환영 점프찍기(빠름),4206,0,0,0
+22.05.07.15.25.33.7,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 점프찍기(빠름),4355,0,0,0
+22.05.07.15.25.33.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_환영 점프찍기(빠름),4733,0,0,0
+22.05.07.15.25.33.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,38305,0,0,0
+22.05.07.15.25.33.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,38856,0,0,0
+22.05.07.15.25.33.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14886,1,0,0
+22.05.07.15.25.34.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,64786,1,0,0
+22.05.07.15.25.34.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,31536,0,0,0
+22.05.07.15.25.34.1,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,160508,0,1,0
+22.05.07.15.25.34.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,63340,1,0,0
+22.05.07.15.25.34.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,62385,1,0,0
+22.05.07.15.25.34.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_환영 점프찍기(빠름),6068,0,0,0
+22.05.07.15.25.34.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,62316,1,0,0
+22.05.07.15.25.34.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26634,0,0,0
+22.05.07.15.25.34.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32409,0,0,0
+22.05.07.15.25.34.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,62959,1,0,0
+22.05.07.15.25.34.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32347,0,0,0
+22.05.07.15.25.34.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12690,1,0,0
+22.05.07.15.25.35.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,27425,0,0,0
+22.05.07.15.25.35.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6103,0,0,0
+22.05.07.15.25.36.2,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,1329318,1,0,0
+22.05.07.15.25.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,13757,0,0,0
+22.05.07.15.25.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,12103,0,0,0
+22.05.07.15.25.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,13374,0,0,0
+22.05.07.15.25.39.1,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,14771,0,0,0
+22.05.07.15.25.39.2,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_순간이동,0,0,0,0
+22.05.07.15.25.39.2,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_순간이동,0,0,0,0
+22.05.07.15.25.39.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31707,0,0,0
+22.05.07.15.25.40.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14389,0,0,0
+22.05.07.15.25.40.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,16068,0,0,0
+22.05.07.15.25.41.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14922,0,0,0
+22.05.07.15.25.41.0,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,12123,0,0,0
+22.05.07.15.25.41.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,11787,0,0,0
+22.05.07.15.25.41.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31259,0,0,0
+22.05.07.15.25.41.7,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,12093,0,0,0
+22.05.07.15.25.42.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14793,0,0,0
+22.05.07.15.25.42.1,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,12079,0,0,0
+22.05.07.15.25.42.3,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,754100,1,1,0
+22.05.07.15.25.42.4,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,12113,0,0,0
+22.05.07.15.25.43.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14861,0,0,0
+22.05.07.15.25.43.2,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,1051829,1,1,0
+22.05.07.15.25.43.6,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,635318,0,0,0
+22.05.07.15.25.43.8,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,70408,0,0,0
+22.05.07.15.25.44.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14296,0,0,0
+22.05.07.15.25.44.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6821,0,0,0
+22.05.07.15.25.44.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,34335,0,0,0
+22.05.07.15.25.44.7,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,125937,0,0,0
+22.05.07.15.25.44.8,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,688927,1,1,0
+22.05.07.15.25.44.9,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,268722,0,0,0
+22.05.07.15.25.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15577,0,0,0
+22.05.07.15.25.45.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14774,0,0,0
+22.05.07.15.25.45.1,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,66592,0,0,0
+22.05.07.15.25.45.2,Anonymous1 (Sorceress),밤의 환영,Blaze,25003,1,0,0
+22.05.07.15.25.45.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,7225,0,0,0
+22.05.07.15.25.45.2,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,217234,0,0,0
+22.05.07.15.25.45.3,Anonymous1 (Sorceress),밤의 환영,Frost's Call,121113,0,0,0
+22.05.07.15.25.45.3,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,65795,0,0,0
+22.05.07.15.25.45.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,20497,0,0,0
+22.05.07.15.25.45.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,5505,0,1,0
+22.05.07.15.25.45.6,Anonymous3 (Berserker),밤의 환영,Basic Attack,7275,0,0,0
+22.05.07.15.25.45.6,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,250840,0,0,0
+22.05.07.15.25.45.8,Anonymous1 (Sorceress),밤의 환영,Frost's Call,118587,0,0,0
+22.05.07.15.25.45.8,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,58940,0,0,0
+22.05.07.15.25.46.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28013,0,0,0
+22.05.07.15.25.46.0,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,6189,0,1,0
+22.05.07.15.25.46.0,Anonymous3 (Berserker),밤의 환영,Basic Attack,9786,0,0,0
+22.05.07.15.25.46.0,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,244831,0,0,0
+22.05.07.15.25.46.1,Anonymous2 (Paladin),밤의 환영,Light Shock,30237,0,0,0
+22.05.07.15.25.46.1,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,14990,0,0,0
+22.05.07.15.25.46.3,Anonymous1 (Sorceress),밤의 환영,Blaze,26117,1,0,0
+22.05.07.15.25.46.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,7345,0,0,0
+22.05.07.15.25.46.3,Anonymous1 (Sorceress),밤의 환영,Bleed,32043,0,0,0
+22.05.07.15.25.46.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,21826,0,0,0
+22.05.07.15.25.46.6,Anonymous3 (Berserker),밤의 환영,Basic Attack,14801,0,0,0
+22.05.07.15.25.46.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,8938,0,0,0
+22.05.07.15.25.47.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,13324,0,0,0
+22.05.07.15.25.47.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12097,0,0,0
+22.05.07.15.25.47.1,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,180067,0,0,0
+22.05.07.15.25.47.2,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,48166,0,0,0
+22.05.07.15.25.47.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14454,1,0,0
+22.05.07.15.25.47.2,Anonymous1 (Sorceress),밤의 환영,Bleed,31875,0,0,0
+22.05.07.15.25.47.4,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,8093,0,0,0
+22.05.07.15.25.47.4,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,417292,0,0,0
+22.05.07.15.25.47.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,21604,0,0,0
+22.05.07.15.25.47.5,밤의 환영,Anonymous4 (Glavier),요호_백덤블링 여우불,5504,0,0,0
+22.05.07.15.25.47.5,밤의 환영,Anonymous3 (Berserker),요호_백덤블링 여우불,4046,0,0,0
+22.05.07.15.25.47.5,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,8460,0,0,0
+22.05.07.15.25.47.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,52043,0,0,0
+22.05.07.15.25.47.7,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,51635,0,0,0
+22.05.07.15.25.47.7,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,10945,0,0,0
+22.05.07.15.25.47.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,52848,0,0,0
+22.05.07.15.25.47.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,228250,1,0,0
+22.05.07.15.25.48.0,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,15612,1,0,0
+22.05.07.15.25.48.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15701,0,0,0
+22.05.07.15.25.48.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14699,0,0,0
+22.05.07.15.25.48.1,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,7120,0,0,0
+22.05.07.15.25.48.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14535,1,0,0
+22.05.07.15.25.48.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,6639,0,1,0
+22.05.07.15.25.48.4,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,99348,0,0,0
+22.05.07.15.25.48.5,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,9339,0,1,0
+22.05.07.15.25.48.5,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,20938,0,1,0
+22.05.07.15.25.48.6,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,25272,1,1,0
+22.05.07.15.25.48.7,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,20603,0,1,0
+22.05.07.15.25.48.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,9812,0,1,0
+22.05.07.15.25.49.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15648,0,0,0
+22.05.07.15.25.49.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14494,0,0,0
+22.05.07.15.25.49.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,325801,0,1,0
+22.05.07.15.25.49.4,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 난사(강),26235,0,0,0
+22.05.07.15.25.49.4,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 난사(강),19491,0,0,0
+22.05.07.15.25.49.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사(강),13702,0,0,0
+22.05.07.15.25.50.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31423,0,0,0
+22.05.07.15.25.50.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14857,0,0,0
+22.05.07.15.25.50.0,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 난사(강),18278,0,0,0
+22.05.07.15.25.50.6,Anonymous2 (Paladin),Night Fox Yoho,Alithanes's Judgment,748708,0,0,0
+22.05.07.15.25.50.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 난사(강),25012,0,0,0
+22.05.07.15.25.50.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 난사(강),14683,0,0,0
+22.05.07.15.25.51.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,31407,0,0,0
+22.05.07.15.25.51.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14430,0,0,0
+22.05.07.15.25.51.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.51.8,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.51.8,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.51.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,7164,0,0,0
+22.05.07.15.25.51.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,36797,0,0,0
+22.05.07.15.25.52.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14561,0,0,0
+22.05.07.15.25.52.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.52.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.52.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.52.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.52.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 난사(강),0,0,0,0
+22.05.07.15.25.52.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,14258,0,0,0
+22.05.07.15.25.52.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6519,0,0,0
+22.05.07.15.25.53.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28437,0,0,0
+22.05.07.15.25.53.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13306,1,0,0
+22.05.07.15.25.54.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,28868,0,0,0
+22.05.07.15.25.54.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12899,1,0,0
+22.05.07.15.25.55.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,23579,0,0,0
+22.05.07.15.25.55.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,5323,0,0,0
+22.05.07.15.25.56.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.56.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.56.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,23250,0,0,0
+22.05.07.15.25.57.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.57.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.57.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,11768,0,0,0
+22.05.07.15.25.58.3,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,12355,0,0,0
+22.05.07.15.25.58.4,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,78295,0,0,0
+22.05.07.15.25.58.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.58.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.58.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25496,0,0,0
+22.05.07.15.25.58.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,25616,0,1,0
+22.05.07.15.25.59.0,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,25940,0,1,0
+22.05.07.15.25.59.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12017,0,0,0
+22.05.07.15.25.59.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,24406,0,0,0
+22.05.07.15.25.59.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,30692,0,0,0
+22.05.07.15.25.59.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,31313,0,0,0
+22.05.07.15.25.59.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,25348,0,0,0
+22.05.07.15.25.59.4,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,57346,0,0,0
+22.05.07.15.25.59.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,30468,0,0,0
+22.05.07.15.25.59.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.59.4,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.59.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.25.59.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26239,0,0,0
+22.05.07.15.25.59.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,62344,1,0,0
+22.05.07.15.25.59.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,60065,1,0,0
+22.05.07.15.25.59.8,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,29704,0,0,0
+22.05.07.15.25.59.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,62157,1,0,0
+22.05.07.15.25.59.9,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 후방 휘두르기,0,0,0,0
+22.05.07.15.26.00.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23985,0,0,0
+22.05.07.15.26.00.0,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,29690,0,0,0
+22.05.07.15.26.00.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,60963,1,0,0
+22.05.07.15.26.00.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,60771,1,0,0
+22.05.07.15.26.00.2,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,23780,0,0,0
+22.05.07.15.26.00.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,61774,1,0,0
+22.05.07.15.26.00.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,59976,1,0,0
+22.05.07.15.26.00.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25744,0,0,0
+22.05.07.15.26.00.6,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,246772,1,1,0
+22.05.07.15.26.00.6,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,143412,0,0,0
+22.05.07.15.26.00.7,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,243689,1,1,0
+22.05.07.15.26.00.8,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,248868,1,1,0
+22.05.07.15.26.01.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12460,0,0,0
+22.05.07.15.26.01.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,18615,1,1,0
+22.05.07.15.26.01.4,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,18194,1,1,0
+22.05.07.15.26.01.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,15499,0,0,0
+22.05.07.15.26.01.5,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,18033,1,1,0
+22.05.07.15.26.01.6,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,29537,1,1,0
+22.05.07.15.26.01.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19016,1,0,0
+22.05.07.15.26.02.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12090,0,0,0
+22.05.07.15.26.02.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,26203,0,0,0
+22.05.07.15.26.03.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,11982,0,0,0
+22.05.07.15.26.03.4,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 강력 폭발(강),1161,0,0,0
+22.05.07.15.26.03.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,25264,0,0,0
+22.05.07.15.26.04.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,11334,0,0,0
+22.05.07.15.26.04.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,27465,0,0,0
+22.05.07.15.26.05.4,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 강력 폭발(강),0,0,0,0
+22.05.07.15.26.05.7,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,50276,0,1,0
+22.05.07.15.26.05.8,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,44814,0,0,0
+22.05.07.15.26.06.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,38283,0,0,0
+22.05.07.15.26.06.6,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,1214582,1,0,0
+22.05.07.15.26.06.7,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,174856,0,1,0
+22.05.07.15.26.06.9,Anonymous4 (Glavier),Night Fox Yoho,Vault,30056,0,0,0
+22.05.07.15.26.07.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,37137,0,0,0
+22.05.07.15.26.07.6,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,381000,0,1,0
+22.05.07.15.26.07.9,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,27274,0,0,0
+22.05.07.15.26.08.1,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,27993,0,0,0
+22.05.07.15.26.08.2,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,21732,0,0,0
+22.05.07.15.26.08.2,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_주기적인 여우불 광역 데미지(빠름),3702,0,0,0
+22.05.07.15.26.08.4,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,36398,0,0,0
+22.05.07.15.26.08.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,16444,0,0,0
+22.05.07.15.26.08.5,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,15862,0,0,0
+22.05.07.15.26.08.6,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,891371,1,0,0
+22.05.07.15.26.09.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,23401,0,0,0
+22.05.07.15.26.09.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,15375,0,0,0
+22.05.07.15.26.09.7,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,359741,0,0,0
+22.05.07.15.26.10.2,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2575,0,1,0
+22.05.07.15.26.10.2,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,672587,0,0,0
+22.05.07.15.26.10.3,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,1796,0,1,0
+22.05.07.15.26.10.4,Anonymous4 (Glavier),Night Fox Yoho,긴 창_평타,4515,0,0,0
+22.05.07.15.26.10.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,22793,0,0,0
+22.05.07.15.26.10.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,15544,0,0,0
+22.05.07.15.26.10.8,Anonymous4 (Glavier),Night Fox Yoho,긴 창_평타,9663,1,0,0
+22.05.07.15.26.11.2,Anonymous4 (Glavier),Night Fox Yoho,긴 창_평타,4505,0,0,0
+22.05.07.15.26.11.3,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,132551,0,0,0
+22.05.07.15.26.11.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,57708,0,0,0
+22.05.07.15.26.11.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,30723,0,0,0
+22.05.07.15.26.12.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,20396,0,0,0
+22.05.07.15.26.12.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6737,0,0,0
+22.05.07.15.26.12.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,33588,0,0,0
+22.05.07.15.26.12.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,15183,0,0,0
+22.05.07.15.26.13.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18243,0,0,0
+22.05.07.15.26.13.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,25136,0,0,0
+22.05.07.15.26.13.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,8280,0,0,0
+22.05.07.15.26.13.2,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_잔상 돌진(강),11370,0,0,0
+22.05.07.15.26.13.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,154112,1,0,0
+22.05.07.15.26.13.4,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,149234,1,0,0
+22.05.07.15.26.13.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,15064,0,0,0
+22.05.07.15.26.14.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15647,0,0,0
+22.05.07.15.26.14.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,22225,0,0,0
+22.05.07.15.26.14.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,133093,1,0,0
+22.05.07.15.26.14.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,14653,1,0,0
+22.05.07.15.26.14.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,14588,0,0,0
+22.05.07.15.26.14.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,35371,0,1,0
+22.05.07.15.26.14.9,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,451363,1,0,0
+22.05.07.15.26.14.9,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,29689,0,1,0
+22.05.07.15.26.15.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,12055,0,0,0
+22.05.07.15.26.15.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,5448,0,0,0
+22.05.07.15.26.15.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,69094,1,1,0
+22.05.07.15.26.15.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,329180,1,0,0
+22.05.07.15.26.15.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,69038,1,1,0
+22.05.07.15.26.15.4,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,12095,0,0,0
+22.05.07.15.26.15.6,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,82397,0,0,0
+22.05.07.15.26.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15052,0,0,0
+22.05.07.15.26.16.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12173,0,0,0
+22.05.07.15.26.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13599,1,0,0
+22.05.07.15.26.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,34039,0,0,0
+22.05.07.15.26.16.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6827,0,0,0
+22.05.07.15.26.16.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_꼬리 후방 휘두르기,0,0,0,0
+22.05.07.15.26.16.5,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,581361,1,0,0
+22.05.07.15.26.16.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13480,1,0,0
+22.05.07.15.26.17.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,29451,0,0,0
+22.05.07.15.26.17.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12428,0,0,0
+22.05.07.15.26.18.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,14862,0,0,0
+22.05.07.15.26.18.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12415,0,0,0
+22.05.07.15.26.18.0,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,253790,0,0,0
+22.05.07.15.26.18.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13631,1,0,0
+22.05.07.15.26.18.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,4128,0,0,0
+22.05.07.15.26.18.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6306,0,0,0
+22.05.07.15.26.18.4,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,256142,0,0,0
+22.05.07.15.26.18.5,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,68519,1,1,0
+22.05.07.15.26.18.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,34872,0,1,0
+22.05.07.15.26.18.8,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,258670,0,0,0
+22.05.07.15.26.18.8,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,34744,0,1,0
+22.05.07.15.26.18.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6916,0,0,0
+22.05.07.15.26.18.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,9730,0,0,0
+22.05.07.15.26.19.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,14588,0,0,0
+22.05.07.15.26.19.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12438,0,0,0
+22.05.07.15.26.19.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,4187,0,0,0
+22.05.07.15.26.19.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6133,0,0,0
+22.05.07.15.26.19.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,9582,0,0,0
+22.05.07.15.26.19.3,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,172774,0,1,0
+22.05.07.15.26.19.3,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,8379,0,1,0
+22.05.07.15.26.19.4,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,135251,1,1,0
+22.05.07.15.26.19.5,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,55456,0,1,0
+22.05.07.15.26.19.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,167361,1,1,0
+22.05.07.15.26.19.6,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,9718,0,0,0
+22.05.07.15.26.19.6,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,78406,0,1,0
+22.05.07.15.26.19.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,4247,0,0,0
+22.05.07.15.26.19.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6216,0,0,0
+22.05.07.15.26.19.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,6910,0,0,0
+22.05.07.15.26.19.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,9966,0,0,0
+22.05.07.15.26.20.0,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,5784,0,1,0
+22.05.07.15.26.20.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12103,0,0,0
+22.05.07.15.26.20.3,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,15643,0,1,0
+22.05.07.15.26.20.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,4077,0,0,0
+22.05.07.15.26.20.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,16478,1,1,0
+22.05.07.15.26.20.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,29988,0,0,0
+22.05.07.15.26.20.5,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,61111,1,1,0
+22.05.07.15.26.20.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6191,0,0,0
+22.05.07.15.26.20.7,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,15504,0,1,0
+22.05.07.15.26.20.9,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,19320,0,1,0
+22.05.07.15.26.21.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,12303,0,0,0
+22.05.07.15.26.21.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,21993,1,1,0
+22.05.07.15.26.21.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,33606,0,1,0
+22.05.07.15.26.21.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,29951,0,0,0
+22.05.07.15.26.21.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,28496,1,1,0
+22.05.07.15.26.21.9,Anonymous4 (Glavier),Night Fox Yoho,Spiraling Spear,38276,0,1,0
+22.05.07.15.26.22.1,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,5869,0,1,0
+22.05.07.15.26.22.1,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_여우불 광역,10775,0,0,0
+22.05.07.15.26.22.3,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,6487,0,1,0
+22.05.07.15.26.22.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,7408,0,1,0
+22.05.07.15.26.22.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,65889,1,0,0
+22.05.07.15.26.22.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,27618,0,0,0
+22.05.07.15.26.22.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32627,0,0,0
+22.05.07.15.26.22.6,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,8091,0,1,0
+22.05.07.15.26.22.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32331,0,0,0
+22.05.07.15.26.22.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,17729,1,1,0
+22.05.07.15.26.22.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,33252,0,0,0
+22.05.07.15.26.22.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32113,0,0,0
+22.05.07.15.26.22.8,밤의 환영,Anonymous4 (Glavier),요호_잔상 돌진,0,0,0,0
+22.05.07.15.26.22.8,밤의 환영,Anonymous3 (Berserker),요호_잔상 돌진,0,0,0,0
+22.05.07.15.26.22.9,Anonymous3 (Berserker),밤의 환영,Hell Blade,19128,1,0,0
+22.05.07.15.26.22.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,21732,1,1,0
+22.05.07.15.26.23.0,Anonymous1 (Sorceress),밤의 환영,Rime Arrow,59692,0,0,0
+22.05.07.15.26.23.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,64180,1,0,0
+22.05.07.15.26.23.2,Anonymous1 (Sorceress),밤의 환영,Rime Arrow,60578,0,0,0
+22.05.07.15.26.23.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,33111,0,0,0
+22.05.07.15.26.23.3,Anonymous2 (Paladin),밤의 환영,Holy Sword,9603,0,0,0
+22.05.07.15.26.23.3,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,6426,0,0,1
+22.05.07.15.26.23.3,Anonymous1 (Sorceress),밤의 환영,Rime Arrow,60034,0,0,0
+22.05.07.15.26.23.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32567,0,0,0
+22.05.07.15.26.23.3,Anonymous4 (Glavier),밤의 환영,Shackling Blue Dragon,316560,1,0,0
+22.05.07.15.26.23.3,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,221596,1,0,0
+22.05.07.15.26.23.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,281832,0,1,0
+22.05.07.15.26.23.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,32975,0,0,0
+22.05.07.15.26.23.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,27319,0,0,0
+22.05.07.15.26.23.5,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,54216,1,0,1
+22.05.07.15.26.23.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,33385,0,0,0
+22.05.07.15.26.23.8,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,26719,0,0,1
+22.05.07.15.26.23.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,250722,0,1,0
+22.05.07.15.26.24.0,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,27028,0,0,1
+22.05.07.15.26.24.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24228,0,0,0
+22.05.07.15.26.24.5,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_여우불 광역,27197,0,0,0
+22.05.07.15.26.24.5,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,19634,0,0,0
+22.05.07.15.26.25.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24481,0,0,0
+22.05.07.15.26.25.6,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,15109,0,0,0
+22.05.07.15.26.26.0,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,44885,1,0,0
+22.05.07.15.26.26.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,5566,0,0,0
+22.05.07.15.26.26.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,56559,1,0,0
+22.05.07.15.26.26.6,Anonymous3 (Berserker),Night Fox Yoho,Burst,103125,1,0,0
+22.05.07.15.26.26.6,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,37994,0,0,0
+22.05.07.15.26.26.9,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,48901,0,1,0
+22.05.07.15.26.27.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24001,0,0,0
+22.05.07.15.26.27.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11231,1,0,0
+22.05.07.15.26.27.2,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,79790,1,1,0
+22.05.07.15.26.27.4,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,100665,1,1,0
+22.05.07.15.26.27.5,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,168086,1,1,0
+22.05.07.15.26.27.6,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,28525,1,0,0
+22.05.07.15.26.27.7,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,76364,1,1,0
+22.05.07.15.26.27.8,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,82742,1,1,0
+22.05.07.15.26.27.8,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,91127,0,0,0
+22.05.07.15.26.27.9,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,67224,0,1,0
+22.05.07.15.26.27.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13472,1,0,0
+22.05.07.15.26.28.0,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,288406,1,1,0
+22.05.07.15.26.28.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,14979,0,0,0
+22.05.07.15.26.28.0,Anonymous4 (Glavier),Night Fox Yoho,Half Moon Slash,165489,1,1,0
+22.05.07.15.26.28.5,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,537969,1,1,0
+22.05.07.15.26.28.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,53417,0,0,0
+22.05.07.15.26.28.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,27784,0,0,0
+22.05.07.15.26.28.6,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,65234,0,0,0
+22.05.07.15.26.28.7,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,535769,1,1,0
+22.05.07.15.26.28.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,13829,1,0,0
+22.05.07.15.26.29.0,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,552183,1,1,0
+22.05.07.15.26.29.0,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,398096,0,0,0
+22.05.07.15.26.29.5,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,115053,1,0,0
+22.05.07.15.26.29.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,15185,0,0,0
+22.05.07.15.26.29.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,53757,0,0,0
+22.05.07.15.26.29.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,13924,0,0,0
+22.05.07.15.26.29.6,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,1581949,1,1,0
+22.05.07.15.26.29.8,Anonymous3 (Berserker),Night Fox Yoho,Bloody Rush,1924338,1,1,0
+22.05.07.15.26.29.9,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,33339,1,0,0
+22.05.07.15.26.29.9,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,148135,1,0,0
+22.05.07.15.26.30.0,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,73195,0,0,0
+22.05.07.15.26.30.2,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,72751,0,0,0
+22.05.07.15.26.30.4,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,196535,1,0,0
+22.05.07.15.26.30.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,70743,0,0,0
+22.05.07.15.26.30.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,132899,0,0,0
+22.05.07.15.26.30.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,33678,0,0,0
+22.05.07.15.26.30.7,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,5326,0,0,0
+22.05.07.15.26.30.9,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,3553,0,0,0
+22.05.07.15.26.31.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,214270,1,1,0
+22.05.07.15.26.31.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,219971,1,1,0
+22.05.07.15.26.31.3,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,211579,1,1,0
+22.05.07.15.26.31.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,70843,0,0,0
+22.05.07.15.26.31.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,133678,0,0,0
+22.05.07.15.26.31.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,33782,0,0,0
+22.05.07.15.26.31.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,210912,1,1,0
+22.05.07.15.26.31.5,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,86992,1,1,0
+22.05.07.15.26.31.8,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,4796,0,0,0
+22.05.07.15.26.32.0,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,69749,1,1,0
+22.05.07.15.26.32.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,4398,0,0,0
+22.05.07.15.26.32.3,Anonymous1 (Sorceress),Night Fox Yoho,Arcane Rupture,60922,0,0,0
+22.05.07.15.26.32.4,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,67300,1,1,0
+22.05.07.15.26.32.4,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1249760,1,1,0
+22.05.07.15.26.32.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,89711,0,0,0
+22.05.07.15.26.32.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,132735,0,0,0
+22.05.07.15.26.32.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,34465,0,0,0
+22.05.07.15.26.32.6,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,14043180,1,0,0
+22.05.07.15.26.32.6,Anonymous4 (Glavier),Night Fox Yoho,Chain Slash,104935,1,1,0
+22.05.07.15.26.32.8,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,11115,0,0,0
+22.05.07.15.26.33.1,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,30499,0,1,0
+22.05.07.15.26.33.1,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,62135,1,1,0
+22.05.07.15.26.33.2,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1939491,1,1,0
+22.05.07.15.26.33.2,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,64335,1,1,0
+22.05.07.15.26.33.2,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,7367,0,0,0
+22.05.07.15.26.33.3,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,103013,1,1,0
+22.05.07.15.26.33.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,35388,0,0,0
+22.05.07.15.26.33.5,Anonymous3 (Berserker),Night Fox Yoho,Bleed,130935,0,0,0
+22.05.07.15.26.33.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,33370,0,0,0
+22.05.07.15.26.33.7,Anonymous4 (Glavier),Night Fox Yoho,긴 창_평타,11844,0,1,0
+22.05.07.15.26.33.8,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,4119960,0,0,0
+22.05.07.15.26.34.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,140141,0,0,0
+22.05.07.15.26.34.1,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,106186,0,0,0
+22.05.07.15.26.34.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,57688,0,0,0
+22.05.07.15.26.34.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,55329,1,1,0
+22.05.07.15.26.34.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,22938,0,1,0
+22.05.07.15.26.35.0,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,24636,0,0,0
+22.05.07.15.26.35.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,49083,0,0,0
+22.05.07.15.26.35.1,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,6346047,1,0,0
+22.05.07.15.26.35.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23299,0,0,0
+22.05.07.15.26.35.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,60693,1,0,0
+22.05.07.15.26.35.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,296579,1,0,0
+22.05.07.15.26.36.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,121854,0,0,0
+22.05.07.15.26.36.2,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,493441,0,0,0
+22.05.07.15.26.36.3,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,3885,0,0,0
+22.05.07.15.26.36.4,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2559,0,0,0
+22.05.07.15.26.36.5,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,1188221,1,1,0
+22.05.07.15.26.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,215699,0,0,0
+22.05.07.15.26.36.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,25155,0,0,0
+22.05.07.15.26.36.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23728,0,0,0
+22.05.07.15.26.36.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,59837,1,0,0
+22.05.07.15.26.36.7,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,214586,0,0,0
+22.05.07.15.26.36.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_스핀,7905,0,0,0
+22.05.07.15.26.36.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_스핀,7011,0,0,0
+22.05.07.15.26.36.7,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_스핀,12052,0,0,0
+22.05.07.15.26.37.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,122275,0,0,0
+22.05.07.15.26.37.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,41904,0,0,0
+22.05.07.15.26.37.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,220035,0,0,0
+22.05.07.15.26.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,62878,0,0,0
+22.05.07.15.26.37.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24124,0,0,0
+22.05.07.15.26.37.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,58372,1,0,0
+22.05.07.15.26.37.9,Anonymous4 (Glavier),Night Fox Yoho,Starfall Pounce,1112945,1,1,0
+22.05.07.15.26.38.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,47932,0,0,0
+22.05.07.15.26.38.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,41574,0,0,0
+22.05.07.15.26.38.0,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,176635,1,1,0
+22.05.07.15.26.38.1,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,181606,1,1,0
+22.05.07.15.26.38.3,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,59599,0,1,0
+22.05.07.15.26.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24820,0,0,0
+22.05.07.15.26.38.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23889,0,0,0
+22.05.07.15.26.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,1814491,1,0,0
+22.05.07.15.26.38.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,58456,1,0,0
+22.05.07.15.26.38.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,296102,0,1,0
+22.05.07.15.26.38.8,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,328818,0,0,0
+22.05.07.15.26.39.0,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,42013,0,0,0
+22.05.07.15.26.39.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63016,0,0,0
+22.05.07.15.26.39.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23628,0,0,0
+22.05.07.15.26.39.6,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18866,0,0,0
+22.05.07.15.26.39.6,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_꼬리 후방 휘두르기,0,0,0,0
+22.05.07.15.26.39.6,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_꼬리 후방 휘두르기,0,0,0,0
+22.05.07.15.26.39.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,60346,1,0,0
+22.05.07.15.26.39.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18570,0,0,0
+22.05.07.15.26.40.0,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,1674162,1,0,0
+22.05.07.15.26.40.3,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19276,0,0,0
+22.05.07.15.26.40.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,63272,0,0,0
+22.05.07.15.26.40.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,23120,0,0,0
+22.05.07.15.26.40.6,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,18584,0,0,0
+22.05.07.15.26.40.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,14341,0,1,0
+22.05.07.15.26.40.8,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,294840,1,1,0
+22.05.07.15.26.40.9,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,288167,1,1,0
+22.05.07.15.26.41.0,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,19420,0,0,0
+22.05.07.15.26.41.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,92207,0,1,0
+22.05.07.15.26.41.0,Anonymous4 (Glavier),Night Fox Yoho,Thrust of Destruction,412684,1,1,0
+22.05.07.15.26.41.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,305445,1,0,0
+22.05.07.15.26.41.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,299044,1,0,0
+22.05.07.15.26.41.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,299608,1,0,0
+22.05.07.15.26.41.4,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,59514,1,1,0
+22.05.07.15.26.41.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,307541,1,0,0
+22.05.07.15.26.41.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,22728,0,0,0
+22.05.07.15.26.41.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,111662,0,0,0
+22.05.07.15.26.41.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,112127,0,0,0
+22.05.07.15.26.41.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6276,0,0,0
+22.05.07.15.26.41.7,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,23854,0,1,0
+22.05.07.15.26.41.8,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,94907,1,1,0
+22.05.07.15.26.41.8,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,24010,1,0,0
+22.05.07.15.26.41.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,277622,1,0,0
+22.05.07.15.26.41.9,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,30026,0,1,0
+22.05.07.15.26.42.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,283449,1,0,0
+22.05.07.15.26.42.1,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,111714,0,0,0
+22.05.07.15.26.42.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,68256,1,1,0
+22.05.07.15.26.42.2,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,30300,0,1,0
+22.05.07.15.26.42.2,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,272309,1,0,0
+22.05.07.15.26.42.3,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,24021,0,1,0
+22.05.07.15.26.42.4,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,21390,0,0,0
+22.05.07.15.26.42.4,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,265800,1,0,0
+22.05.07.15.26.42.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,62899,1,1,0
+22.05.07.15.26.42.6,Anonymous4 (Glavier),Night Fox Yoho,4-Headed Dragon,50645,0,1,0
+22.05.07.15.26.42.7,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,61800,1,1,0
+22.05.07.15.26.43.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,22978,0,0,0
+22.05.07.15.26.43.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,6518,0,0,0
+22.05.07.15.26.43.2,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,23699,0,0,0
+22.05.07.15.26.43.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,9646,0,0,0
+22.05.07.15.26.43.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,58861,1,0,0
+22.05.07.15.26.43.5,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,50435,0,1,0
+22.05.07.15.26.43.9,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,266500,1,0,0
+22.05.07.15.26.44.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,51845,0,0,0
+22.05.07.15.26.44.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,39483,0,0,0
+22.05.07.15.26.44.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,19971,0,0,0
+22.05.07.15.26.44.8,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,18540,1,0,0
+22.05.07.15.26.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,52691,0,0,0
+22.05.07.15.26.45.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19233,0,0,0
+22.05.07.15.26.45.0,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,217200,0,0,0
+22.05.07.15.26.45.1,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,38948,0,0,0
+22.05.07.15.26.45.3,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,459367,1,0,0
+22.05.07.15.26.45.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,49666,1,0,0
+22.05.07.15.26.45.3,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,38036,0,0,0
+22.05.07.15.26.45.5,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,759618,1,0,0
+22.05.07.15.26.45.6,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,38615,0,0,0
+22.05.07.15.26.45.6,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,729077,1,0,0
+22.05.07.15.26.45.8,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,736353,1,0,0
+22.05.07.15.26.45.9,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,603978,1,0,0
+22.05.07.15.26.46.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,51472,0,0,0
+22.05.07.15.26.46.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,18937,0,0,0
+22.05.07.15.26.46.1,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,349560,0,0,0
+22.05.07.15.26.46.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,49084,1,0,0
+22.05.07.15.26.46.3,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,457648,1,0,0
+22.05.07.15.26.46.4,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,14381,1,0,0
+22.05.07.15.26.46.4,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,471814,1,0,0
+22.05.07.15.26.46.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,21728,1,0,0
+22.05.07.15.26.46.6,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,470979,1,0,0
+22.05.07.15.26.46.7,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,470448,1,0,0
+22.05.07.15.26.46.8,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,226474,0,0,0
+22.05.07.15.26.46.9,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,374435,1,0,0
+22.05.07.15.26.47.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,51249,0,0,0
+22.05.07.15.26.47.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19284,0,0,0
+22.05.07.15.26.47.0,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,222245,0,0,0
+22.05.07.15.26.47.0,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,123945,1,1,0
+22.05.07.15.26.47.1,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,221787,0,0,0
+22.05.07.15.26.47.1,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,128829,1,1,0
+22.05.07.15.26.47.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,14819,1,0,0
+22.05.07.15.26.47.2,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,126735,1,1,0
+22.05.07.15.26.47.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,21974,1,0,0
+22.05.07.15.26.47.4,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,123764,1,1,0
+22.05.07.15.26.47.5,Anonymous4 (Glavier),Night Fox Yoho,Yeon-Style Spear Technique: Storming Red Dragon,936045,1,0,0
+22.05.07.15.26.47.5,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,2620511,1,0,0
+22.05.07.15.26.47.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,5907,0,0,0
+22.05.07.15.26.48.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,42521,0,0,0
+22.05.07.15.26.48.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19078,0,0,0
+22.05.07.15.26.48.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,8581,0,0,0
+22.05.07.15.26.48.5,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5941,0,0,0
+22.05.07.15.26.48.5,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),8153,0,0,0
+22.05.07.15.26.49.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,20799,0,0,0
+22.05.07.15.26.49.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,38654,0,0,0
+22.05.07.15.26.49.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,38690,0,0,0
+22.05.07.15.26.49.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11843,1,0,0
+22.05.07.15.26.49.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,17722,1,0,0
+22.05.07.15.26.49.6,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),6834,0,0,0
+22.05.07.15.26.49.6,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),6256,0,0,0
+22.05.07.15.26.50.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18575,0,0,0
+22.05.07.15.26.50.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,17522,0,0,0
+22.05.07.15.26.50.7,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),7455,0,0,0
+22.05.07.15.26.50.7,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5798,0,0,0
+22.05.07.15.26.51.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18707,0,0,0
+22.05.07.15.26.51.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,18076,0,0,0
+22.05.07.15.26.52.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18822,0,0,0
+22.05.07.15.26.52.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,18004,0,0,0
+22.05.07.15.26.52.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),6737,0,0,0
+22.05.07.15.26.52.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5172,0,0,0
+22.05.07.15.26.52.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),7329,0,0,0
+22.05.07.15.26.52.9,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5067,0,0,0
+22.05.07.15.26.53.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,17690,0,0,0
+22.05.07.15.26.53.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),6880,0,0,0
+22.05.07.15.26.53.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5391,0,0,0
+22.05.07.15.26.54.1,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_타차원 광역 발사(4인),5858,0,0,0
+22.05.07.15.26.55.1,Night Fox Yoho,Anonymous4 (Glavier),흑야의요호_타차원 광역 발사(4인),6571,0,0,0
+22.05.07.15.26.55.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5482,0,0,0
+22.05.07.15.26.55.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),5476,0,0,0
+22.05.07.15.26.56.1,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_타차원 광역 발사(4인),4986,0,0,0
+22.05.07.15.26.58.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,13263,0,0,0
+22.05.07.15.26.58.6,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_꼬리 우측 휘두르기,0,0,0,0
+22.05.07.15.26.58.8,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,13054,0,0,0
+22.05.07.15.26.59.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,13280,0,0,0
+22.05.07.15.26.59.5,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,13191,0,0,0
+22.05.07.15.26.59.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,13712,0,0,0
+22.05.07.15.27.01.2,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2697,0,0,0
+22.05.07.15.27.01.4,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,1890,0,1,0
+22.05.07.15.27.01.8,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2372,0,0,0
+22.05.07.15.27.02.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2139,0,0,0
+22.05.07.15.27.02.6,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,5657,0,1,0
+22.05.07.15.27.03.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,3776,0,1,0
+22.05.07.15.27.04.0,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,2867,0,1,0
+22.05.07.15.27.04.1,Anonymous2 (Paladin),Night Fox Yoho,Basic Attack,3823,1,1,0
+22.05.07.15.27.07.5,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_여우불 광역,0,0,0,0
+22.05.07.15.27.15.7,Anonymous2 (Paladin),Anonymous1 (Sorceress),Holy Sword,2578,0,0,0
+22.05.07.15.27.15.9,Anonymous2 (Paladin),Anonymous1 (Sorceress),Holy Sword,2466,0,0,0
+22.05.07.15.27.16.2,Anonymous2 (Paladin),Anonymous1 (Sorceress),Holy Sword,2485,0,0,0
+22.05.07.15.27.20.9,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,18521,0,0,0
+22.05.07.15.27.21.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,18040,0,0,0
+22.05.07.15.27.22.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,18310,0,0,0
+22.05.07.15.27.23.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,18189,0,0,0
+22.05.07.15.27.24.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,9203,0,0,0
+22.05.07.15.27.24.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,90290,1,0,0
+22.05.07.15.27.24.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19228,0,0,0
+22.05.07.15.27.24.9,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,37,0,0,0
+22.05.07.15.27.25.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,20918,0,0,0
+22.05.07.15.27.25.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,9640,0,0,0
+22.05.07.15.27.25.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19287,0,0,0
+22.05.07.15.27.25.7,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,35,0,0,0
+22.05.07.15.27.26.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,21167,0,0,0
+22.05.07.15.27.26.0,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,89291,0,0,0
+22.05.07.15.27.26.3,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,18835,1,0,0
+22.05.07.15.27.26.5,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,28,0,0,0
+22.05.07.15.27.26.5,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19195,0,0,0
+22.05.07.15.27.27.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,21304,0,0,0
+22.05.07.15.27.27.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,18827,1,0,0
+22.05.07.15.27.28.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18811,0,0,0
+22.05.07.15.27.28.0,Anonymous1 (Sorceress),Night Fox Yoho,Doomsday,1226832,0,0,0
+22.05.07.15.27.28.0,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,36,0,0,0
+22.05.07.15.27.28.2,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,17462,1,0,0
+22.05.07.15.27.28.2,Anonymous1 (Sorceress),Saltbug of the Plains,Blaze,10057,0,0,0
+22.05.07.15.27.28.2,Anonymous1 (Sorceress),Saltbug of the Plains,Blaze,10285,0,0,0
+22.05.07.15.27.28.4,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,29,0,0,0
+22.05.07.15.27.28.8,Anonymous1 (Sorceress),Night Fox Yoho,Explosion,1850996,1,0,0
+22.05.07.15.27.28.8,Anonymous1 (Sorceress),Saltbug of the Plains,Bleed,23677,0,0,0
+22.05.07.15.27.28.8,Anonymous1 (Sorceress),Saltbug of the Plains,Bleed,23739,0,0,0
+22.05.07.15.27.29.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18717,0,0,0
+22.05.07.15.27.29.0,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 발사(강),12343,0,0,0
+22.05.07.15.27.29.0,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,35,0,0,0
+22.05.07.15.27.29.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,17818,0,0,0
+22.05.07.15.27.29.8,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,13839,0,0,0
+22.05.07.15.27.29.8,Anonymous3 (Berserker),밤의 환영,Hell Blade,32879,1,0,0
+22.05.07.15.27.30.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,19179,0,0,0
+22.05.07.15.27.30.0,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,7838,0,0,0
+22.05.07.15.27.30.0,Anonymous3 (Berserker),밤의 환영,Hell Blade,7469,0,0,0
+22.05.07.15.27.30.2,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,8478,0,0,0
+22.05.07.15.27.30.2,Anonymous3 (Berserker),밤의 환영,Hell Blade,7530,0,0,0
+22.05.07.15.27.30.3,Night Fox Yoho,Anonymous2 (Paladin),흑야의요호_여우불 발사(강),11021,0,0,0
+22.05.07.15.27.30.4,Anonymous3 (Berserker),밤의 환영,Hell Blade,7437,0,0,0
+22.05.07.15.27.30.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,24594,1,0,0
+22.05.07.15.27.30.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,18130,0,0,0
+22.05.07.15.27.30.5,Anonymous3 (Berserker),밤의 환영,Hell Blade,10620,0,0,0
+22.05.07.15.27.30.5,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,10422,0,0,0
+22.05.07.15.27.30.7,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,11383,0,0,0
+22.05.07.15.27.30.7,Anonymous3 (Berserker),밤의 환영,Hell Blade,11350,0,0,0
+22.05.07.15.27.30.8,Anonymous1 (Sorceress),밤의 환영,Punishing Strike,910844,0,0,0
+22.05.07.15.27.30.8,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,1492390,1,0,0
+22.05.07.15.27.30.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,11724,0,0,0
+22.05.07.15.27.31.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,18791,0,0,0
+22.05.07.15.27.31.0,Mera Snake of the Plains,Anonymous1 (Sorceress),어린메라뱀 물기,34,0,0,0
+22.05.07.15.27.31.2,Anonymous2 (Paladin),Night Fox Yoho,Wrath of God,70947,0,0,0
+22.05.07.15.27.31.4,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,446552,0,0,0
+22.05.07.15.27.31.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,43430,0,0,0
+22.05.07.15.27.31.6,Saltbug of the Plains,Anonymous1 (Sorceress),소금벌레_평타,30,0,0,0
+22.05.07.15.27.31.9,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,185572,0,0,0
+22.05.07.15.27.31.9,Anonymous3 (Berserker),Night Fox Yoho,Hell Blade,491951,0,0,0
+22.05.07.15.27.32.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,22786,0,0,0
+22.05.07.15.27.32.2,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_주기적인 여우불 광역 데미지(빠름),5907,0,0,0
+22.05.07.15.27.32.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,54914,0,0,0
+22.05.07.15.27.32.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,42783,0,0,0
+22.05.07.15.27.32.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,63427,1,0,0
+22.05.07.15.27.32.5,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,107730,1,0,0
+22.05.07.15.27.32.7,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,105346,1,0,0
+22.05.07.15.27.32.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,109350,1,0,0
+22.05.07.15.27.32.8,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,54210,0,0,0
+22.05.07.15.27.32.9,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,50721,0,0,0
+22.05.07.15.27.33.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,45381,0,0,0
+22.05.07.15.27.33.0,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_꼬리 우측 휘두르기,6946,0,0,0
+22.05.07.15.27.33.0,Night Fox Yoho,Anonymous1 (Sorceress),흑야의요호_주기적인 여우불 광역 데미지(빠름),5109,0,0,0
+22.05.07.15.27.33.0,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,53554,0,0,0
+22.05.07.15.27.33.0,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,52004,0,0,0
+22.05.07.15.27.33.2,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,50851,0,0,0
+22.05.07.15.27.33.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,109244,1,0,0
+22.05.07.15.27.33.3,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,53795,0,0,0
+22.05.07.15.27.33.4,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,53266,0,0,0
+22.05.07.15.27.33.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스][화염속성] 화상 - 종말의 날 디버프,42821,0,0,0
+22.05.07.15.27.33.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,32488,0,0,0
+22.05.07.15.27.33.6,Anonymous1 (Sorceress),Night Fox Yoho,Rime Arrow,52709,0,0,0
+22.05.07.15.27.33.7,Anonymous3 (Berserker),Night Fox Yoho,Tempest Slash,252913,0,0,0
+22.05.07.15.27.33.9,Anonymous2 (Paladin),Saltbug of the Plains,Godsent Law,20731,0,0,0
+22.05.07.15.27.33.9,Anonymous2 (Paladin),Mera Snake of the Plains,Godsent Law,20349,0,0,0
+22.05.07.15.27.33.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17196,0,0,0
+22.05.07.15.27.34.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,22608,0,0,0
+22.05.07.15.27.34.0,Night Fox Yoho,Anonymous3 (Berserker),흑야의요호_주기적인 여우불 광역 데미지(빠름),4969,0,0,0
+22.05.07.15.27.34.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,96057,0,0,0
+22.05.07.15.27.34.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17436,0,0,0
+22.05.07.15.27.34.2,Anonymous1 (Sorceress),Night Fox Yoho,Esoteric Reaction,1199299,1,0,0
+22.05.07.15.27.34.2,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,95578,0,0,0
+22.05.07.15.27.34.4,Anonymous4 (Glavier),Night Fox Yoho,Shackling Blue Dragon,105256,0,0,0
+22.05.07.15.27.34.5,Anonymous1 (Sorceress),Night Fox Yoho,Punishing Strike,63350,1,0,0
+22.05.07.15.27.34.5,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,111904,1,1,0
+22.05.07.15.27.34.6,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17395,0,0,0
+22.05.07.15.27.34.7,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,46460,0,1,0
+22.05.07.15.27.34.7,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,193733,1,0,0
+22.05.07.15.27.34.8,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,46947,0,1,0
+22.05.07.15.27.34.9,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17691,0,0,0
+22.05.07.15.27.35.0,Anonymous3 (Berserker),Night Fox Yoho,Wind Blade,46383,0,1,0
+22.05.07.15.27.35.2,Anonymous2 (Paladin),Night Fox Yoho,Godsent Law,17894,0,0,0
+22.05.07.15.27.36.0,Anonymous1 (Sorceress),Night Fox Yoho,Frost's Call,656003,1,0,0
+22.05.07.15.27.36.1,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,681166,1,1,0
+22.05.07.15.27.36.8,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,136000,0,0,0
+22.05.07.15.27.36.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,20092,1,0,0
+22.05.07.15.27.36.8,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,100279,1,0,0
+22.05.07.15.27.37.0,Anonymous3 (Berserker),Night Fox Yoho,Finish Strike,1270335,1,1,0
+22.05.07.15.27.37.1,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,24481,0,0,0
+22.05.07.15.27.37.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26391,0,0,0
+22.05.07.15.27.37.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,24145,1,0,0
+22.05.07.15.27.38.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24036,0,0,0
+22.05.07.15.27.38.2,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,15202,0,0,0
+22.05.07.15.27.38.3,Anonymous4 (Glavier),Night Fox Yoho,Flash Kick,23978,0,0,0
+22.05.07.15.27.38.3,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,74860,1,0,1
+22.05.07.15.27.38.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26401,0,0,0
+22.05.07.15.27.38.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,11825,0,0,0
+22.05.07.15.27.38.8,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,55825,0,0,1
+22.05.07.15.27.38.8,Anonymous1 (Sorceress),Night Fox Yoho,Inferno,324353,1,0,0
+22.05.07.15.27.39.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,24081,0,0,0
+22.05.07.15.27.39.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7326,0,0,0
+22.05.07.15.27.39.3,Anonymous2 (Paladin),Night Fox Yoho,Executor's Sword,196054,1,0,1
+22.05.07.15.27.39.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,18053,1,0,0
+22.05.07.15.27.39.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,41940,0,0,0
+22.05.07.15.27.39.7,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,728158,1,0,0
+22.05.07.15.27.39.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,9858,0,0,0
+22.05.07.15.27.40.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,39628,0,0,0
+22.05.07.15.27.40.0,Anonymous3 (Berserker),Night Fox Yoho,Strike Wave,944475,1,0,0
+22.05.07.15.27.40.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,19725,1,0,0
+22.05.07.15.27.40.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,49403,0,0,0
+22.05.07.15.27.40.3,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,22430,1,0,1
+22.05.07.15.27.40.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,43157,0,0,0
+22.05.07.15.27.40.6,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,47164,0,0,1
+22.05.07.15.27.40.7,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,9787,0,0,0
+22.05.07.15.27.40.8,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,48426,0,0,1
+22.05.07.15.27.40.9,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11990,1,0,0
+22.05.07.15.27.40.9,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,168132,0,0,0
+22.05.07.15.27.41.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,19394,0,0,0
+22.05.07.15.27.41.0,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,9142,0,0,0
+22.05.07.15.27.41.0,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,168554,0,0,0
+22.05.07.15.27.41.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,19980,1,0,0
+22.05.07.15.27.41.1,Anonymous2 (Paladin),Night Fox Yoho,Holy Sword,48332,0,0,1
+22.05.07.15.27.41.1,Anonymous4 (Glavier),Night Fox Yoho,Raging Dragon Slash,349036,1,0,0
+22.05.07.15.27.41.2,Anonymous3 (Berserker),Night Fox Yoho,Sword Storm,402850,0,0,0
+22.05.07.15.27.41.5,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,43488,0,0,0
+22.05.07.15.27.41.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,23691,0,0,0
+22.05.07.15.27.42.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,20286,0,0,0
+22.05.07.15.27.42.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,9868,0,0,0
+22.05.07.15.27.42.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,5982,0,0,0
+22.05.07.15.27.42.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,17772,1,0,0
+22.05.07.15.27.42.3,Anonymous2 (Paladin),Night Fox Yoho,Heavenly Blessings,77082,0,0,0
+22.05.07.15.27.42.3,Anonymous3 (Berserker),Night Fox Yoho,Red Dust,227862,1,0,0
+22.05.07.15.27.42.5,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,28832,0,0,0
+22.05.07.15.27.42.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,27145,0,0,0
+22.05.07.15.27.42.7,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,35847,0,0,0
+22.05.07.15.27.42.9,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,29434,0,0,0
+22.05.07.15.27.43.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,24248,0,0,0
+22.05.07.15.27.43.0,Anonymous2 (Paladin),Night Fox Yoho,Bleed,22553,0,0,0
+22.05.07.15.27.43.0,Anonymous3 (Berserker),Night Fox Yoho,Bleed,29317,0,0,0
+22.05.07.15.27.43.0,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,10866,0,0,0
+22.05.07.15.27.43.1,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,7624,0,1,0
+22.05.07.15.27.43.1,Anonymous4 (Glavier),Night Fox Yoho,Cutting Wind,45325,0,0,0
+22.05.07.15.27.43.3,Anonymous2 (Paladin),Night Fox Yoho,Light of Judgment,125495,0,0,0
+22.05.07.15.27.43.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,29286,0,0,0
+22.05.07.15.27.43.6,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,11328,0,1,0
+22.05.07.15.27.43.6,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7436,0,0,0
+22.05.07.15.27.43.7,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,11125,0,0,0
+22.05.07.15.27.44.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,26199,0,0,0
+22.05.07.15.27.44.0,Anonymous3 (Berserker),Night Fox Yoho,Bleed,31252,0,0,0
+22.05.07.15.27.44.1,Anonymous1 (Sorceress),Night Fox Yoho,Blaze,12025,0,0,0
+22.05.07.15.27.44.2,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,30099,1,1,0
+22.05.07.15.27.44.3,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7473,0,0,0
+22.05.07.15.27.44.5,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,10902,0,0,0
+22.05.07.15.27.44.5,Anonymous4 (Glavier),Night Fox Yoho,Bleed,42171,0,0,0
+22.05.07.15.27.45.0,Anonymous1 (Sorceress),Night Fox Yoho,Bleed,50711,0,0,0
+22.05.07.15.27.45.0,Anonymous3 (Berserker),Night Fox Yoho,Bleed,31158,0,0,0
+22.05.07.15.27.45.1,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,7169,0,0,0
+22.05.07.15.27.45.2,Anonymous1 (Sorceress),Night Fox Yoho,[소서리스] 기본 공격,10726,0,0,0
+22.05.07.15.27.45.3,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,24361,1,1,0
+22.05.07.15.27.45.4,Anonymous2 (Paladin),Night Fox Yoho,Light Shock,26543,0,0,0
+22.05.07.15.27.45.8,Anonymous3 (Berserker),Night Fox Yoho,Basic Attack,30473,1,1,0
+22.05.07.15.27.45.9,Anonymous4 (Glavier),Night Fox Yoho,Red Dragon's Horn,1689784,1,0,0
