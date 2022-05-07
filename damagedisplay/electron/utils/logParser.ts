@@ -40,7 +40,6 @@ export const parseCombatEventFromLog = (logLine: string) => {
   const isCrit = splittedDamageString[4] === '1' ? true : false;
   const isFront = splittedDamageString[5] === '1' ? true : false;
   const isBack = splittedDamageString[6] === '1' ? true : false;
-  const isCounter = splittedDamageString[7] === '1' ? true : false;
 
   const damage: CombatEvent = {
     sourceEntity: sourceEntityMatch
@@ -73,7 +72,6 @@ export const parseCombatEventFromLog = (logLine: string) => {
     isFront,
     isBack,
     timeStamp,
-    isCounter,
   };
 
   return damage;

@@ -24,7 +24,7 @@ const packetCapConnection = new ConnectionBuilder()
   .build();
 
 const handleNewCombatEvent = (logLine: string) => {
-  //console.log(`Damage event: ${JSON.stringify(logLine, undefined, 2)}`);
+  console.log(`Combat event: ${JSON.stringify(logLine, undefined, 2)}`);
 
   try {
     const damageEvent = parseCombatEventFromLog(logLine);
@@ -44,7 +44,6 @@ const handleNewCombatEvent = (logLine: string) => {
 
 let streamInterval: NodeJS.Timeout | undefined;
 const streamTestLogLines = () => {
-  console.log(process.env.STREAM_TESTLOG);
   if (!process.env.STREAM_TESTLOG || process.env.STREAM_TESTLOG !== 'true')
     return;
   console.log('Streaming test logs');
@@ -151,7 +150,7 @@ const createMeterWindow = () => {
     autoHideMenuBar: true,
     fullscreenable: false,
     maximizable: false,
-    focusable: false,
+    focusable: true,
     enableLargerThanScreen: true,
     width: 900,
     height: 900,
@@ -208,7 +207,7 @@ const createStatsWindow = (entityName: string) => {
     autoHideMenuBar: true,
     fullscreenable: false,
     maximizable: false,
-    focusable: false,
+    focusable: true,
     enableLargerThanScreen: true,
     width: 400,
     height: 300,
@@ -229,6 +228,7 @@ const createStatsWindow = (entityName: string) => {
   statsWindow?.setIgnoreMouseEvents(true, {
     forward: true,
   });
+
   return statsWindow;
 };
 // This method will be called when Electron has finished

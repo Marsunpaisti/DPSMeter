@@ -9,7 +9,6 @@ export interface CombatEvent {
   isCrit: boolean;
   isBack: boolean;
   isFront: boolean;
-  isCounter: boolean;
 }
 
 export interface Encounter {
