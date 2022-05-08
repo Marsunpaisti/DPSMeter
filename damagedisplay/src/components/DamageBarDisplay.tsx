@@ -81,7 +81,7 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
         position: 'relative',
         display: 'flex',
         width: '100%',
-        height: '25px',
+        height: '20px',
         alignItems: 'center',
         cursor: onClick ? 'pointer' : undefined,
       }}
@@ -103,16 +103,22 @@ const DamageBarEntry: React.FC<DamageBarEntryProps> = ({
         style={{
           height: '100%',
           zIndex: 1000,
-          filter: 'saturate(200%) brightness(500%)',
+          filter: 'saturate(100%)',
         }}
       />
-      <Typography sx={{ zIndex: 1, paddingLeft: '5px', fontSize: '12px' }}>
+      <Typography
+        sx={{
+          zIndex: 1,
+          paddingLeft: '5px',
+          fontSize: '14px',
+        }}
+      >
         {label}
       </Typography>
       <Typography
         sx={{
           zIndex: 2,
-          fontSize: '12px',
+          fontSize: '14px',
           position: 'absolute',
           right: '5px',
         }}
@@ -162,7 +168,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   };
 
   const clearAll = () => {
-    ipcRenderer?.send(IpcChannels.CLEAR_ALL);
+    ipcRenderer?.send(IpcChannels.NEW_ENCOUNTER);
   };
 
   let mappedToRows: IDamageBarEntry[];

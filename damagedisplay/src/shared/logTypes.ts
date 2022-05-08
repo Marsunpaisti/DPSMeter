@@ -38,14 +38,14 @@ export enum ClassNames {
 }
 
 export const classColors = {
-  Berserker: '#ff0000',
-  Sorceress: '#3993fa',
+  Berserker: '#de0d02',
+  Sorceress: '#05daff',
   Shadowhunter: '#960583',
   Bard: '#39cdfa',
   Deathblade: '#fa3963',
   Artillerist: '#968f91',
   Soulfist: '#bb69ff',
-  Glavier: '#ff4a80',
+  Glavier: '#ff5e9c',
   Scrapper: '#ff984a',
   Striker: '#ff684a',
   Wardancer: '#ffc94a',

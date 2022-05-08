@@ -43,10 +43,15 @@ export const DamageStatsDisplay = () => {
       : undefined;
 
   const columns: GridColDef[] = [
-    { field: 'skillName', headerName: 'Skill', width: 200 },
+    {
+      field: 'skillName',
+      headerName: 'Skill',
+      width: 260,
+      disableColumnMenu: true,
+    },
     {
       field: 'dps',
-      headerName: 'DPS',
+      headerName: 'Dmg %',
       width: 70,
       type: 'number',
       valueGetter: (param) => (param.row.totalDamage / totalDamage) * 100,
@@ -54,52 +59,57 @@ export const DamageStatsDisplay = () => {
         `${(param.value as number).toLocaleString(undefined, {
           maximumFractionDigits: 1,
         })}%`,
+      disableColumnMenu: true,
     },
     {
       field: 'totalDamage',
-      headerName: 'Total Damage',
-      width: 130,
+      headerName: 'Total DMG',
       type: 'number',
+      disableColumnMenu: true,
     },
 
     {
       field: 'critCount',
       headerName: 'Crit',
-      width: 70,
+      width: 55,
       type: 'number',
       valueGetter: (param) => (param.row.critCount / param.row.hitCount) * 100,
       valueFormatter: (param) =>
         `${(param.value as number).toLocaleString(undefined, {
-          maximumFractionDigits: 1,
+          maximumFractionDigits: 0,
         })}%`,
+      disableColumnMenu: true,
     },
     {
       field: 'backCount',
       headerName: 'Back',
-      width: 70,
+      width: 55,
       type: 'number',
       valueGetter: (param) => (param.row.backCount / param.row.hitCount) * 100,
       valueFormatter: (param) =>
         `${(param.value as number).toLocaleString(undefined, {
-          maximumFractionDigits: 1,
+          maximumFractionDigits: 0,
         })}%`,
+      disableColumnMenu: true,
     },
     {
       field: 'frontCount',
       headerName: 'Front',
-      width: 70,
+      width: 55,
       type: 'number',
       valueGetter: (param) => (param.row.frontCount / param.row.hitCount) * 100,
       valueFormatter: (param) =>
         `${(param.value as number).toLocaleString(undefined, {
-          maximumFractionDigits: 1,
+          maximumFractionDigits: 0,
         })}%`,
+      disableColumnMenu: true,
     },
     {
       field: 'hitCount',
       headerName: 'Hits',
-      width: 70,
+      width: 55,
       type: 'number',
+      disableColumnMenu: true,
     },
   ];
 
@@ -187,7 +197,7 @@ export const DamageStatsDisplay = () => {
           display: 'flex',
           flexDirection: 'column',
           minHeight: '500px',
-          width: '100%',
+          width: '85%',
           alignItems: 'center',
           overflowY: 'auto',
         }}
@@ -201,7 +211,20 @@ export const DamageStatsDisplay = () => {
           sx={{
             color: 'white',
             border: 'none',
-            width: '90%',
+            width: '100%',
+            '.MuiDataGrid-iconButtonContainer': {
+              display: 'none',
+            },
+            '.MuiDataGrid-menuIcon': {
+              display: 'none',
+            },
+            '.MuiDataGrid-columnSeparator': {
+              display: 'none',
+            },
+            '.MuiDataGrid-cellContent': {
+              textOverflow: 'clip',
+              whiteSpace: 'normal',
+            },
           }}
           initialState={{
             sorting: { sortModel: [{ field: 'dps', sort: 'desc' }] },

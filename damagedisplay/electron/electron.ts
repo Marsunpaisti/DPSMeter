@@ -100,7 +100,7 @@ ipcMain.on(IpcChannels.NEW_ENCOUNTER, async (event, arg) => {
 });
 
 ipcMain.on(IpcChannels.CLEAR_ALL, async (event, arg) => {
-  logContainer.startNewEncounter();
+  logContainer.clearAllEncounters();
   sendMessageToWindows(IpcChannels.DAMAGE_DATA, logContainer.currentEncounter);
 });
 
@@ -109,11 +109,14 @@ ipcMain.on(IpcChannels.ENABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
   win?.setIgnoreMouseEvents(true, {
     forward: true,
   });
+
+  win?.setAlwaysOnTop(true, 'screen-saver');
 });
 
 ipcMain.on(IpcChannels.DISABLE_MOUSE_PASSTHROUGH, async (event, arg) => {
   const win = BrowserWindow.fromWebContents(event.sender);
   win?.setIgnoreMouseEvents(false);
+  win?.setAlwaysOnTop(true, 'screen-saver');
 });
 
 ipcMain.on(IpcChannels.OPEN_STATS_WINDOW, (event, entityName: string) => {
@@ -123,7 +126,7 @@ ipcMain.on(IpcChannels.OPEN_STATS_WINDOW, (event, entityName: string) => {
 ipcMain.on(IpcChannels.DAMAGE_DATA, (event, arg: any) => {
   if (arg === 'REQUEST_DATA') {
     console.log(`Responding to REQUEST_DATA from window ${event.sender.id}`);
-    BrowserWindow.fromId(event.sender.id)?.webContents.send(
+    BrowserWindow.fromWebContents(event.sender)?.webContents.send(
       IpcChannels.DAMAGE_DATA,
       logContainer.currentEncounter,
     );
@@ -153,8 +156,9 @@ const createMeterWindow = () => {
     maximizable: false,
     focusable: true,
     enableLargerThanScreen: true,
-    width: 900,
-    height: 900,
+    useContentSize: true,
+    width: 500,
+    height: 500,
     webPreferences: {
       devTools: isDev, // toggles whether devtools are available. to use node write window.require('<node-name>')
       nodeIntegration: true, // turn this off if you don't mean to use node
@@ -167,21 +171,7 @@ const createMeterWindow = () => {
   // Open the DevTools. will only work if webPreferences::devTools is true
   damageMeterWindow.webContents.openDevTools({ mode: 'undocked' });
 
-  if (isDev) {
-    // Hot Reloading on 'node_modules/.bin/electronPath'
-    require('electron-reload')(__dirname, {
-      electron: path.join(
-        __dirname,
-        '..',
-        '..',
-        'node_modules',
-        '.bin',
-        'electron' + (process.platform === 'win32' ? '.cmd' : ''),
-      ),
-      forceHardReset: true,
-      hardResetMethod: 'exit',
-    });
-  }
+  damageMeterWindow.setAlwaysOnTop(true, 'screen-saver');
 
   return damageMeterWindow;
 };
@@ -210,6 +200,7 @@ const createStatsWindow = (entityName: string) => {
     maximizable: false,
     focusable: true,
     enableLargerThanScreen: true,
+    useContentSize: true,
     width: 800,
     height: 900,
     parent: mainWindow,
@@ -235,6 +226,7 @@ const createStatsWindow = (entityName: string) => {
   statsWindow?.setIgnoreMouseEvents(true, {
     forward: true,
   });
+  statsWindow?.setAlwaysOnTop(true, 'screen-saver');
 
   return statsWindow;
 };
