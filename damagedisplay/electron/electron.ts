@@ -50,12 +50,14 @@ const streamTestLogLines = () => {
   console.log('Streaming test logs');
   if (isDev && !streamInterval) {
     const testLogPath = path.join(__dirname, '../testData/testlog.log');
-    console.log(testLogPath);
     const testLogLines = fs.readFileSync(testLogPath).toString().split('\n');
     streamInterval = setInterval(() => {
       const line = testLogLines.shift();
       if (line === undefined) {
-        clearInterval(streamInterval!);
+        if (streamInterval) {
+          clearInterval(streamInterval!);
+          streamInterval = undefined;
+        }
         return;
       }
       if (line === '') return;
@@ -188,7 +190,8 @@ const createStatsWindow = (entityName: string) => {
     indexUrl.hash = `/electron/stats`;
     indexUrl.protocol = 'file';
   }
-  indexUrl.search = query;
+
+  console.log('IndexUrl', indexUrl.toString() + query);
 
   const statsWindow = new BrowserWindow({
     frame: false, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
@@ -211,7 +214,7 @@ const createStatsWindow = (entityName: string) => {
   });
 
   // load the index.html of the app. (or localhost on port 3000 if you're in development)
-  statsWindow.loadURL(indexUrl.toString());
+  statsWindow.loadURL(indexUrl.toString() + query);
 
   // Open the DevTools. will only work if webPreferences::devTools is true
   statsWindow.once('ready-to-show', () => {

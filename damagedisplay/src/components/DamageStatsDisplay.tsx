@@ -26,7 +26,9 @@ export const DamageStatsDisplay = () => {
   const { mouseEnableRef } = useMouseEnabler();
   const location = useLocation();
   const { currentEncounter } = useContext(DamageDataContext);
-  const entityName = new URLSearchParams(location.search).get('entityName');
+  const entityName = new URLSearchParams(location.search)?.get('entityName');
+
+  if (!entityName || !currentEncounter) return null;
 
   const selectedEntityLogs = currentEncounter.damageEvents.filter(
     (event) => event.sourceEntity === entityName,

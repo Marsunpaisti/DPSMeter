@@ -143,7 +143,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const { mouseEnableRef } = useMouseEnabler();
 
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(
-    DamageDisplayMode.DPS,
+    DamageDisplayMode.DAMAGE_DONE,
   );
 
   const cycleMode = useCallback(
@@ -151,11 +151,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
       const modes = Object.values(DamageDisplayMode);
       const curIx = modes.findIndex((m) => damageDisplayMode === m);
       const nextIx = curIx + amount;
-      console.log(
-        `Mode: CurIx: ${curIx}+${amount} ${nextIx % modes.length} ${
-          modes[nextIx % modes.length]
-        }`,
-      );
       setDamageDisplayMode(modes[nextIx % modes.length]);
     },
     [setDamageDisplayMode, damageDisplayMode],

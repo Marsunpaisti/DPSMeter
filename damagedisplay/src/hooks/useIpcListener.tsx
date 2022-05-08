@@ -23,7 +23,6 @@ export const useIpcListener = () => {
   useEffect(() => {
     const ipcRenderer = getIpcRenderer();
     if (!ipcRenderer) {
-      console.log('ipcRenderer undefined');
       return;
     }
     const handleData = (
