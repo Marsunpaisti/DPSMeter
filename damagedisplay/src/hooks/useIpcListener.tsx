@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { IpcRenderer } from 'electron';
 import { IpcChannels } from '../shared/channels';
-import { CombatEvent, Encounter } from '../shared/logTypes';
+import { Encounter } from '../shared/logTypes';
 
 const getIpcRenderer = () => {
   let userAgent = navigator.userAgent.toLowerCase();
@@ -31,22 +31,13 @@ export const useIpcListener = () => {
     ) => {
       setCurrentEncounter(payload);
     };
-    const handleNewZone = (event: Electron.IpcRendererEvent) => {};
-    const handleConnectionLost = (event: Electron.IpcRendererEvent) => {};
 
     ipcRenderer.on(IpcChannels.DAMAGE_DATA, handleData);
-    ipcRenderer.on(IpcChannels.NEWZONE, handleNewZone);
-    ipcRenderer.on(IpcChannels.CONNECTION_LOST, handleConnectionLost);
 
     ipcRenderer.send(IpcChannels.DAMAGE_DATA, 'REQUEST_DATA');
 
     return () => {
       ipcRenderer.removeListener(IpcChannels.DAMAGE_DATA, handleData);
-      ipcRenderer.removeListener(IpcChannels.NEWZONE, handleNewZone);
-      ipcRenderer.removeListener(
-        IpcChannels.CONNECTION_LOST,
-        handleConnectionLost,
-      );
     };
   }, []);
 

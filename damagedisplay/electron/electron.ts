@@ -32,9 +32,13 @@ const handleNewCombatEvent = (logLine: string) => {
     if (logContainer.timeSincePreviousDamage(damageEvent) > 33000) {
       logContainer.startNewEncounter();
     }
+    if (!damageEvent) {
+      console.log('Unable to parse damage event:\n', logLine);
+      return;
+    }
     logContainer.addCombatEvent(damageEvent);
   } catch (e) {
-    console.log('Unable to parse damage event:\n', e);
+    console.log('Unable to parse damage event: \n', logLine, '\n', e);
   } finally {
     sendMessageToWindows(
       IpcChannels.DAMAGE_DATA,
@@ -67,12 +71,18 @@ const streamTestLogLines = () => {
 };
 
 packetCapConnection.on('combat-event', (payload) => {
+  if (splitOnNextEvent) {
+    splitOnNextEvent = false;
+    logContainer.startNewEncounter();
+  }
   handleNewCombatEvent(payload);
 });
 
+let splitOnNextEvent = false;
 packetCapConnection.on('new-zone', () => {
   console.log(`New zone entered`);
 
+  splitOnNextEvent = true;
   sendMessageToWindows(IpcChannels.NEWZONE);
   logContainer.startNewEncounter();
 });
