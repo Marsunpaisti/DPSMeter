@@ -18,8 +18,8 @@ const sendMessageToWindows = (channel: IpcChannels, payload?: any) => {
 };
 
 const packetCapPath = isDev
-  ? path.join(__dirname, '../packetcapture/LostArkLoggerElectronBackend.exe')
-  : '../packetcapture/LostArkLoggerElectronBackend.exe';
+  ? path.join(__dirname, '../packetcapture/LostArkLogger.exe')
+  : '../packetcapture/LostArkLogger.exe';
 const packetCapConnection = new ConnectionBuilder()
   .connectTo(packetCapPath)
   .build();
@@ -64,11 +64,11 @@ const streamTestLogLines = () => {
   }
 };
 
-packetCapConnection.on('combatEvent', (payload) => {
+packetCapConnection.on('combat-event', (payload) => {
   handleNewCombatEvent(payload);
 });
 
-packetCapConnection.on('newZone', () => {
+packetCapConnection.on('new-zone', () => {
   console.log(`New zone entered`);
 
   sendMessageToWindows(IpcChannels.NEWZONE);
@@ -80,7 +80,7 @@ packetCapConnection.on('log', (payload) => {
 });
 
 packetCapConnection.onDisconnect = () => {
-  console.log('Lost connection to the LostArkLoggerElectronBackend process');
+  console.log('Lost connection to the LostArkLogger.exe process');
 
   sendMessageToWindows(IpcChannels.CONNECTION_LOST);
 };
