@@ -136,10 +136,12 @@ export enum DamageDisplayMode {
 
 export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const { currentEncounter } = useContext(DamageDataContext);
-  const damageEvents = currentEncounter.damageEvents;
+  const damageEvents = currentEncounter?.damageEvents ?? [];
   const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
   const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
-  const encounterDuration = getEncounterDurationMs(currentEncounter);
+  const encounterDuration = currentEncounter
+    ? getEncounterDurationMs(currentEncounter)
+    : 0;
   const { mouseEnableRef } = useMouseEnabler();
 
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(

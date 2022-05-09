@@ -201,8 +201,6 @@ const createStatsWindow = (entityName: string) => {
     indexUrl.protocol = 'file';
   }
 
-  console.log('IndexUrl', indexUrl.toString() + query);
-
   const statsWindow = new BrowserWindow({
     frame: false, // removes the frame from the BrowserWindow. It is advised that you either create a custom menu bar or remove this line
     resizable: false,

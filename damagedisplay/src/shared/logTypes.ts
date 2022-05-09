@@ -11,8 +11,21 @@ export interface CombatEvent {
   isFront: boolean;
 }
 
+export interface DamageGroupedByEntity {
+  damageEvents: CombatEvent[];
+  totalDamage: number;
+  bySkill: Record<string, DamageGroupedBySkill>;
+}
+
+export interface DamageGroupedBySkill {
+  damageEvents: CombatEvent[];
+  totalDamage: number;
+}
+
 export interface Encounter {
   damageEvents: CombatEvent[];
+  outgoing: Record<string, DamageGroupedByEntity>;
+  incoming: Record<string, DamageGroupedByEntity>;
 }
 
 export enum ClassNames {

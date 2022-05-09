@@ -8,7 +8,7 @@ import { getIpcRenderer } from '../hooks/getIpcRenderer';
 import { IpcChannels } from '../shared/channels';
 import { useMouseEnabler } from '../hooks/useMouseEnabler';
 import _ from 'lodash';
-import { CombatEvent } from '../shared/logTypes';
+import { DamageGroupedByEntity } from '../shared/logTypes';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { classIcons } from '../resources/class_icons';
 
@@ -26,18 +26,22 @@ export const DamageStatsDisplay = () => {
   const { mouseEnableRef } = useMouseEnabler();
   const location = useLocation();
   const { currentEncounter } = useContext(DamageDataContext);
-  const entityName = new URLSearchParams(location.search)?.get('entityName');
+  const entityName =
+    new URLSearchParams(location.search)?.get('entityName') ?? '';
 
-  if (!entityName || !currentEncounter) return null;
+  let outgoingDamage: DamageGroupedByEntity | undefined =
+    currentEncounter?.outgoing[entityName];
 
-  const selectedEntityLogs = currentEncounter.damageEvents.filter(
-    (event) => event.sourceEntity === entityName,
-  );
+  if (!outgoingDamage) {
+    outgoingDamage = {
+      totalDamage: 0,
+      damageEvents: [],
+      bySkill: {},
+    };
+  }
 
-  const totalDamage = _.sumBy(
-    selectedEntityLogs,
-    (source) => source.skillDamage,
-  );
+  const selectedEntityLogs = outgoingDamage.damageEvents;
+  const totalDamage = outgoingDamage.totalDamage;
 
   const className =
     selectedEntityLogs.length > 0
@@ -115,33 +119,27 @@ export const DamageStatsDisplay = () => {
     },
   ];
 
-  const damageSources = _.groupBy(
-    selectedEntityLogs,
-    (damage) => damage.skillName,
-  );
+  const mappedDamageSources = Object.keys(outgoingDamage.bySkill).map((key) => {
+    const events = outgoingDamage!.bySkill[key].damageEvents;
 
-  const mappedDamageSources = _.map(
-    damageSources,
-    (events: CombatEvent[], key: string) => {
-      const statistic: SkillStatistics = {
-        id: key,
-        skillName: key,
-        totalDamage: 0,
-        hitCount: events.length,
-        critCount: 0,
-        backCount: 0,
-        frontCount: 0,
-      };
-      const total = events.reduce((acc, event) => {
-        if (event.isCrit) acc.critCount++;
-        if (event.isBack) acc.backCount++;
-        if (event.isFront) acc.frontCount++;
-        acc.totalDamage += event.skillDamage;
-        return acc;
-      }, statistic);
-      return total;
-    },
-  );
+    const statistic: SkillStatistics = {
+      id: key,
+      skillName: key,
+      totalDamage: 0,
+      hitCount: events.length,
+      critCount: 0,
+      backCount: 0,
+      frontCount: 0,
+    };
+    const total = events.reduce((acc, event) => {
+      if (event.isCrit) acc.critCount++;
+      if (event.isBack) acc.backCount++;
+      if (event.isFront) acc.frontCount++;
+      acc.totalDamage += event.skillDamage;
+      return acc;
+    }, statistic);
+    return total;
+  });
 
   const closeApp = () => {
     getIpcRenderer()?.send(IpcChannels.CLOSE_WINDOW);

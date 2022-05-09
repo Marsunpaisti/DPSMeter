@@ -16,9 +16,9 @@ const getIpcRenderer = () => {
 };
 
 export const useIpcListener = () => {
-  const [currentEncounter, setCurrentEncounter] = useState<Encounter>({
-    damageEvents: [],
-  });
+  const [currentEncounter, setCurrentEncounter] = useState<
+    Encounter | undefined
+  >();
 
   useEffect(() => {
     const ipcRenderer = getIpcRenderer();

@@ -3,11 +3,11 @@ import { useIpcListener } from '../hooks/useIpcListener';
 import { Encounter } from '../shared/logTypes';
 
 export interface IDamageDataContext {
-  currentEncounter: Encounter;
+  currentEncounter?: Encounter;
 }
 
 export const DamageDataContext = React.createContext<IDamageDataContext>({
-  currentEncounter: { damageEvents: [] },
+  currentEncounter: undefined,
 });
 
 export const DamageDataContextProvider: React.FC<{
