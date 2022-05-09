@@ -229,10 +229,12 @@ const createStatsWindow = (entityName: string) => {
     statsWindow.webContents.openDevTools({ mode: 'undocked' });
   });
 
-  setTimeout(
-    () => statsWindow.webContents.openDevTools({ mode: 'undocked' }),
-    3000,
-  );
+  if (isDev) {
+    setTimeout(
+      () => statsWindow?.webContents?.openDevTools({ mode: 'undocked' }),
+      3000,
+    );
+  }
 
   statsWindow?.setIgnoreMouseEvents(true, {
     forward: true,

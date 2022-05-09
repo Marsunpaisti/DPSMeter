@@ -16,7 +16,7 @@ export class LogContainer {
   public addCombatEvent = (damageEvent: CombatEvent) => {
     this.currentEncounter.damageEvents.push(damageEvent);
 
-    // Update outgoing damages map
+    // Update entity outgoing damages
     if (!(damageEvent.sourceEntity in this.currentEncounter.outgoing)) {
       this.currentEncounter.outgoing[damageEvent.sourceEntity] = {
         damageEvents: [],
@@ -40,7 +40,7 @@ export class LogContainer {
     skillOutgoing.totalDamage += damageEvent.skillDamage;
     skillOutgoing.damageEvents.push(damageEvent);
 
-    // Update outgoing damages map
+    // Update entity incoming damages
     if (!(damageEvent.targetEntity in this.currentEncounter.incoming)) {
       this.currentEncounter.incoming[damageEvent.targetEntity] = {
         damageEvents: [],

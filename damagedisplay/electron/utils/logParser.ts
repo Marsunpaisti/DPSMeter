@@ -35,7 +35,19 @@ export const parseCombatEventFromLog = (logLine: string) => {
     .replace('$', '')
     .match(/(.+?)\s*\((.+)\)/);
   const skillName = splittedDamageString[3];
-  const skillDamage = Number(splittedDamageString[4]);
+  let skillDamage = Number(splittedDamageString[4]);
+
+  // Artillerist has a comma in an ability name, causing it to parse wrong
+  if (
+    isNaN(skillDamage) &&
+    Number(splittedDamageString[5]) !== 0 &&
+    Number(splittedDamageString[5]) !== 1 &&
+    !Number.isNaN(splittedDamageString[5])
+  ) {
+    splittedDamageString.shift();
+    skillDamage = Number(splittedDamageString[4]);
+  }
+
   const isCrit = splittedDamageString[5] === '1' ? true : false;
   const isBack = splittedDamageString[6] === '1' ? true : false;
   const isFront = splittedDamageString[7] === '1' ? true : false;
