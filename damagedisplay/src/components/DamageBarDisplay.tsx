@@ -1,7 +1,11 @@
 import React, { useCallback, useContext, useState } from 'react';
 import { DamageDataContext } from '../contexts/DamageDataContext';
 import _ from 'lodash';
-import { classColors, CombatEvent } from '../shared/logTypes';
+import {
+  classColors,
+  CombatEvent,
+  DamageGroupedByEntity,
+} from '../shared/logTypes';
 import { getEncounterDurationMs } from '../shared/encounterUtils';
 import { Typography, Box, SxProps, Theme, IconButton } from '@mui/material';
 import { getIpcRenderer } from '../hooks/getIpcRenderer';
@@ -136,18 +140,14 @@ export enum DamageDisplayMode {
 
 export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   const { currentEncounter } = useContext(DamageDataContext);
-  const damageEvents = currentEncounter?.damageEvents ?? [];
-  const damageByPlayers = damageEvents.filter((log) => log.sourceClassName);
-  const groupedByPlayer = _.groupBy(damageByPlayers, (log) => log.sourceEntity);
   const encounterDuration = currentEncounter
     ? getEncounterDurationMs(currentEncounter)
-    : 0;
+    : undefined;
   const { mouseEnableRef } = useMouseEnabler();
-
   const [damageDisplayMode, setDamageDisplayMode] = useState<DamageDisplayMode>(
     DamageDisplayMode.DAMAGE_DONE,
   );
-
+  const ipcRenderer = getIpcRenderer();
   const cycleMode = useCallback(
     (amount: number) => {
       const modes = Object.values(DamageDisplayMode);
@@ -157,32 +157,30 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
     },
     [setDamageDisplayMode, damageDisplayMode],
   );
-
-  const ipcRenderer = getIpcRenderer();
-
   const closeApp = () => {
     ipcRenderer?.send(IpcChannels.CLOSE);
   };
-
   const clearAll = () => {
     ipcRenderer?.send(IpcChannels.NEW_ENCOUNTER);
   };
+
+  let outgoingDamage: Record<string, DamageGroupedByEntity> =
+    currentEncounter?.outgoing ?? {};
 
   let mappedToRows: IDamageBarEntry[];
   if (damageDisplayMode === DamageDisplayMode.DPS && !encounterDuration) {
     mappedToRows = [];
   } else {
-    mappedToRows = _.map(
-      groupedByPlayer,
-      (logs: CombatEvent[], entityName: string): IDamageBarEntry => {
+    mappedToRows = Object.keys(outgoingDamage)
+      .filter((k) => outgoingDamage[k].damageEvents[0]?.sourceClassName)
+      .map((entityName) => {
+        const damageEvents = outgoingDamage[entityName].damageEvents;
+
         const label = entityName;
-        const className = logs[0].sourceClassName;
+        const className = damageEvents[0].sourceClassName;
         const color = className ? classColors[className!] : '#fffff';
         const icon = classIcons[className!];
-        let value = logs.reduce(
-          (acc: number, log: CombatEvent) => acc + log.skillDamage,
-          0,
-        );
+        let value = outgoingDamage[entityName].totalDamage;
         if (damageDisplayMode === DamageDisplayMode.DPS) {
           value /= encounterDuration! / 1000;
         }
@@ -192,8 +190,7 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
           value,
           icon,
         };
-      },
-    );
+      });
   }
 
   const highestValue = Math.max(...mappedToRows.map((e) => e.value));
@@ -207,6 +204,13 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
   } else {
     totalValueText = totalValue.toFixed(0);
   }
+
+  const encounterSeconds = (encounterDuration ?? 0) / 1000;
+  const durationTextMins = Math.floor(encounterSeconds / 60);
+  const durationTextSecs = Math.floor(encounterSeconds - durationTextMins * 60);
+  const durationText = `${durationTextMins}:${
+    durationTextSecs < 10 ? '0' : ''
+  }${durationTextSecs}`;
 
   return (
     <Box
@@ -222,7 +226,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
             <IconButton
               onClick={clearAll}
               sx={{
-                color: 'white',
                 '-webkit-app-region': 'no-drag',
                 cursor: 'pointer',
                 padding: 0,
@@ -238,7 +241,6 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
             <IconButton
               onClick={closeApp}
               sx={{
-                color: 'white',
                 '-webkit-app-region': 'no-drag',
                 cursor: 'pointer',
                 padding: 0,
@@ -300,8 +302,8 @@ export const DamageBarDisplay: React.FC<DamageBarDisplayProps> = ({}) => {
         {mappedToRows.length > 0 && (
           <DamageBarEntry
             width={`100%`}
-            label={'Total'}
-            valueText={`${totalValueText}`}
+            label={`${durationText}`}
+            valueText={`Total ${totalValueText} (100%)`}
             background={'#700003'}
             barSx={{
               borderRadius: '0px 0px 4px 4px',

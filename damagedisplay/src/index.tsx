@@ -13,6 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
+      <CssBaseline enableColorScheme={false} />
       <Router />
     </ThemeProvider>
   </React.StrictMode>,

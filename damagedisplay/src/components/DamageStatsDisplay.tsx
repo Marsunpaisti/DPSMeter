@@ -165,7 +165,6 @@ export const DamageStatsDisplay = () => {
             <IconButton
               onClick={closeApp}
               sx={{
-                color: 'white',
                 '-webkit-app-region': 'no-drag',
                 cursor: 'pointer',
                 padding: 0,
@@ -209,7 +208,6 @@ export const DamageStatsDisplay = () => {
           hideFooter={true}
           rowHeight={30}
           sx={{
-            color: 'white',
             border: 'none',
             width: '100%',
             '.MuiDataGrid-iconButtonContainer': {
